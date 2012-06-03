@@ -93,11 +93,25 @@
     margin: 5px 17px;
     font-size: 1.1em;
     font-weight: bold;
-    color: red;    
+    color: #f00;    
     border: 1px solid #f55;
     background: #fdd;
     padding: 5px;
 }
+.donations .information {
+    margin: 5px 17px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #0a0;    
+    border: 1px solid #5f5;
+    background: #dfd;
+    padding: 5px;
+}
+.donations p {
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
 .donations .othersum{
     width: 105px;
 }
@@ -108,10 +122,13 @@
     width: 32px;
 }
 
+.donations .largeinput  {
+    width: 330px;
+}
+
 .donations .checkbox_holder {
     padding: 3px 0 3px 0;
     margin-left: 22px;
-
 }
 /*
 #facts{

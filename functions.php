@@ -19,6 +19,34 @@ function __($str) {
   echo _($str);
 }
 
+
+/* select_values($arr,$cur) echo des <option> du tableau $values ou de la table sql $values
+   selectionne $current par defaut. Par defaut prends les champs 0 comme id et 1 comme
+   donnees pour la table. sinon utilise $info[0] et $info[1].
+*/
+function eoption($values,$cur,$info="") {
+  if (is_array($values)) {
+    foreach ($values as $k=>$v) {
+      echo "<option value=\"$k\"";
+      if ($k==$cur) echo " selected=\"selected\"";
+      echo ">".$v."</option>";
+    }
+  } else {
+    if (is_array($info)) {
+      $r=mqlist("SELECT ".$info[0].", ".$info[1]." FROM $values ORDER BY ".$info[0].";");
+    } else {
+      $r=mqlist("SELECT * FROM $values ORDER BY 2;");
+    }
+
+    foreach ($r as $c) {
+      echo "<option value=\"".$c[0]."\"";
+      if ($c[0]==$cur) echo " selected=\"selected\"";
+      echo ">".sts($c[1])."</option>";
+    }
+  }
+}
+
+
 $asums=array(10,25,50,100,250); // standard sums
 
 $errors = array(
@@ -55,3 +83,23 @@ $errors = array(
       113 => "Votre adresse complète est nécessaire pour l'enregistrement d'un don mensuel.",
 
     );
+
+
+$atailles = array(
+		 1 => _('Male, Size S'),
+		 //t: Coupe Homme, Taille S
+		 2 => _('Male, Size M'),
+		 //t: Coupe Homme, Taille M
+		 3 => _('Male, Size L'),
+		 //t: Coupe Homme, Taille L
+		 4 => _('Male, Size XL'),
+		 //t: Coupe Homme, Taille XL
+		 5 => _('Female, Size S'),
+		 //t: Coupe Femme, Taille S
+		 6 => _('Female, Size M'),
+		 //t: Coupe Femme, Taille M
+		 7 => _('Female, Size L'),
+		 //t: Coupe Femme, Taille L
+		 8 => _('Female, Size XL'),
+		 //t: Coupe Femme, Taille XL
+		 );

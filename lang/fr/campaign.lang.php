@@ -46,6 +46,7 @@ $translation = array(
   "faq_title"       => "Foire aux Questions",
   "current_progress" => "Progression",
   "support_us"      => "Soutenez nous",
+  "support_us_step_2" => "Soutenez nous (étape 2/3)",
   "other_placeholder" => "Autre",
   "recurent_donation" => "Je souhaite faire ce don tous les mois (banque française uniquement).",
   "in_donors_list" => "Je souhaite voir mon nom affiché dans la liste des donateurs.",

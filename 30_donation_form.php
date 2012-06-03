@@ -1,7 +1,11 @@
 <?php
 
 // sanitize everything...
-$fields=array("sum","othersum","monthly","pseudo","public");
+$fields=array(/* step 1 */ "sum","othersum","monthly",
+	      /* step 2 */ "etape2","email","pseudo","public","aboactu", 
+	      /* step 2 MONTHLY */ "name","fname","titulaire","bq","gu","cpt","rib","bq_nom","bq_addr","bq_cp","bq_ville","passwd","passwd2",
+	      /* step 2 cado */ "nocado","taille","nomadresse","adresse","codepostal","ville","pays", 	      
+	      );
 foreach($fields as $f) if (!isset($_REQUEST[$f])) $_REQUEST[$f]="";
 if (!$_REQUEST["sum"]) $_REQUEST["sum"]=50;
 if ($_REQUEST["sum"]==-1) $_REQUEST["sum"]=intval($_REQUEST["othersum"]);
