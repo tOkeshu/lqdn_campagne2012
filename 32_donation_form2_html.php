@@ -22,53 +22,53 @@ $content .= <<<EOF
     <input type="hidden" name="monthly" value="$don_mensuel"/>
     <ul id="etape2inputs">
 EOF;
-      $content .= '<li>' . t('Make a donation of:') . ' <b>' . $sum . '&nbsp;&euro;</b></li>';
+      $content .= '<li>' . _('Make a donation of:') . ' <b>' . $sum . '&nbsp;&euro;</b></li>';
       //t: Montant du don&nbsp;:
 
       if ($don_mensuel)
       {
-        $content .= "<li>" . t("You wish to support us with a monthly donation, thank you for your kind support. For your convenience, you will have to possibility to pause or stop this donation each month.") . "</li>";
+        $content .= "<li>" . _("You wish to support us with a monthly donation, thank you for your kind support. For your convenience, you will have to possibility to pause or stop this donation each month.") . "</li>";
 	//t: Vous souhaitez effectuer ce don tous les mois, La Quadrature du Net vous en remercie&nbsp;! La possibilité vous sera bien entendu donnée, chaque mois, de faire une pause ou stoper ce don récurrent.
       }
       $content .= '<li class="input-text input-email">';
-      $content .= '<label for="email" >' . t('Email:') . '</label>';
+      $content .= '<label for="email" >' . _('Email:') . '</label>';
       //t: E-mail&nbsp;:
       $content .= '<input type="email" name="email" id="email" value="' . $_POST['email'] . '"/></li>';
 
       $content .= '<li class="input-text input-pseudo">';
-      $content .= '<label for="pseudo" class="text pseudo">' . t('First Name, Full Name or Nickname:') . '</label>';
+      $content .= '<label for="pseudo" class="text pseudo">' . _('First Name, Full Name or Nickname:') . '</label>';
       //t: Prénom, nom ou pseudonyme&nbsp;:
       $content .= '<input type="text" name="pseudo" id="pseudo" value="' . $_POST['pseudo'] . '"/></li>';
 
       $content .= '<li class="input-box input-public">';
       $content .= '<input type="checkbox" name="public" id="donpublic"/>';
-      $content .= '<label for="donpublic">' . t("Please add my name to the public list of donators") . '</label></li>';
+      $content .= '<label for="donpublic">' . _("Please add my name to the public list of donators") . '</label></li>';
       //t: Je souhaite apparaitre dans la liste des soutiens
       
       $content .= '<li class="input-box input-aboactu">';
-      $content .= '<label for="aboactu">' . t("Please send me La Quadradure du Net's monthly newsletter") . '</label>';
+      $content .= '<label for="aboactu">' . _("Please send me La Quadradure du Net's monthly newsletter") . '</label>';
       //t: Je souhaite recevoir la lettre mensuelle d'actualité de La Quadrature du Net
       $content .= '<input type="checkbox" name="aboactu" id="aboactu"/></li>';
 
       if ($don_mensuel)
       {
         $content .= '<li class="input-text">';
-        $content .= '<label for="name" class="text">' . t("Donor's Last Name:") . '</label>';
+        $content .= '<label for="name" class="text">' . _("Donor's Last Name:") . '</label>';
 	//t: Nom&nbsp;:
         $content .= '<input type="text" id="name" name="name"  value="' . $_POST['name'] . '"/></li>';
 
         $content .= '<li class="input-text">';
-        $content .= '<label for="fname" class="text">' . t("Donor's First Name:") . '</label>';
+        $content .= '<label for="fname" class="text">' . _("Donor's First Name:") . '</label>';
 	//t: Prénom&nbsp;:
         $content .= '<input type="text" id="fname" name="fname"  value="' . $_POST['fname'] . '"/></li>';
 
         $content .= '<li class="input-text">';
-        $content .= '<label for="titulaire" class="text">' . t("Bank account holder's name<br />(if different):") . '</label>';
+        $content .= '<label for="titulaire" class="text">' . _("Bank account holder's name<br />(if different):") . '</label>';
 	//t: Titulaire du compte bancaire<br />(si différent)&nbsp;:
         $content .= '<input type="text" id="titulaire" name="titulaire"  value="' . $_POST['titulaire'] . '"/></li>';
 
         $content .= '<li class="input-rib">';
-        $content .= '<label for="rib-bq" class="text rib">' . t("Bank account details:") . '</label>';
+        $content .= '<label for="rib-bq" class="text rib">' . _("Bank account details:") . '</label>';
 	//t: RIB&nbsp;:
         $content .= '<input type="text" id="rib-bq" name="bq" maxlength="5" size="5" value="' . $_POST['bq'] . '"/>';
         $content .= '<input type="text" id="rib-gu" name="gu" maxlength="5" size="5" value="' . $_POST['gu'] . '"/>';
@@ -77,63 +77,63 @@ EOF;
         $content .= '</li>';
         
         $content .= '<li class="input-text">';
-        $content .= '<label for="bq_nom">' . t("Financial Institution's Name:") . '</label>';
+        $content .= '<label for="bq_nom">' . _("Financial Institution's Name:") . '</label>';
 	//t: Établissement teneur du compte&nbsp;:
         $content .= '<input type="text" name="bq_nom" id="bq_nom"  value="' . $_POST['bq_nom'] . '"/></li>';
         
         $content .= '<li class="input-text">';
-        $content .= '<label for="bq_addr">' . t("Institution's postal address:") . '</label>';
+        $content .= '<label for="bq_addr">' . _("Institution's postal address:") . '</label>';
 	//t: Adresse de la banque&nbsp;:
         $content .= '<textarea name="bq_addr" id="bq_addr">' . $_POST['bq_addr'] . '</textarea></li>';
         
         $content .= '<li class="input-text">';
-        $content .= '<label for="bq_cp" class="text codepostal">' . t("Postal Code:") . '</label>';
+        $content .= '<label for="bq_cp" class="text codepostal">' . _("Postal Code:") . '</label>';
 	//t: Code postal&nbsp;:
         $content .= '<input type="text" id="bq_cp" name="bq_cp" value="' . $_POST['bq_cp'] . '"/></li>';
         
         $content .= '<li class="input-text">';
-        $content .= '<label for="bq_ville" class="text ville">' . t("City:") . '</label>';
+        $content .= '<label for="bq_ville" class="text ville">' . _("City:") . '</label>';
 	//t: Ville&nbsp;:
         $content .= '<input type="text" id="bq_ville" name="bq_ville"  value="' . $_POST['bq_ville'] . '"/></li>';
  	
 	$content .= '<li class="input-text">';
-        $content .= '<label for="passwd" class="text passwd">' . t("Mot de passe :") . '</label>';
+        $content .= '<label for="passwd" class="text passwd">' . _("Mot de passe :") . '</label>';
         $content .= '<input type="password" id="passwd" name="passwd"  value=""/></li>';
       
       	$content .= '<li class="input-text">';
-        $content .= '<label for="passwd2" class="text passwd">' . t("De nouveau (vérification) :") . '</label>';
+        $content .= '<label for="passwd2" class="text passwd">' . _("De nouveau (vérification) :") . '</label>';
         $content .= '<input type="password" id="passwd2" name="passwd2"  value=""/></li>';
 
 	}
       if ($sum >= 50 || ($sum >= 15 && $don_mensuel))
       {
         $content .= '<li class="input-box input-nocado">';
-        $content .= '<label for="nocado">' . t("Please do not send me any goodies, so my entire donation can be used directly to help La Quadrature du Net.") . '</label>';
+        $content .= '<label for="nocado">' . _("Please do not send me any goodies, so my entire donation can be used directly to help La Quadrature du Net.") . '</label>';
 	//t: Je ne souhaite pas recevoir de cadeaux, afin que l'intégralité de mon don serve à La Quadrature du Net
         $content .= '<input type="checkbox" name="nocado" id="nocado"/></li>';
         if ($sum >= 100 || ($sum >= 15 && $don_mensuel))
 	{
         $content .= '<li class="input-text input-select input-taille donli-sendmecado">';
-        $content .= '<label for="taille">' . t("Style/Size of your pi-shirt:") . '</label>';
+        $content .= '<label for="taille">' . _("Style/Size of your pi-shirt:") . '</label>';
 	//t: Coupe/Taille de votre pi-shirt&nbsp;:
         $content .= '<select name="taille" id="taille">';
 
         $tailles = array(
-          1 => t('Male, Size S'),
+          1 => _('Male, Size S'),
 	  //t: Coupe Homme, Taille S
-          2 => t('Male, Size M'),
+          2 => _('Male, Size M'),
 	  //t: Coupe Homme, Taille M
-          3 => t('Male, Size L'),
+          3 => _('Male, Size L'),
 	  //t: Coupe Homme, Taille L
-          4 => t('Male, Size XL'),
+          4 => _('Male, Size XL'),
 	  //t: Coupe Homme, Taille XL
-          5 => t('Female, Size S'),
+          5 => _('Female, Size S'),
 	  //t: Coupe Femme, Taille S
-          6 => t('Female, Size M'),
+          6 => _('Female, Size M'),
 	  //t: Coupe Femme, Taille M
-          7 => t('Female, Size L'),
+          7 => _('Female, Size L'),
 	  //t: Coupe Femme, Taille L
-          8 => t('Female, Size XL'),
+          8 => _('Female, Size XL'),
 	  //t: Coupe Femme, Taille XL
         );
         for ($i = 1 ; $i <= 8 ; $i++)
@@ -148,36 +148,36 @@ EOF;
       {
 	$sendmecadoclass = (!$don_mensuel)?'donli-sendmecado':'';
         $content .= '<li class="input-text '.$sendmecadoclass.'">';
-        $content .= '<label for="adressse"  class="text adresse">' . t("Donor's Postal Address:") . '</label>';
+        $content .= '<label for="adressse"  class="text adresse">' . _("Donor's Postal Address:") . '</label>';
 	//t: Votre adresse postale&nbsp;:
         $content .= '<textarea name="adresse" id="adresse">' . $_POST['adresse'] . '</textarea></li>';
         
         $content .= '<li class="input-text '.$sendmecadoclass.'">';
-        $content .= '<label for="codepostal" class="text codepostal">' . t("Donor's Postcode:") . '</label>';
+        $content .= '<label for="codepostal" class="text codepostal">' . _("Donor's Postcode:") . '</label>';
 	//t: Code postal&nbsp;:
         $content .= '<input type="text" id="codepostal" name="codepostal" value="' . $_POST['codepostal'] . '" /></li>';
         $content .= '<li class="input-text '.$sendmecadoclass.'">';
-        $content .= '<label for="ville" class="text ville">' . t("Donor's City:") . '</label>';
+        $content .= '<label for="ville" class="text ville">' . _("Donor's City:") . '</label>';
 	//t: Ville&nbsp;:
         $content .= '<input type="text" id="ville" name="ville"  value="' . $_POST['ville'] . '"/></li>';
         
         $content .= '<li class="input-text '.$sendmecadoclass.'">';
-        $content .= '<label for="pays" class="text pays">' . t("Donor's Country:") . '</label>';
+        $content .= '<label for="pays" class="text pays">' . _("Donor's Country:") . '</label>';
 	//t: Pays&nbsp;:
         $content .= '<input type="text" id="pays" name="pays" value="' . $_POST['pays'] . '"/></li>';
       }
       $content .= '</ul>';
       $content .= '<p class="monthlychoice">';
-      $content .= '<input style="float:right" type="submit" value="' . t("Yes, make this donation to La Quadrature du Net") . '"/>';
+      $content .= '<input style="float:right" type="submit" value="' . _("Yes, make this donation to La Quadrature du Net") . '"/>';
       //t: Je confirme ce don à La Quadrature du Net
       if (!$don_mensuel) 
       {
-      	$content .= '<b>' . t("You will now be redirected to our bank's server (Crédit Mutuel) in the name of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La Quadrature du Net's accounts.") . '</b>';
+      	$content .= '<b>' . _("You will now be redirected to our bank's server (Crédit Mutuel) in the name of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La Quadrature du Net's accounts.") . '</b>';
 	//t: Vous allez être redirigé vers le serveur de notre banque (le Crédit Mutuel) au nom de l'association FDNN (Fonds de Défense de la Neutralité du Net)
       }
       else
       {
-	      $content .= '<b>' . t("Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la Neutralité du Net).") . '</b>';
+	      $content .= '<b>' . _("Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la Neutralité du Net).") . '</b>';
       }
       $content .= '</p>';
       $content .= '</form>';

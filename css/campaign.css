@@ -84,10 +84,19 @@
     margin: 5px 17px;
     padding: 0px 10px;
 }
-.donations .amounts_holder{
+.donations .amounts_holder {
     width: 55px;
     height:20px;
     padding: 10px 0 10px 0;
+}
+.donations .error {
+    margin: 5px 17px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: red;    
+    border: 1px solid #f55;
+    background: #fdd;
+    padding: 5px;
 }
 .donations .othersum{
     width: 105px;

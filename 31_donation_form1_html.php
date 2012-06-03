@@ -8,6 +8,18 @@
                             </h2>
                         </div>
                     </div>
+
+<?php
+	       if (isset($errno) && $errno) {
+?>
+                    <div class="row">
+                        <div class="error">
+<?php echo _($errors[$errno]); ?>
+                        </div>
+                    </div>
+<?php 
+	       }
+?>
                     <form method="post" action="/#progressbar" name="f1" id="f1">
                     <div class="row">
                         <div class="span6">
