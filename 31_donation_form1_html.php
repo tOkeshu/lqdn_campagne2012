@@ -110,7 +110,7 @@
                     <div class="row">
                         <div class="span6">
                             </p>
-                                <input type="submit" class="btn btn-large btn-inverse" value="Je soutiens La Quadrature du Net &gt;&gt;"/>
+                                <input type="submit" class="btn btn-large btn-inverse" value="<?php __("I support La Quadrature du Net"); ?> &gt;&gt;"/>
                         </div>
                     </div>
                     </form><!-- donation form -->
