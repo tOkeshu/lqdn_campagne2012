@@ -1,4 +1,4 @@
-
+<a name="progressbar"></a>
     <div class="container-wrapper" id="progress"><!-- progress bar -->
         <div class="container" >
             <div class="row">

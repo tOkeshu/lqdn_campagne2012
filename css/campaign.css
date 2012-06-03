@@ -78,18 +78,19 @@
     border-bottom:2px solid hsl(56,44%,99%);
     border-top:2px solid hsl(56,44%,99%);
 }
-.donations{padding:20px 0;}
+.donations{padding:10px 0;}
 #support label{display:inline;}
 .giftContainer{
     margin: 5px 17px;
-    padding: 5px 20px;
+    padding: 0px 10px;
 }
 .donations .amounts_holder{
     width: 55px;
     height:20px;
+    padding: 10px 0 10px 0;
 }
 .donations .othersum{
-    width: 85px;
+    width: 105px;
 }
 .donations .othersum input{
     font-size: 9pt;
@@ -98,6 +99,11 @@
     width: 32px;
 }
 
+.donations .checkbox_holder {
+    padding: 3px 0 3px 0;
+    margin-left: 22px;
+
+}
 /*
 #facts{
     border-bottom:1px solid hsl(56,66%,98%);
@@ -134,4 +140,9 @@ li{list-style: none;}
 .donvalist {
   background:green;
   margin-left:0px;
+}
+
+.predef {
+    padding-top: 10px 0 10px 0;
+    margin: 0;
 }

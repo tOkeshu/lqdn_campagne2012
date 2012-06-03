@@ -8,6 +8,10 @@ include("lang/translator.php");
 $lang = 'fr';
 require_once(dirname(__FILE__) . "/lang/$lang/campaign.lang.php");
 
-//require_once("config.php");
+require_once("functions.php");
+
+@include_once("config.php");
+
+
 
 ?>
