@@ -1,6 +1,6 @@
 
     
-                <div class="span10" style="width:480px;float:left">
+                <div class="span6">
                     <h2><?= $t->t("faq_title") ?></h2>
                     <div class="pane-content faq">
                         <div id="blockfaqsoutien">
@@ -107,5 +107,5 @@
                   </div>
                 </div>
 
-            </div>
+            </div> <!-- end of the form + faq row -->
 

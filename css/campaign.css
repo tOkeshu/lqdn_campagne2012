@@ -71,35 +71,47 @@
     #progress *{
         color:whitesmoke;
     }
+
+/* elements associated to donation form */    
 #support{
     background: hsl(56, 33%, 88%);
     border-bottom:2px solid hsl(56,44%,99%);
     border-top:2px solid hsl(56,44%,99%);
 }
 .donations{padding:20px 0;}
+#support label{display:inline;}
 .giftContainer{
-    left: -35px;
-    position: absolute;
-    top: -16px;
-    width: 250px;
+    margin: 5px 17px;
+    padding: 5px 20px;
 }
-#othersum{
+.donations .amounts_holder{
+    width: 55px;
+    height:20px;
+}
+.donations .othersum{
+    width: 85px;
+}
+.donations .othersum input{
+    font-size: 9pt;
     margin: 0;
     padding: 0;
-    width: 35px;
+    width: 32px;
 }
-    .donations .amounts_holder{height:20px}
+
+/*
 #facts{
     border-bottom:1px solid hsl(56,66%,98%);
     border-top:3px solid hsl(56, 20%, 68%);
     background: hsl(56, 33%, 68%);
 }
+*/
 #share{
     background: hsl(222, 59%, 6%);
     border-bottom: 1px solid rgba(0,0,0,0.75);
     border-top: 3px solid rgba(0,0,0,0.6);
 }
     #share *{color: hsl(222, 5%, 96%);}
+
 .container-wrapper{padding:10px 0;}
 li{list-style: none;}
 * label{display:inline;}
