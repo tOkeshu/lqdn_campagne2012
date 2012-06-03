@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="span2">
                     <h2>
-                        <?= $t->t('share_title') ?>
+       <?php __("Share!"); ?>
                     </h2>
                     <ul>
                         <li>
@@ -14,14 +14,14 @@
                             <a class="btn-mini" href="http://identi.ca">Identi.ca</a>
                         </li>
                         <li>
-                            <a class="btn-mini" href="mailto:?subject=<?= quoted_printable_encode($t->t("meta_title"))?>&body=<?= $t->t("meta_title")?>">Email</a>
+                            <a class="btn-mini" href="mailto:?subject=<?php echo quoted_printable_encode(_("Help La Quadrature defends your rights online against ACTA and beyond")) ?>&body=<?php echo quoted_printable_encode(_("Help La Quadrature defends your rights online against ACTA and beyond")) ?>">Email</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="span10">
                     <h2>
-                        <?= $t->t('bloggers_title') ?>
+       <?php __("Bloggers material"); ?>
                     </h2>
                     <div class="blog_images row">
                         <div class="span2">

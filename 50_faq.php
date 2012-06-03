@@ -1,7 +1,7 @@
 
     
                 <div class="span6">
-                    <h2><?= $t->t("faq_title") ?></h2>
+		   <h2><?php __("Frequently Asked Questions"); ?></h2>
                     <div class="pane-content faq">
                         <div id="blockfaqsoutien">
                         <script type="text/javascript">

@@ -3,7 +3,7 @@
         <div class="container" >
             <div class="row">
                 <div class="span2">
-                    <h3><?= $t->t("current_progress") ?></h3>
+                    <h3><?php __("Progress Bar"); ?></h3>
                 </div>
                 <div class="span10">
                     <div id="progress_bar"></div>
@@ -29,11 +29,11 @@
                         }
                        
                     ?>
-                    <h3><?= daysRemaining($dayArray) ." ". $t->t("days_remaining") ?> </h3>
-                    <h4><?= $t->t("generous_donators") ?></h4>
+                    <h3><?= daysRemaining($dayArray) ." ". _("days until the end of this campaign") ?> </h3>
+                    <h4><?php __("Generous donators"); ?></h4>
                     <p id="donator-container"></p>
                     <?php
-                        // fetch from api
+                        // TODO : fetch from api
                         $donatorsList = '[["jean",100],["ahmed",1000],["simone",15],["ganesh",50]]';
                     ?>
                     <script type="text/javascript">
@@ -44,7 +44,7 @@
                             donator_id = ( donator_id == l - 1)? 0: donator_id + 1;
                             $("#donator-container").html(
                                 donatorsList[donator_id][0]
-                                + "<?= $t->t("path_separator") ?>"
+                                + "<?php __(":"); ?>"
                                 + donatorsList[donator_id][1]+"&euro;"
                             )
                         }

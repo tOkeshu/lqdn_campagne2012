@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="span6">
                             <h2>
-                            <?= $t->t('support_us') ?>
+                            <?php __("Support Us"); ?>
                             </h2>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             </div>
                             <div class="span1 amounts_holder othersum">
 				    <input type="radio" name="sum" value="-1" id="sum1"<?php ifcheck(!in_array($_REQUEST["sum"],$asums)); ?> />
-                                    <input type="text" name="othersum" value="<?php if (in_array($_REQUEST["sum"],$asums)) echo $t->t('other_placeholder'); else echo intval($_REQUEST["sum"]); ?>" />
+                                    <input type="text" name="othersum" value="<?php if (in_array($_REQUEST["sum"],$asums)) __("Other"); else echo intval($_REQUEST["sum"]); ?>" />
                                     <label for="sum1">&euro;</label>
                                     <div class="alert " id="nocado5" style="display:none">
 				      Entrez le montant de votre don au choix. Notez que 
@@ -104,7 +104,7 @@
                     </div>                            
                     <div class="row">
                         <div class="span6 checkbox_holder">
-                                    <input type="checkbox" id="monthly" name="monthly"<?php ifcheck($_REQUEST["monthly"]); ?>/> <label for="monthly"><?= $t->t('recurent_donation') ?></label>
+                                    <input type="checkbox" id="monthly" name="monthly"<?php ifcheck($_REQUEST["monthly"]); ?>/> <label for="monthly"><?php __("Make this a monthly donation (<b>french bank accounts only</b>)"); ?></label>
                         </div>
                     </div>                            
                     <div class="row">

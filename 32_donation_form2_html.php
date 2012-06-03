@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="span6">
                             <h2>
-                            <?= $t->t('support_us_step_2') ?>
+	       <?php __("Support us (step 2/3)"); ?>
                             </h2>
                         </div>
                     </div>

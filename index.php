@@ -4,11 +4,11 @@ require_once("all.php");
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
   <head>
-    <title><?= $t->t("meta_title") ?></title>
+    <title><?php __("Help La Quadrature defends your rights online against ACTA and beyond") ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<?= $t->t("meta_desc")?>">
-    <meta name="author" content="la Quadrature du Net">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="<?php __("La Quadrature defends citizens rights and freedoms online since 2008. For the last 3 years, it helped raise awareness and campaign against ACTA. We must now finally defeat ACTA, and advocate for a positive agenda that will ensure that our freedoms will be guaranteed online."); ?>" />
+    <meta name="author" content="la Quadrature du Net" />
     <link type="text/less" rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="css/campaign.css"/>
     <link type="text/css" rel="stylesheet" href="jquery-ui-1.8.20.custom/css/custom-theme/jquery-ui-1.8.20.custom.css"/>
