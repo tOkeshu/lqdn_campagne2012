@@ -14,9 +14,17 @@ $_REQUEST["sum"]=intval($_REQUEST["sum"]);
 $errno=0;
 
 // If we got a post, 
-if (isset($_POST["step2"])) {
+if (isset($_POST["etape2"])) {
   // Check then step3 : 
-  require_once("33_donation_form3_html.php");
+  $mkdon_msg = make_don($_POST, "fr_FR");
+  if (is_string($mkdon_msg)) {
+    echo $mkdon_msg;
+  } else {
+    // an error occured, print it : 
+    $errno=$mkdon_msg;
+    require_once("32_donation_form2_html.php");
+  }
+
 
 } elseif (isset($_POST["sum"])) {
   // Check then step2 : 
