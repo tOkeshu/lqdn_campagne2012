@@ -14,7 +14,9 @@
 ?>
                     <div class="row">
                         <div class="error">
-<?php echo _($errors[$errno]); ?>
+<?php if (is_array($errno)) {
+foreach($errno as $e) echo _($errors[$e])."<br />";
+} else echo _($errors[$errno]); ?>
                         </div>
                     </div>
 <?php 

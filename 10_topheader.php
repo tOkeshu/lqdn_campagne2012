@@ -3,7 +3,7 @@
         <div class="container" >
             <div class="row">
                 <div class="span2">
-                    <img src="images/header.png">
+                    <a href="/"><img src="images/header.png"></a>
                 </div>
                 <div class="offset1 span9">
        <h1><?php __("La Quadrature du Net needs you to continue its action against ACTA... and beyond."); ?></h1>

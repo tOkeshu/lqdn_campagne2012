@@ -24,7 +24,6 @@ $errors = array(
       //t: Notre système de paiement en ligne est indisponible pour l'instant. Nous avons été prévenu de ce problème et faisons le nécessaire pour qu'il revienne rapidement. Réessayez d'ici quelques heures. Merci !
       101 => "Veuillez préciser le titulaire du compte bancaire.",
       102 => "Veuillez préciser votre nom et votre prénom, pour l'autorisation de prélèvement.", // nom
-      103 => "Veuillez préciser votre nom et votre prénom, pour l'autorisation de prélèvement.", // prenom
       104 => "Nous avons besoin du nom de votre banque.",
       105 => "Nous avons besoin de l'adresse complète de votre banque.",
       106 => "Nous avons besoin de l'adresse complète de votre banque.", // CP

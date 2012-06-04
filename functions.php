@@ -149,9 +149,14 @@ function is_rib($cbanque, $cguichet, $nocompte, $clerib)  {
 
 function badfield($err) {
   global $errno;
+  $e=$errno;
   if (!is_array($err)) $err=array($err);
-  if (in_array($errno,$err)) {
-    echo " badfield"; 
+  if (!is_array($e)) $e=array($e);
+  foreach($e as $er) {
+    if (in_array($er,$err)) {
+      echo " badfield"; 
+      return;
+    }
   }
 }
 
@@ -182,46 +187,45 @@ function make_don($data, $lang = 'fr') {
 		}
 	}
 	// TODO return 1 si problème inattendu
+	$errors=array();
 	if ($sum < 5)
 	{
-		return 2;
+	  $errors[]=2;
 	}
 	if ($don_mensuel && checkmail($data['email']) !== 0)
 	{
-		return 112;
+	  $errors[]=112;
 	}
 	if (empty($data['email']))
 	{
-		return 3;
-	}
-	if (checkmail($data['email']) !== 0)
+	  $errors[]=3;
+	} else if (checkmail($data['email']) !== 0)
 	{
-		return 4;
+	  $errors[]=4;
 	}
 	if (empty($data['pseudo']))
 	{
-		return 5;
+		$errors[]=5;
 	}
 	if (empty($adresse) || empty($codepostal) || empty($ville))
 	{
 		if ($don_mensuel)
 		{
-			return 113;
+			$errors[]=113;
 		}
 		if ($envoi_cados)
 		{
-			return 6;
+			$errors[]=6;
 		}
 	}
 	if ($don_mensuel)
 	{
 		if (empty($name))
 		{
-			return 102;
-		}
-		if (empty($fname))
+			$errors[]=102;
+		} else if (empty($fname))
 		{
-			return 103;
+			$errors[]=102;
 		}
 		if (empty($titulaire))
 		{
@@ -229,37 +233,37 @@ function make_don($data, $lang = 'fr') {
 		}
 		if (empty($bq_nom))
 		{
-			return 104;
+			$errors[]=104;
 		}
 		if (empty($bq_addr))
 		{
-			return 105;
+			$errors[]=105;
 		}
 		if (empty($bq_cp))
 		{
-			return 106;
+			$errors[]=106;
 		}
 		if (empty($bq_ville))
 		{
-			return 107;
+			$errors[]=107;
 		}
                 if (!($bq && $gu && $cpt && $rib))
 		{
-			return 108;
-		}
-		if (!is_rib($bq, $gu, $cpt, $rib))
+			$errors[]=108;
+		} else if (!is_rib($bq, $gu, $cpt, $rib))
 		{
-			return 109;
+			$errors[]=109;
 		}
 		if (empty($passwd) || $passwd !== $passwd2)
 		{
-			return 110;
-		}
-		if (strlen($passwd) < 6 || strlen($passwd) > 20)
+			$errors[]=110;
+		} else if (strlen($passwd) < 6 || strlen($passwd) > 20)
 		{
-			return 111;
+			$errors[]=111;
 		}
 	}
+
+	if (count($errors)) return $errors;
 
 	// On convertit le UTF-8 du nom en ISO si besoin
 	$u=new Utils();

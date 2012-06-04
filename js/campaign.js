@@ -8,7 +8,7 @@ function showMore(more_div) {
     // switches text and figure
     function switchAnime( id ){
 	$(".animed").hide();
-	$("#d"+id).show(300);
+	$("#d"+id).show();
 	$(".anime_point").removeClass("active");
 	$("#"+id).addClass("active");
     }
