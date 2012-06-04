@@ -18,6 +18,12 @@
     border:0px;
     height:410px;
 }
+
+.bulletpoints .btn.active, .bulletpoints .btn:hover, .bulletpoints .btn:active {
+  background-color: #a6a6a6;
+  background-color: #999999 \9;
+}
+
     #anime *{color: hsl(222, 5%, 96%);}
     #anime .row{position: relative;}
     
@@ -49,6 +55,33 @@
         width:120px;
         background:transparent no-repeat center bottom ;
     }
+
+/* vinci's version : using hide/show and not html copying */
+    .animed {
+	display: none;	
+    }
+    .animel_text{
+        width:280px;
+        text-align:justify;
+    }
+    .animel_figure{
+        float:right;
+        height:300px;
+        width:120px;
+        background:transparent no-repeat center bottom ;
+    }
+    .animer_text{
+        width:280px;
+        text-align:justify;
+	padding-left: 130px;
+    }
+    .animer_figure{
+        float:left;
+        height:300px;
+        width:120px;
+        background:transparent no-repeat center bottom ;
+    }
+
     
     #anime .panel_acta{
         text-align: right;

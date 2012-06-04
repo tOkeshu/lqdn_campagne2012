@@ -2,27 +2,39 @@ function showMore(more_div) {
    more_div.animate();
 }
 
-$(document).ready(function() {
+    var anime_timer = 0;
+    var auto_anime = 1;
 
     // switches text and figure
-    function switchAnime( domElement ){
-
-        var text            = domElement.parent().next().html()
-        var panel           = $(".anime_display")
-        var panel_text      = $(panel).find("#anime_text")
-        panel_text.html(text);
-        $('#figure_img').attr('src','images/perso_' + domElement.attr('perso_id') + '.png');
-        panel.show();
-
+    function switchAnime( id ){
+	$(".animed").hide();
+	$("#d"+id).show(300);
+	$(".anime_point").removeClass("active");
+	$("#"+id).addClass("active");
     }
+    function autoAnime() {
+	switchAnime("ap"+auto_anime);
+	auto_anime++;
+	if (auto_anime>8) auto_anime=1;
+	anime_timer=setTimeout("autoAnime()",7000);
+    }
+
+$(document).ready(function() {
 
     // mouseOver
     $("a.anime_point").mouseover(function(){
-
-        $(window).data("last", $(this).html())
-        console.log( $(window).data("last" ) )
-        switchAnime( $(this));
+	idname=$(this).attr("id");
+	// We stop the automatic animation for 15 seconds, and it will start from the rollovered one:
+	if (anime_timer) { 
+	    clearTimeout(anime_timer); 
+	    auto_anime=parseInt(idname.substring(2,3)); 
+	    anime_timer=setTimeout("autoAnime()",30000); 
+	}
+        switchAnime( idname );
     });
+
+    // Automatic switchanime :
+    autoAnime();
 
     // gifts
     $(".amounts_holder input").click(function(e){
