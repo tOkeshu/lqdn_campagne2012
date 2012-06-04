@@ -66,10 +66,12 @@
     }
     .animel_text a {
 	border-bottom: 1px solid #444;
-}
+	text-decoration: none;
+    }
     .animel_text a:hover, .animel_text a:active {
 	border-bottom: 1px solid #fff;
-}
+	text-decoration: none;
+    }
     .animel_figure{
         float:right;
         height:300px;
