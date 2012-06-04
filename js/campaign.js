@@ -3,7 +3,7 @@ function showMore(more_div) {
 }
 
     var anime_timer = 0;
-    var auto_anime = 1;
+    var auto_anime = 0;
 
     // switches text and figure
     function switchAnime( id ){
@@ -13,16 +13,12 @@ function showMore(more_div) {
 	$("#"+id).addClass("active");
     }
     function autoAnime() {
-	switchAnime("ap"+auto_anime);
 	auto_anime++;
 	if (auto_anime>8) auto_anime=1;
+	switchAnime("ap"+auto_anime);
 	anime_timer=setTimeout("autoAnime()",7000);
     }
-
-$(document).ready(function() {
-
-    // mouseOver
-    $("a.anime_point").mouseover(function(){
+    manualAnime=function(){
 	idname=$(this).attr("id");
 	// We stop the automatic animation for 15 seconds, and it will start from the rollovered one:
 	if (anime_timer) { 
@@ -31,7 +27,13 @@ $(document).ready(function() {
 	    anime_timer=setTimeout("autoAnime()",30000); 
 	}
         switchAnime( idname );
-    });
+    }
+
+$(document).ready(function() {
+
+    // mouseOver
+    $("a.anime_point").mouseover(manualAnime);
+    $("a.anime_point").click(manualAnime);
 
     // Automatic switchanime :
     autoAnime();
