@@ -110,14 +110,16 @@ foreach($errno as $e) echo "- "._($errors[$e])."<br />";
                         </div>
                     </div>                          
 
-<?php if ($_REQUEST["sum"] >= 100 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
+<?php if ($_REQUEST["sum"] >= 50 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
 
                     <div class="row" id="needcado">
                         <div class="span6">
 
+		       <?php if ($_REQUEST["sum"] >= 100 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
                             <p>
                                 <label for="taille"><?php __("Style/Size of your pi-shirt:"); ?></label><br /> <select id="taille" name="taille" ><?php eoption($atailles,$_REQUEST["taille"]); ?></select> 
                             </p>
+			     <?php } ?>
                             <p>
                                 <label for="nomadresse"><?php __("Donor's name (for the parcel):"); ?></label><br /> <input type="text" id="nomadresse" name="nomadresse" size="60" class="largeinput<?php badfield(6); ?>" value="<?php eher("nomadresse"); ?>"/> 
                             </p>
