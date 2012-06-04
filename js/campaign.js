@@ -51,5 +51,17 @@ $(document).ready(function() {
 
     // Activated the default donation radio button
     $('.donations input[checked=checked]').click();
+
+    // nocado = swap the other fields...
+    if ($("#nocado")) {
+	$("#nocado").click(function() {
+	    if ($(this).attr("checked")) {
+		$("#needcado").hide();
+	    } else {
+		$("#needcado").show();
+	    }
+	});
+    }
+
 })
 

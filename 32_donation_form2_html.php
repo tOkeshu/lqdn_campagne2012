@@ -39,10 +39,10 @@
 		     <div class="information">  <?php __("You wish to support us with a monthly donation, thank you for your kind support. For your convenience, you will have to possibility to pause or stop this donation each month."); ?></div>
 	     <?php } ?>
 			<p>
-                                <label for="email"><?php __("Email:"); ?></label><br /> <input type="text" id="email" name="email" size="60" class="largeinput" value="<?php eher("email"); ?>"/> 
+                                <label for="email"><?php __("Email:"); ?></label><br /> <input type="text" id="email" name="email" size="60" class="largeinput<?php badfield(array(3,4)); ?>" value="<?php eher("email"); ?>"/> 
                             </p>
 			<p>
-                                <label for="pseudo"><?php __("First Name, Full Name or Nickname:"); ?></label><br /> <input type="text" id="pseudo" name="pseudo" size="60" class="largeinput" value="<?php eher("pseudo"); ?>"/> 
+                                <label for="pseudo"><?php __("First Name, Full Name or Nickname:"); ?></label><br /> <input type="text" id="pseudo" name="pseudo" size="60" class="largeinput<?php badfield(5); ?>" value="<?php eher("pseudo"); ?>"/> 
                             </p>
 			<p>
                           <input type="checkbox" id="public" name="public"<?php ifcheck($_REQUEST["public"]); ?>/> <label for="public"><?php __("Please show me in the public donor list"); ?></label>
@@ -59,7 +59,7 @@
                         <div class="span6">
 		       <h3><?php __("Bank information for your monthly donation"); ?></h3>
                             <p>
-                                <label for="name"><?php __("Donor's Last Name:"); ?></label><br /> <input type="text" id="name" name="name" size="60" class="largeinput" value="<?php eher("name"); ?>"/> 
+                                <label for="name"><?php __("Donor's Last Name:"); ?></label><br /> <input type="text" id="name" name="name" size="60" class="largeinput<?php badfield(101); ?>" value="<?php eher("name"); ?>"/> 
                             </p>
                             <p>
                                 <label for="fname"><?php __("Donor's First Name:"); ?></label><br /> <input type="text" id="fname" name="fname" size="60" class="largeinput" value="<?php eher("fname"); ?>"/> 
@@ -110,17 +110,17 @@
 
 <?php if ($_REQUEST["sum"] >= 100 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
 
-                    <div class="row">
+                    <div class="row" id="needcado">
                         <div class="span6">
 
                             <p>
                                 <label for="taille"><?php __("Style/Size of your pi-shirt:"); ?></label><br /> <select id="taille" name="taille" ><?php eoption($atailles,$_REQUEST["taille"]); ?></select> 
                             </p>
                             <p>
-                                <label for="nomadresse"><?php __("Donor's name (for the parcel):"); ?></label><br /> <input type="text" id="nomadresse" name="nomadresse" size="60" class="largeinput" value="<?php eher("nomadresse"); ?>"/> 
+                                <label for="nomadresse"><?php __("Donor's name (for the parcel):"); ?></label><br /> <input type="text" id="nomadresse" name="nomadresse" size="60" class="largeinput<?php badfield(6); ?>" value="<?php eher("nomadresse"); ?>"/> 
                             </p>
                             <p>
-                                <label for="adresse"><?php __("Donor's Postal Address:"); ?></label> <br /><textarea type="text" id="adresse" name="adresse" class="largeinput" ><?php eher("adresse"); ?></textarea> 
+                                <label for="adresse"><?php __("Donor's Postal Address:"); ?></label> <br /><textarea type="text" id="adresse" name="adresse" class="largeinput<?php badfield(6); ?>" ><?php eher("adresse"); ?></textarea> 
                             </p>
                             <p>
                                 <label for="codepostal"><?php __("Donor's Zipcode:"); ?></label><br /> <input type="text" id="codepostal" name="codepostal" size="5" value="<?php eher("codepostal"); ?>"/> 

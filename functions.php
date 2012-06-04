@@ -98,7 +98,7 @@ function checkfqdn($fqdn) {
     while (list ($key, $val) = each ($members)) {
       if (strlen($val)>63)
         return 2;
-      if (!eregi("^[a-z0-9][a-z0-9-]*[a-z0-9]$",$val)) {
+      if (!preg_match("/^[a-z0-9][a-z0-9-]*[a-z0-9]$/",$val)) {
         /*"*/                  return 3;
       }
     }
@@ -145,6 +145,14 @@ function is_rib($cbanque, $cguichet, $nocompte, $clerib)  {
         }
         $int = $cbanque . $cguichet . $tabcompte . $clerib;
         return (strlen($int) >= 21 && bcmod($int, 97) == 0);
+}
+
+function badfield($err) {
+  global $errno;
+  if (!is_array($err)) $err=array($err);
+  if (in_array($errno,$err)) {
+    echo " badfield"; 
+  }
 }
 
 
@@ -255,8 +263,8 @@ function make_don($data, $lang = 'fr') {
 
 	// On convertit le UTF-8 du nom en ISO si besoin
 	$u=new Utils();
-	if ($u->isUTF8_str($nom)==true && $u->surelyUTF8==true) {
-		$nom=iconv("UTF-8", "ISO-8859-1//TRANSLIT",$nom);
+	if ($u->isUTF8_str($pseudo)==true && $u->surelyUTF8==true) {
+		$pseudo=iconv("UTF-8", "ISO-8859-1//TRANSLIT",$pseudo);
 	}
 
 	if (!$lang) $lang="fr_FR";
@@ -290,6 +298,7 @@ function make_don($data, $lang = 'fr') {
 	if (!$don_mensuel)
 	{
 		$str = @file_get_contents(FDNNURL1."?target=lqdn&montant=".$sum."&email=".urlencode($email)."&name=".urlencode(trim($nom))."&id=".intval($id)."&lang=".$lang."");
+		
 		if (!$str) {
 			return 8;
 		}
@@ -332,13 +341,16 @@ function make_don($data, $lang = 'fr') {
 		}
 	}
 	@mail(SYSADMIN, 'LQDN Don', print_r($data, true). $str);
+	// can I haz proper html ? ;) 
+	$str=str_replace("<html>","",str_replace("<body>","",str_replace("</html>","",str_replace("</body>","",$str))));
+
 	$str = '<div id="paiementbouton">'.$str.'</div>';
 	$str .= '<script type="text/javascript">';
 	if ($lang == 'en')
 	{
 		$str .= '$("#paiementbouton form input[type=submit]").val("Pay with credit card");';
 	}
-	$str .= 'document.forms[1].submit();';
+	$str .= 'document.forms[0].submit();';
 	$str .= '</script>';
 	return $str;
 }

@@ -130,10 +130,11 @@
     height:20px;
     padding: 10px 0 10px 0;
 }
+.donations .badfield {
+    border: 1px solid #f55;
+}
 .donations .error {
     margin: 5px 17px;
-    font-size: 1.1em;
-    font-weight: bold;
     color: #f00;    
     border: 1px solid #f55;
     background: #fdd;
@@ -141,8 +142,6 @@
 }
 .donations .information {
     margin: 5px 17px;
-    font-size: 1.1em;
-    font-weight: bold;
     color: #0a0;    
     border: 1px solid #5f5;
     background: #dfd;
