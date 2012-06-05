@@ -6,7 +6,7 @@
                         <div id="blockfaqsoutien">
                         <script type="text/javascript">
                             jQuery().ready(function(){
-                                    $('#blockfaqsoutien').accordion({ header: 'h4', autoheight: false });
+                                    $('#blockfaqsoutien').accordion({ header: 'h4', autoHeight: false });
                             });
                             </script>
 
