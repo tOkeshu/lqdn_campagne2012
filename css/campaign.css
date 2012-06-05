@@ -20,8 +20,7 @@
 }
 
 .bulletpoints .btn.active, .bulletpoints .btn:hover, .bulletpoints .btn:active {
-  background-color: #a6a6a6;
-  background-color: #999999 \9;
+  background: #a6a6a6;
 }
 
     #anime *{color: hsl(222, 5%, 96%);}
@@ -68,11 +67,14 @@
 
     .animel_text{
         width: 260px;
+        line-height: 1.4em;
+        line-break: loose;
         padding-left: 17px;
     }
     .animel_text a {
-	border-bottom: 1px solid #444;
-	text-decoration: none;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 0 0 4px #0A3466;    
     }
     .animel_text a:hover, .animel_text a:active, .animer_text a:hover, .animer_text a:active {
 	border-bottom: 1px solid #fff;
@@ -81,6 +83,7 @@
     .animel_figure{
         float:right;
         background:transparent no-repeat center bottom ;
+        padding-right:10px;
     }
     .animer_text{
         width: 245px;
@@ -205,4 +208,10 @@ li{list-style: none;}
 .predef {
     padding-top: 10px 0 10px 0;
     margin: 0;
+}
+
+
+#noscript{
+    background:red;
+    color:whitesmoke;
 }

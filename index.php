@@ -27,9 +27,6 @@ require_once("all.php");
   <?php include(dirname(__FILE__) . "/40_progress_bar.php"); ?>
   
       
-      <style>
-          #noscript{background:red;color:whitesmoke}
-      </style>
      <div class="container-wrapper" id="support"><!-- donation form -->1
         <div class="container" style="overflow:hidden">
     
