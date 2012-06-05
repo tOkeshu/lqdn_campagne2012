@@ -16,7 +16,7 @@
     border-bottom: 2px solid rgba(0,0,0,0.75);
     border-top: 3px solid rgba(0,0,0,0.79);
     border:0px;
-    height:410px;
+    height:380px;
 }
 
 .bulletpoints .btn.active, .bulletpoints .btn:hover, .bulletpoints .btn:active {
@@ -38,7 +38,6 @@
     #anime .anime_display {
         background:transparent;
         color:hsl(222,56%,99%);
-        margin-top:28px;
         min-height: 300px;
         text-shadow: none;
         width: 477px;
@@ -60,33 +59,34 @@
     .animed {
 	display: none;	
     }
-    .animel_text{
-        width:280px;
+
+    .animer_text, .animel_text {
+	padding-top: 38px;
         text-align:justify;
+	font-size: 1.1em;
+    }
+
+    .animel_text{
+        width:260px;
     }
     .animel_text a {
 	border-bottom: 1px solid #444;
 	text-decoration: none;
     }
-    .animel_text a:hover, .animel_text a:active {
+    .animel_text a:hover, .animel_text a:active, .animer_text a:hover, .animer_text a:active {
 	border-bottom: 1px solid #fff;
 	text-decoration: none;
     }
     .animel_figure{
         float:right;
-        height:300px;
-        width:120px;
         background:transparent no-repeat center bottom ;
     }
     .animer_text{
-        width:280px;
-        text-align:justify;
-	padding-left: 200px;
-    }
+        width:260px;
+	padding-left: 220px; 
+   }
     .animer_figure{
         float:left;
-        height:300px;
-        width:120px;
         background:transparent no-repeat center bottom ;
     }
 

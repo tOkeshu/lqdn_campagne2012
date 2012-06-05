@@ -17,7 +17,6 @@
                     </dl>
                 </div>
                 <div class="span6">
-                   &nbsp;
                     <div class="anime_display">
 		      <!-- hide/show through switchAnime() -->
 		      <?php $id2 = 0; /* in texts.php */ foreach($actapoints as $point => $details ): ?>

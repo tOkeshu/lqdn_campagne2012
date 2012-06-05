@@ -23,9 +23,6 @@ $(document).ready(function() {
     $("a.anime_point").mouseover(manualAnime);
     $("a.anime_point").click(manualAnime);
 
-    // Automatic switchanime :
-    autoAnime();
-
     // gifts
     $(".amounts_holder input").click(function(e){
         var src = $(this).parent("div").find(".alert")
