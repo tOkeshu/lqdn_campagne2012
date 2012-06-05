@@ -9,7 +9,7 @@
                     <div id="progress_bar"></div>
                     <div class="progress_indices">
                         <div class="marks">
-                            <div class="start"">0&euro;</div>
+                            <div class="start">0&euro;</div>
                             <div class="middle">50 000&euro;</div>
                             <div class="end">100 000&euro;</div>
                         </div>

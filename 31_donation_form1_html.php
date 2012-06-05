@@ -107,8 +107,9 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                     </div>                            
                     <div class="row">
                         <div class="span6">
-                            </p>
-                                <input type="submit" class="btn btn-large btn-inverse" value="<?php __("I support La Quadrature du Net"); ?> &gt;&gt;"/>
+					  <p>
+					  <input type="submit" class="btn btn-large btn-inverse" value="<?php __("I support La Quadrature du Net"); ?> &gt;&gt;"/>
+					  </p>
                         </div>
                     </div>
                     <div class="row">
