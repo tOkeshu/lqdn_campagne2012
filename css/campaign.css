@@ -5,14 +5,13 @@
 }
     
 #header{
-    background: hsl(222, 60%, 33%);
     background: #207cca; /* Old browsers */
-    border-bottom: 1px solid hsl(222,56%,42%);
+    border-bottom: 1px solid #2F53A7;
 }
 #header *{color:whitesmoke;
           text-align: center;}
 #anime{
-    background: hsl(245, 100%, 4%) url(../images/anime_bg.gif) no-repeat 50% 50%;
+    background: url("../images/anime_bg.gif") no-repeat scroll 50% 50% #010014;
     border-bottom: 2px solid rgba(0,0,0,0.75);
     border-top: 3px solid rgba(0,0,0,0.79);
     border:0px;
@@ -23,11 +22,11 @@
   background: #a6a6a6;
 }
 
-    #anime *{color: hsl(222, 5%, 96%);}
+    #anime *{color: #F4F4F5;}
     #anime .row{position: relative;}
     
     #anime .bulletpoints a {
-        color:hsl(245, 100%, 4%);
+        color:#010014;
         display: block;
         font-size: 9pt;
         margin: 13px 0px;
@@ -36,7 +35,7 @@
     
     #anime .anime_display {
         background:transparent;
-        color:hsl(222,56%,99%);
+        color:#FBFBFD;
         min-height: 300px;
         text-shadow: none;
         width: 477px;
@@ -103,8 +102,8 @@
     
 #progress{
     background: #1477c9; /* Old browsers */
-    border-bottom:2px solid hsl(222,48%,25%);
-    border-top:1px solid hsl(222,56%,72%);
+    border-bottom:2p2px solid #21335E;
+    border-top:1px solid #8FA7DF;
 }
 #progress *{
     color:whitesmoke;
@@ -114,9 +113,9 @@
 }
 /* elements associated to donation form */    
 #support{
-    background: hsl(56, 33%, 88%);
-    border-bottom:2px solid hsl(56,44%,99%);
-    border-top:2px solid hsl(56,44%,99%);
+    background: none repeat scroll 0 0 #EAE9D6;
+    border-bottom:2px solid #FDFDFB;
+    border-top:2px solid #FDFDFB;
 }
 .donations{padding:10px 0;}
 #support label{display:inline;}
@@ -177,8 +176,8 @@
 }
 */
 #share{
-    background: hsl(222, 59%, 6%);
-    border-bottom: 1px solid rgba(0,0,0,0.75);
+    background:none repeat scroll 0 0 #060B18;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
     border-top: 3px solid rgba(0,0,0,0.6);
 }
     #share *{color: hsl(222, 5%, 96%);}
