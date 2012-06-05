@@ -7,6 +7,10 @@ define("FDNNURL2","https://secure.bank/url2");
 mysql_connect("localhost","login","password");
 mysql_select_db("dbname");
 
+/* TODO : remove this in production ;) */
+error_reporting(E_ALL);
+ini_set("display_errors", true);
+
 
 
 ?>
