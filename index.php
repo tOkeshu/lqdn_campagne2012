@@ -18,13 +18,19 @@ require_once("all.php");
   </head>
   <body>
 
+  <?php include(dirname(__FILE__) . "/00_noscript.php"); ?>
+
   <?php include(dirname(__FILE__) . "/10_topheader.php"); ?>
 
   <?php include( dirname(__FILE__) . "/20_dark_blue_rollover.php"); ?>
 
   <?php include(dirname(__FILE__) . "/40_progress_bar.php"); ?>
   
-     <div class="container-wrapper" id="support"><!-- donation form -->
+      
+      <style>
+          #noscript{background:red;color:whitesmoke}
+      </style>
+     <div class="container-wrapper" id="support"><!-- donation form -->1
         <div class="container" style="overflow:hidden">
     
          <?php include(dirname(__FILE__) . "/30_donation_form.php"); ?>
