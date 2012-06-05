@@ -94,15 +94,6 @@
     #anime .panel_acta{
         text-align: right;
     }
-    #anime #panel_rollover{    
-        color: #0F52EF;
-        font-size: 8pt;
-        left: 0;
-        position: absolute;
-        text-align: center;
-        top: 390px;
-        width: 980px;
-    }
     
 #progress{
     background: #1477c9; /* Old browsers */

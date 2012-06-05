@@ -47,9 +47,6 @@
                         <?php endforeach ?>
                     </dl>
                 </div>
-                <div id="panel_rollover">
-                    <?php __("⚠ Roll over or click on buttons to see details"); ?>
-                </div>
             </div>
         </div>
     </div><!-- /dark blue rollovers -->
