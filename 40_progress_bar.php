@@ -2,9 +2,9 @@
     <div class="container-wrapper" id="progress"><!-- progress bar -->
         <div class="container" >
             <div class="row">
-                <div class="span2">
+                <!--<div class="span2">
                     <h3><?php __("Progress Bar"); ?></h3>
-                </div>
+                </div>-->
                 <div class="span10">
                     <div id="progress_bar"></div>
                     <div class="progress_indices">
@@ -14,6 +14,9 @@
                             <div class="end">100 000&euro;</div>
                         </div>
                     </div>
+                </div>
+                <div class="span2">
+           <?php /*  <h3><?php __("We need 100.000€!"); ?></h3> */ ?>
                 </div>
 <!--
                 <div class="span6">

@@ -32,8 +32,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <label for="sum10">10&nbsp;&euro;</label>
 
                                     <div class="alert" id="piplome_pdf" style="display:none">
-                                        <p>En remerciement de votre don, vous recevrez 1 000 décimales de π 
-                                            dans un certificat personnalisé, envoyé <strong>par mail au format PDF</strong>.</p>
+								 <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email.</strong>."); ?></p>
                                         <p class="cadeaux"><img src="images/piplomepdf.png"></p>
                                     </div>
                             </div>
@@ -41,8 +40,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="25" id="sum25"<?php ifcheck($_REQUEST["sum"]=="25"); ?> class="predef" />
                                     <label for="sum25">25&nbsp;&euro;</label>
                                     <div class="alert" id="piplome_pdf2" style="display:none">
-                                        <p>En remerciement de votre don, vous recevrez 1 000 décimales de π 
-                                            dans un certificat personnalisé, envoyé <strong>par mail au format PDF</strong>.</p>
+								 <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email.</strong>."); ?></p>
                                         <p class="cadeaux"><img src="images/piplomepdf.png"></p>
                                     </div>
                             </div>
@@ -50,9 +48,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="50" id="sum50"<?php ifcheck($_REQUEST["sum"]=="50"); ?> class="predef" />
                                     <label for="sum50">50&nbsp;&euro;</label>
                                     <div class="alert " id="piplome" style="display:none">
-                                        <p>En remerciement de votre don, vous recevrez 1 000 décimales de π 
-                                            dans un certificat personnalisé, envoyé <strong>par courriel au format PDF 
-                                                + un  tirage original de qualité supérieure</strong>.</p>
+                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper</strong>."); ?></p>
                                         <p class="cadeaux"><img src="images/piplomemail.png"></p>
                                     </div>    
                             </div>
@@ -61,12 +57,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="100" id="sum100"<?php ifcheck($_REQUEST["sum"]=="100"); ?> class="predef" />
                                     <label for="sum100">100&nbsp;&euro;</label>
                                     <div class="alert " id="piplome_ts"  style="display:none">
-                                        <p>En remerciement de votre don, vous recevrez 1 000 
-                                            décimales de π dans un certificat personnalisé, 
-                                            envoyé par courriel au format PDF + un  
-                                            tirage original de qualité supérieure + un 
-                                            'pi-shirt' portant le logo de La Quadrature 
-                                            du Net !</p>
+                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a 'pi-shirt' with La Quadrature du Net's logo!</strong>"); ?></p>
                                         <p class="cadeaux"><img src="images/piplomemail.png">
                                             <img src="images/pishirt.png"></p>
 				    </div>    
@@ -75,12 +66,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="250" id="sum250"<?php ifcheck($_REQUEST["sum"]=="25"); ?> class="predef" />
                                     <label for="sum250">250&nbsp;&euro;</label>
                                     <div class="alert " id="piplome_ts2"  style="display:none">
-                                        <p>En remerciement de votre don, vous recevrez 1 000 
-                                            décimales de π dans un certificat personnalisé, 
-                                            envoyé par courriel au format PDF + un  
-                                            tirage original de qualité supérieure + un 
-                                            'pi-shirt' portant le logo de La Quadrature 
-                                            du Net !</p>
+                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a 'pi-shirt' with La Quadrature du Net's logo!</strong>"); ?></p>
                                         <p class="cadeaux"><img src="images/piplomemail.png">
                                             <img src="images/pishirt.png"></p>
 				    </div>    
@@ -90,12 +76,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="text" name="othersum" value="<?php if (in_array($_REQUEST["sum"],$asums)) __("Other"); else echo intval($_REQUEST["sum"]); ?>" />
                                     <label for="sum1">&euro;</label>
                                     <div class="alert " id="nocado5" style="display:none">
-				      Entrez le montant de votre don au choix. Notez que 
-                                        nous ne pouvons pas accepter les soutiens 
-                                        inf&eacute;rieurs &agrave; 5&nbsp;&euro; 
-                                        (frais bancaires trop importants). 
-                                        Vous pouvez toujours nous aider par 
-                                        <a href="/fr/participer">votre action</a>&nbsp;!
+				      <p><?php __("Please enter the amount you want to give. due to high banking costs, we cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://www.laquadrature.net/en/how-to-participate\">help us in other ways!</a>"); ?></p>
                                     </div>
                             </div>
                         </div>                            
@@ -107,7 +88,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                     </div>                            
                     <div class="row">
                         <div class="span6">
-					  <p>
+					  <p class="btn-support">
 					  <input type="submit" class="btn btn-large btn-inverse" value="<?php __("I support La Quadrature du Net"); ?> &gt;&gt;"/>
 					  </p>
                         </div>

@@ -9,7 +9,7 @@
                         <?php /* in texts.php */ foreach($actapoints as $point => $details ): ?>
                             
                             <dt>
-                                <a href="javascript:void(0)" class="anime_point btn<?php if ($id==0) echo " active"; ?> btn-large" id="ap<?php $id++; echo $id; ?>">
+                                <a href="javascript:void(0)" class="anime_point btn btn-large" id="ap<?php $id++; echo $id; ?>">
                                    <?php echo $point ?>
                                 </a>
                             </dt>
