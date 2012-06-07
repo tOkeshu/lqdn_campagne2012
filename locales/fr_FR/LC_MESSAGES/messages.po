@@ -1,31 +1,36 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Benjamin Sonntag <benjamin@sonntag.fr>, 2012.
+# Oriane  <>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: LQDNCampaign 2012.1\n"
+"Project-Id-Version: LQDN Support\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-08 00:12+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2012-06-08 00:32+0200\n"
+"PO-Revision-Date: 2012-06-07 22:32+0000\n"
+"Last-Translator: Oriane <>\n"
+"Language-Team: French (http://www.transifex.net/projects/p/lqdnsupport/"
+"language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../dev/00_noscript.php:5
 msgid ""
 "Your browser does not support Javascript or you deactivated it. Please "
 "enable it for a better experience,."
 msgstr ""
+"Votre navigateur n'a pas javascript d'activé. Merci de l'activer pour un "
+"surf plus fluide, "
 
 #: ../dev/10_topheader.php:10
 msgid "Support La Quadrature du Net"
-msgstr ""
+msgstr "Soutenit la Quadrature du Net"
 
 #: ../dev/10_topheader.php:11
 msgid ""
@@ -33,18 +38,22 @@ msgid ""
 "campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
 "forward, advocating for a positive agenda to protect our freedoms."
 msgstr ""
+"Ces quatre dernières années, La Quadrature du Net a alerté les citoyens et "
+"fait campagne contre ACTA.<br />Nous avons besoin de votre aide pour "
+"détruire ACTA et aller de l'avant : construisons un agenda positif pour "
+"defendre nos libertés."
 
 #: ../dev/20_dark_blue_rollover.php:6
 msgid "Against ACTA..."
-msgstr ""
+msgstr "Contre ACTA..."
 
 #: ../dev/20_dark_blue_rollover.php:40
 msgid "...And Beyond!"
-msgstr ""
+msgstr "...et au-delà !"
 
 #: ../dev/31_donation_form1_html.php:7
 msgid "Support Us"
-msgstr ""
+msgstr "Soutenez-nous"
 
 #: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
 msgid ""
@@ -52,6 +61,8 @@ msgid ""
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
 "will receive as a PDF by email.</strong>."
 msgstr ""
+"En remerciement de votre don, vous recevrez 1 000 décimales de π dans un "
+"certificat personnalisé, envoyé <strong>par email au format PDF</strong>."
 
 #: ../dev/31_donation_form1_html.php:51
 msgid ""
@@ -60,6 +71,9 @@ msgid ""
 "will receive as a PDF by email + an original print on high quality paper</"
 "strong>."
 msgstr ""
+"En remerciement de votre don, vous recevrez 1 000 décimales de π dans un "
+"certificat personnalisé, envoyé <strong>par email au format PDF + un  tirage "
+"original de qualité supérieure</strong>."
 
 #: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
 msgid ""
@@ -68,10 +82,14 @@ msgid ""
 "will receive as a PDF by email + an original print on high quality paper + a "
 "wonderful tee-shirt!</strong>"
 msgstr ""
+"En remerciement de votre don, vous recevrez 1 000 décimales de π dans un "
+"certificat personnalisé, envoyé <strong>par email au format PDF + un  tirage "
+"original de qualité supérieure + un 'pi-shirt' portant le logo de La "
+"Quadrature du Net !"
 
 #: ../dev/31_donation_form1_html.php:76
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: ../dev/31_donation_form1_html.php:79
 msgid ""
@@ -79,23 +97,28 @@ msgid ""
 "cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://"
 "www.laquadrature.net/en/how-to-participate\">help us in other ways!</a>"
 msgstr ""
+"Merci d'entrer le montant de votre choix. Du fait de frais bancaires "
+"importants, nous ne pouvons pas accepter les dons de moins de 5&nbsp;&euro;. "
+"Vous pouvez toujours nous aider par <a href=\"https://www.laquadrature.net/"
+"fr/participer\">votre action</a>&nbsp;!"
 
 #: ../dev/31_donation_form1_html.php:86
 msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
 msgstr ""
+"Je souhaite faire ce don tous les mois. (<b>banque française seulements</b>)"
 
 #: ../dev/31_donation_form1_html.php:92
 msgid "I support La Quadrature du Net"
-msgstr ""
+msgstr "Je soutiens La Quadrature du Net"
 
 #: ../dev/32_donation_form2_html.php:7
 msgid "Support us (step 2/3)"
-msgstr ""
+msgstr "Nous soutenir (étape 2/3)"
 
 #: ../dev/32_donation_form2_html.php:33
 #, php-format
 msgid "Make a donation of: <b>%s &euro;</b>"
-msgstr ""
+msgstr "Faire un don de&nbsp;: <b>%s &euro;</b>"
 
 #: ../dev/32_donation_form2_html.php:41
 msgid ""
@@ -103,106 +126,114 @@ msgid ""
 "support. For your convenience, you will have to possibility to pause or stop "
 "this donation each month."
 msgstr ""
+"Vous souhaitez effectuer ce don tous les mois, La Quadrature du Net vous en "
+"remercie ! La possibilité vous sera bien entendu donnée de faire une pause "
+"ou stopper ce don récurrent."
 
 #: ../dev/32_donation_form2_html.php:44
 msgid "Email:"
-msgstr ""
+msgstr "Email&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:47
 msgid "First Name, Full Name or Nickname:"
-msgstr ""
+msgstr "Prénom, Nom ou Pseudo&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:50
 msgid "Please show me in the public donor list"
-msgstr ""
+msgstr "Je souhaite apparaitre dans la liste des soutiens"
 
 #: ../dev/32_donation_form2_html.php:53
 msgid "Please send me La Quadradure du Net's monthly newsletter"
 msgstr ""
+"Je souhaite recevoir la lettre mensuelle d'actualité de La Quadrature du Net"
 
 #: ../dev/32_donation_form2_html.php:62
 msgid "Bank information for your monthly donation"
-msgstr ""
+msgstr "Informations bancaires pour votre don mensuel"
 
 #: ../dev/32_donation_form2_html.php:64
 msgid "Donor's Last Name:"
-msgstr ""
+msgstr "Nom du donateur&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:67
 msgid "Donor's First Name:"
-msgstr ""
+msgstr "Prénom du donateur&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:70
 msgid "Bank account holder's name<br />(if different):"
-msgstr ""
+msgstr "Titulaire du compte bancaire (si différent)&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:73
 msgid "Bank account details:"
-msgstr ""
+msgstr "RIB&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:80
 msgid "Financial Institution's Name:"
-msgstr ""
+msgstr "Établissement teneur du compte&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:83
 msgid "Institution's postal address:"
-msgstr ""
+msgstr "Adresse de la banque&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:86
 msgid "Postal Code:"
-msgstr ""
+msgstr "Code postal&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:89
 msgid "City:"
-msgstr ""
+msgstr "Ville&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:92
 msgid "Mot de passe :"
-msgstr ""
+msgstr "Mot de passe :"
 
 #: ../dev/32_donation_form2_html.php:95
 msgid "De nouveau (vérification) :"
-msgstr ""
+msgstr "De nouveau (vérification) :"
 
 #: ../dev/32_donation_form2_html.php:107
 msgid ""
 "Please do <b>not</b> send me any goodies, so my entire donation can be used "
 "directly to help La Quadrature du Net."
 msgstr ""
+"Je ne souhaite <b>pas</b> recevoir de cadeaux, afin que l'intégralité de mon "
+"don serve à La Quadrature du Net"
 
 #: ../dev/32_donation_form2_html.php:120
 msgid "Style/Size of your pi-shirt:"
-msgstr ""
+msgstr "Coupe et Taille du Pi-Shirt&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:124
 msgid "Donor's name (for the parcel):"
-msgstr ""
+msgstr "Nom du donateur (pour le colis)&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:127
 msgid "Donor's Postal Address:"
-msgstr ""
+msgstr "Votre adresse postale&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:130
 msgid "Donor's Zipcode:"
-msgstr ""
+msgstr "Votre code postal&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:133
 msgid "Donor's City:"
-msgstr ""
+msgstr "Votre Ville&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:136
 msgid "Donor's Country:"
-msgstr ""
+msgstr "Votre Pays&nbsp;:"
 
 #: ../dev/32_donation_form2_html.php:147
 msgid "Yes, make this donation to La Quadrature du Net"
-msgstr ""
+msgstr "Je confirme ce don à La Quadrature du Net"
 
 #: ../dev/32_donation_form2_html.php:153
 msgid ""
 "Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la "
 "Neutralité du Net)"
 msgstr ""
+"Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la "
+"Neutralité du Net)"
 
 #: ../dev/32_donation_form2_html.php:155
 msgid ""
@@ -210,42 +241,44 @@ msgid ""
 "of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La "
 "Quadrature du Net's accounts."
 msgstr ""
+"Vous allez être redirigé vers le serveur de notre banque (le Crédit Mutuel) "
+"au nom de l'association FDNN (Fonds de Défense de la Neutralité du Net)."
 
 #: ../dev/40_progress_bar.php:6
 msgid "Progress Bar"
-msgstr ""
+msgstr "Jauge des soutiens"
 
 #: ../dev/40_progress_bar.php:35
 msgid "days until the end of this campaign"
-msgstr ""
+msgstr "jours avant la fin de cette campagne"
 
 #: ../dev/40_progress_bar.php:36
 msgid "Generous donators"
-msgstr ""
+msgstr "Généreux donateurs"
 
 #: ../dev/40_progress_bar.php:50
 msgid ":"
-msgstr ""
+msgstr "&nbsp;:"
 
 #: ../dev/50_faq.php:4
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Foire Aux Questions "
 
 #: ../dev/60_footer.php:7
 msgid "Share!"
-msgstr ""
+msgstr "Partagez&nbsp;!"
 
 #: ../dev/60_footer.php:11 ../dev/60_footer.php:14
 msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
-msgstr ""
+msgstr "Comme moi, soutiens @LaQuadrature du Net, contre #ACTA et au delà !"
 
 #: ../dev/60_footer.php:17 ../dev/60_footer.php:20
 msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
-msgstr ""
+msgstr "Comme moi, soutiens La Quadrature du Net, contre ACTA et au delà !"
 
 #: ../dev/60_footer.php:23
 msgid "Support La Quadrature du Net against ACTA and beyond"
-msgstr ""
+msgstr "Soutenez La Quadrature du Net, contre ACTA et au delà"
 
 #: ../dev/60_footer.php:23
 msgid ""
@@ -253,14 +286,19 @@ msgid ""
 "campaigned against ACTA. We need your help to defeat ACTA and move forward, "
 "advocating for a positive agenda to protect our freedoms. "
 msgstr ""
+"Les années précédentes, La Quadrature du Net a alerté les citoyens et mené "
+"campagne contre ACTA. Nous avons besoin de votre aide pour vaincre ACTA et "
+"aller plus loin, en x"
 
 #: ../dev/60_footer.php:30
 msgid "Spread the message!"
-msgstr ""
+msgstr "Passez le mot !"
 
 #: ../dev/index.php:7
 msgid "Help La Quadrature defend our rights online against ACTA and beyond"
 msgstr ""
+"Aidez La Quadrature du Net à défendre nos droits en ligne, contre ACTA et au "
+"delà !"
 
 #: ../dev/index.php:9
 msgid ""
@@ -545,8 +583,8 @@ msgstr ""
 
 #: ../dev/32_donation_form2_html.php:92
 msgid "Password:"
-msgstr ""
+msgstr "Mot de passe :"
 
 #: ../dev/32_donation_form2_html.php:95
 msgid "Again (password check):"
-msgstr ""
+msgstr "De nouveau (vérification du mot de passe) :"

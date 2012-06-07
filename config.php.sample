@@ -11,7 +11,5 @@ mysql_select_db("dbname");
 error_reporting(E_ALL);
 ini_set("display_errors", true);
 
-/* ROOT url of this page : */
-define("ROOTURL","https://support.dev.laquadrature.net/");
 
 ?>

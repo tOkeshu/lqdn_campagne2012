@@ -1,12 +1,30 @@
 <?php
 
+list($main)=explode(".",$_SERVER["HTTP_HOST"]);
 
-$lang = 'en';
+if ($main=="support") {
+  /* ROOT url of this page : */
+  define("ROOTURL","https://support.laquadrature.net/");
+  $lang="en_US";
+}
+if ($main=="soutien") {
+  /* ROOT url of this page : */
+  define("ROOTURL","https://soutien.laquadrature.net/");
+  $lang="fr_FR";
+}
 
-//include("lang/translator.php");
+bindtextdomain("messages", dirname(__FILE__)."/locales");
+/* Language ok, set the locale environment */
+putenv("LC_MESSAGES=".$lang);
+putenv("LANG=".$lang);
+putenv("LANGUAGE=".$lang);
+// this locale MUST be selected in "dpkg-reconfigure locales"
+setlocale(LC_ALL,$lang); 
+textdomain("messages");
 
-//$lang = 'fr';
-//require_once(dirname(__FILE__) . "/lang/$lang/campaign.lang.php");
+$charset="UTF-8";
+bind_textdomain_codeset("messages","$charset");
+
 
 require_once("functions.php");
 
