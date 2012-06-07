@@ -71,7 +71,7 @@ $(document).ready(function() {
   $( "#progress_bar" ).progressbar({
   value: <?php 
 	    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-06-04'"));
-	    echo intval($obj1count/100000); ?>+1
+  echo min(1,max(intval($obj1count/100000),100)); ?>
   
   });
 });

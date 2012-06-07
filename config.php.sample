@@ -1,4 +1,4 @@
-<?php
+1;2802;0c1<?php
 
 /* Configuration file for 2012 Campaign manager */
 define("SYSADMIN","email@example.com");
@@ -11,6 +11,7 @@ mysql_select_db("dbname");
 error_reporting(E_ALL);
 ini_set("display_errors", true);
 
-
+/* ROOT url of this page : */
+define("ROOTURL","https://support.dev.laquadrature.net/");
 
 ?>
