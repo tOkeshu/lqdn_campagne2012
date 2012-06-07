@@ -1,0 +1,525 @@
+# French LQDN Translation
+# Copyright (c) 2012 LQDN
+# <bs@laquadrature.net>
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: bs@laquadrature.net\n"
+"POT-Creation-Date: 2012-06-06 19:34+0200\n"
+"PO-Revision-Date: 2012-06-07 13:50CEST\n"
+"Last-Translator: Benjamin Sonntag <benjamin@sonntag.fr>\n"
+"Language-Team: French <bs@laquadrature.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../dev/00_noscript.php:5
+msgid ""
+"Your browser does not support Javascript or you deactivated it. Please "
+"enable it for a better experience,."
+msgstr ""
+
+#: ../dev/10_topheader.php:10
+msgid "Support La Quadrature du Net"
+msgstr ""
+
+#: ../dev/10_topheader.php:11
+msgid ""
+"For the past three years, La Quadrature du Net has helped raise awareness "
+"and campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
+"forward, advocating for a positive agenda to protect our freedoms."
+msgstr ""
+
+#: ../dev/20_dark_blue_rollover.php:6
+msgid "Against ACTA..."
+msgstr ""
+
+#: ../dev/20_dark_blue_rollover.php:40
+msgid "...And Beyond!"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:7
+msgid "Support Us"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"will receive as a PDF by email.</strong>."
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:51
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"will receive as a PDF by email + an original print on high quality paper</"
+"strong>."
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"will receive as a PDF by email + an original print on high quality paper + a "
+"wonderful tee-shirt!</strong>"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:76
+msgid "Other"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:79
+msgid ""
+"Please enter the amount you want to give. due to high banking costs, we "
+"cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://"
+"www.laquadrature.net/en/how-to-participate\">help us in other ways!</a>"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:86
+msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
+msgstr ""
+
+#: ../dev/31_donation_form1_html.php:92
+msgid "I support La Quadrature du Net"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:7
+msgid "Support us (step 2/3)"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:33
+#, php-format
+msgid "Make a donation of: <b>%s &euro;</b>"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:41
+msgid ""
+"You wish to support us with a monthly donation, thank you for your kind "
+"support. For your convenience, you will have to possibility to pause or stop "
+"this donation each month."
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:44
+msgid "Email:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:47
+msgid "First Name, Full Name or Nickname:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:50
+msgid "Please show me in the public donor list"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:53
+msgid "Please send me La Quadradure du Net's monthly newsletter"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:62
+msgid "Bank information for your monthly donation"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:64
+msgid "Donor's Last Name:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:67
+msgid "Donor's First Name:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:70
+msgid "Bank account holder's name<br />(if different):"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:73
+msgid "Bank account details:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:80
+msgid "Financial Institution's Name:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:83
+msgid "Institution's postal address:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:86
+msgid "Postal Code:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:89
+msgid "City:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:92
+msgid "Mot de passe :"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:95
+msgid "De nouveau (vrification) :"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:107
+msgid ""
+"Please do <b>not</b> send me any goodies, so my entire donation can be used "
+"directly to help La Quadrature du Net."
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:120
+msgid "Style/Size of your pi-shirt:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:124
+msgid "Donor's name (for the parcel):"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:127
+msgid "Donor's Postal Address:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:130
+msgid "Donor's Zipcode:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:133
+msgid "Donor's City:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:136
+msgid "Donor's Country:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:147
+msgid "Yes, make this donation to La Quadrature du Net"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:153
+msgid ""
+"Vous allez tre redirig vers le site de FDNN (Fonds de Dfense de la Neutralit "
+"du Net)"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:155
+msgid ""
+"You will now be redirected to our bank's server (Crdit Mutuel) in the name "
+"of FDNN (Fonds de Dfense de la Net Neutralit), the NGO which manages La "
+"Quadrature du Net's accounts."
+msgstr ""
+
+#: ../dev/40_progress_bar.php:6
+msgid "Progress Bar"
+msgstr ""
+
+#: ../dev/40_progress_bar.php:35
+msgid "days until the end of this campaign"
+msgstr ""
+
+#: ../dev/40_progress_bar.php:36
+msgid "Generous donators"
+msgstr ""
+
+#: ../dev/40_progress_bar.php:50
+msgid ":"
+msgstr ""
+
+#: ../dev/50_faq.php:4
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../dev/60_footer.php:7
+msgid "Share!"
+msgstr ""
+
+#: ../dev/60_footer.php:17
+msgid "Help La Quadrature defends your rights online against ACTA and beyond"
+msgstr ""
+
+#: ../dev/60_footer.php:24
+msgid "Spread the message!"
+msgstr ""
+
+#: ../dev/index.php:7
+msgid "Help La Quadrature defend our rights online against ACTA and beyond"
+msgstr ""
+
+#: ../dev/index.php:9
+msgid ""
+"La Quadrature has been defending citizens' rights and freedoms online since "
+"2008. For the past three years, it has helped raise awareness and campaigned "
+"against ACTA. La Quadrature du Net needs your help to defeat ACTA and move "
+"forward, advocating for a positive agenda to protect our freedoms."
+msgstr ""
+
+#: ../dev/texts.php:7
+msgid ""
+"You should now be redirected to the payment process. If not, please click on "
+"previous in your browser."
+msgstr ""
+
+#: ../dev/texts.php:9
+msgid ""
+"An error happened while handling the form. Please contact us if the error "
+"persists."
+msgstr ""
+
+#: ../dev/texts.php:11
+msgid "Sorry, we can not accept donations under 5."
+msgstr ""
+
+#: ../dev/texts.php:13
+msgid ""
+"Please enter an email address (it can be a disposable one) so we can send "
+"you our warmest thank you and your pi-ploma!"
+msgstr ""
+
+#: ../dev/texts.php:15
+msgid ""
+"Your email address seems incorrect (accentuated and special characters can "
+"not be used)."
+msgstr ""
+
+#: ../dev/texts.php:17
+msgid "Please give as at least a nickname to personnalise your pi-ploma!"
+msgstr ""
+
+#: ../dev/texts.php:19
+msgid "Your complete address is needed to send you your goodies!"
+msgstr ""
+
+#: ../dev/texts.php:21
+msgid ""
+"We're experiencing technical difficulties, please try again in a few moments"
+msgstr ""
+
+#: ../dev/texts.php:23
+msgid ""
+"Our online payment processor is unavailable right now. We have been notified "
+"of the problem and are working hard to get it back up and running quickly. "
+"Please try again in a few hours. Sorry and thank you!"
+msgstr ""
+
+#: ../dev/texts.php:42
+msgid "Male, Size S"
+msgstr ""
+
+#: ../dev/texts.php:44
+msgid "Male, Size M"
+msgstr ""
+
+#: ../dev/texts.php:46
+msgid "Male, Size L"
+msgstr ""
+
+#: ../dev/texts.php:48
+msgid "Male, Size XL"
+msgstr ""
+
+#: ../dev/texts.php:50
+msgid "Female, Size S"
+msgstr ""
+
+#: ../dev/texts.php:52
+msgid "Female, Size M"
+msgstr ""
+
+#: ../dev/texts.php:54
+msgid "Female, Size L"
+msgstr ""
+
+#: ../dev/texts.php:56
+msgid "Female, Size XL"
+msgstr ""
+
+#: ../dev/texts.php:61
+msgid "Information"
+msgstr ""
+
+#: ../dev/texts.php:62
+msgid ""
+"<h3>Information since 2008, a web-dossier, 120 press releases</h3> La "
+"Quadrature du Net has documented and analyzed each and every <a target="
+"\"_blank\" href=\"http://www.laquadrature.net/wiki/ACTA:"
+"_Procedure_in_the_European_Parliament\" title=\"www.laquadrature.net/wiki/"
+"ACTA:_Procedure_in_the_European_Parliament\">step</a> of <a target=\"_blank"
+"\" href=\"http://lqdn.fr/acta\" title=\"lqdn.fr/acta\">ACTA</a> since <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/squaring-net-debate-"
+"open\" title=\"www.laquadrature.net/en/squaring-net-debate-open\">June 2008</"
+"a>. Through <a target=\"_blank\" href=\"http://www.laquadrature.net/en/0118-"
+"version-of-acta-consolidated-text-leaks\" title=\"www.laquadrature.net/"
+"en/0118-version-of-acta-consolidated-text-leaks\">leaking drafts</a>, <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/acta-a-global-threat-"
+"to-freedoms-open-letter\" title=\"www.laquadrature.net/en/acta-a-global-"
+"threat-to-freedoms-open-letter\">alerting</a> Members of the European "
+"Parliament and publishing various <a target=\"_blank\" href=\"http://www."
+"laquadrature.net/en/acta-updated-analysis-of-the-final-version\" title=\"www."
+"laquadrature.net/en/acta-updated-analysis-of-the-final-version\">analyses</"
+"a> and <a target=\"_blank\" href=\"http://www.laquadrature.net/en/quad-news/"
+"acta\" title=\"www.laquadrature.net/en/quad-news/acta\">press releases</a>, "
+"La Quadrature helped raise awareness among <a target=\"_blank\" href="
+"\"http://www.laquadrature.net/en/acta-why-we-take-to-the-streets\" title="
+"\"www.laquadrature.net/en/acta-why-we-take-to-the-streets\">citizens</a> and "
+"<a target=\"_blank\" href=\"http://www.laquadrature.net/wiki/Against_ACTA\" "
+"title=\"www.laquadrature.net/wiki/Against_ACTA\">organizations</a>, and "
+"worked from within the EU Parliament to defeat ACTA."
+msgstr ""
+
+#: ../dev/texts.php:63
+msgid "Action"
+msgstr ""
+
+#: ../dev/texts.php:64
+msgid ""
+"<h3>Citizen action in the European Parliament</h3> Throughout the various "
+"stages of ACTA's parliamentary process, <a target=\"_blank\" href=\"http://"
+"mediakit.laquadrature.net/view.php?id=777\" title=\"mediakit.laquadrature."
+"net/view.php?id=777\">dozens of citizens</a> from <a target=\"_blank\" href="
+"\"http://mediakit.laquadrature.net/view.php?id=779\" title=\"mediakit."
+"laquadrature.net/view.php?id=779\">all around Europe</a> were flown to the "
+"EU Parliament thanks to La Quadrature's funding and logisistics. This "
+"enabled important <a target=\"_blank\" href=\"http://www.laquadrature.net/en/"
+"eu-parliament-will-vote-on-acta-without-delay\" title=\"www.laquadrature.net/"
+"en/eu-parliament-will-vote-on-acta-without-delay\">victories</a> at every <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/important-victories-"
+"on-acta-moving-on-to-final-steps\" title=\"www.laquadrature.net/en/important-"
+"victories-on-acta-moving-on-to-final-steps\">step of the process</a>, in all "
+"the <a target=\"_blank\" href=\"http://www.laquadrature.net/en/encouraging-"
+"draft-acta-report-still-under-copyright-lobbies-influence\" title=\"www."
+"laquadrature.net/en/encouraging-draft-acta-report-still-under-copyright-"
+"lobbies-influence\">committees</a> and with all the political groups of the "
+"EU Parliament."
+msgstr ""
+
+#: ../dev/texts.php:65
+msgid "Campaigns"
+msgstr ""
+
+#: ../dev/texts.php:66
+msgid ""
+"<h3>An animated movie seen over 2.5 million times</h3> \"<a target=\"_blank"
+"\" href=\"http://www.laquadrature.net/en/video-acta-get-informed-take-action"
+"\" title=\"www.laquadrature.net/en/video-acta-get-informed-take-action\">NO "
+"to ACTA</a>\" explains in 2 minutes and in simple terms the dangers of ACTA "
+"for Internet users as well as for access to medicines, while calling for "
+"action. It helped spread the word on ACTA in mainstream media, reaching a "
+"wider audience through powerful symbols and messages. It was spontaneously "
+"translated into 15 languages by volunteers."
+msgstr ""
+
+#: ../dev/texts.php:67
+msgid "Mobilisation"
+msgstr ""
+
+#: ../dev/texts.php:68
+msgid ""
+"<h3>Let's bury it and build a post-ACTA world!</h3> Citizens must <a target="
+"\"_blank\" href=\"http://www.laquadrature.net/en/over-1-million-views-for-no-"
+"to-acta-video-now-take-action\" title=\"www.laquadrature.net/en/over-1-"
+"million-views-for-no-to-acta-video-now-take-action\">remain mobilized</a> "
+"until the <a target=\"_blank\" href=\"https://memopol.lqdn.fr/europe/"
+"parliament/committee/INTA/\" title=\"memopol.lqdn.fr/europe/parliament/"
+"committee/INTA/\">INTA</a> committee's <a target=\"_blank\" href=\"http://"
+"www.europarl.europa.eu/sides/getpdf.do?"
+"type=COMPARL&reference=PE-486.174&format=PDF&language=EN&secondRef=02\" "
+"title=\"www.europarl.europa.eu/sides/getpdf.do?"
+"type=COMPARL&reference=PE-486.174&format=PDF&language=EN&secondRef=02\">report</"
+"a> is finalized and adopted (21st June), and until the final consent vote in "
+"plenary (3, 4 or 5th of July). This final step will allow Members of the EU "
+"Parliament to destroy ACTA once and for all, <a target=\"_blank\" href ="
+"\"http://www.laquadrature.net/en/a-strategy-looking-through-acta-and-beyond"
+"\">paving the way</a> for a positive reform of copyright."
+msgstr ""
+
+#: ../dev/texts.php:72
+msgid "Sharing"
+msgstr ""
+
+#: ../dev/texts.php:73
+msgid ""
+"<h3>Our cultural practices must be made legal</h3> Editing and modifying "
+"works of art (remix) has become a means of expression for a whole "
+"generation. The <a target=\"_blank\" href=\"http://www.laquadrature.net/en/"
+"citizens-artists-and-consumers-in-favour-of-the-legal-recognition-of-file-"
+"sharing\" title=\"www.laquadrature.net/en/citizens-artists-and-consumers-in-"
+"favour-of-the-legal-recognition-of-file-sharing\">sharing of files</a>, "
+"between individuals and not for profit, is an essential way to access and "
+"share culture. Our cultural practices must be <a target=\"_blank\" href="
+"\"http://www.laquadrature.net/en/future-of-copyright-la-quadrature-calls-on-"
+"the-commission-to-reassert-the-publics-rights\">encouraged and protected</a> "
+"instead of being <a target=\"_blank\" href=\"http://www.laquadrature.net/en/"
+"the-pirate-bay-decision-or-the-political-persecution-of-sharing\">vilified</"
+"a> and <a target=\"_blank\" href=\"http://www.laquadrature.net/en/notice-"
+"action-eu-commission-must-put-freedom-of-expression-first\" title=\"www."
+"laquadrature.net/en/notice-action-eu-commission-must-put-freedom-of-"
+"expression-first\">repressed</a>. The <a target=\"_blank\" href=\"http://www."
+"laquadrature.net/en/megaupload-copyright-industry-at-war-against-monsters-of-"
+"its-own-making\" title=\"www.laquadrature.net/en/megaupload-copyright-"
+"industry-at-war-against-monsters-of-its-own-making\">war on sharing</a> has "
+"to end; <a target=\"_blank\" href=\"http://www.laquadrature.net/en/sharing-"
+"is-legitimate\" title=\"www.laquadrature.net/en/sharing-is-legitimate"
+"\">copyright must evolve</a>."
+msgstr ""
+
+#: ../dev/texts.php:74
+msgid "Freedom Online"
+msgstr ""
+
+#: ../dev/texts.php:75
+msgid ""
+"<h3>Safeguarding a universal Net and free expression online</h3> The "
+"network's <a target=\"_blank\" href=\"http://www.laquadrature.net/en/eu-"
+"governments-oppose-an-open-wireless-infrastructure\" title=\"www."
+"laquadrature.net/en/eu-governments-oppose-an-open-wireless-infrastructure"
+"\">decentralized architecture</a> is key to <a target=\"_blank\" href="
+"\"http://www.laquadrature.net/en/net-filtering-violates-the-rule-of-law\" "
+"title=\"www.laquadrature.net/en/net-filtering-violates-the-rule-of-law"
+"\">freedom of communication and online innovation</a>. It must be protected, "
+"on <a target=\"_blank\" href=\"http://www.laquadrature.net/en/more-than-half-"
+"of-the-eu-with-restrictions-to-net-access-what-will-neelie-kroes-do\" title="
+"\"www.laquadrature.net/en/more-than-half-of-the-eu-with-restrictions-to-net-"
+"access-what-will-neelie-kroes-do\">both landline and mobile networks</a>, "
+"from operators who <a target=\"_blank\" href=\"http://www.laquadrature.net/"
+"en/eu-telecom-regulators-wake-up-call-on-net-neutrality\" title=\"www."
+"laquadrature.net/en/eu-telecom-regulators-wake-up-call-on-net-neutrality"
+"\">increasingly restrict</a> their users' communications. <a target=\"_blank"
+"\" href=\"http://www.laquadrature.net/en/Net_neutrality\" title=\"www."
+"laquadrature.net/en/Net_neutrality\">Net neutrality</a> and other <a target="
+"\"_blank\" href=\"http://www.laquadrature.net/en/proposals\" title=\"www."
+"laquadrature.net/en/proposals\">policies</a> must guarantee by law the "
+"capacity to create, access and share knowledge and information."
+msgstr ""
+
+#: ../dev/texts.php:76
+msgid "Empowerment"
+msgstr ""
+
+#: ../dev/texts.php:77
+msgid ""
+"<h3>Building tools empowering citizens to change things</h3> La Quadrature "
+"du Net provides <a target=\"_blank\" href=\"http://www.laquadrature.net/en/"
+"tools\" title=\"www.laquadrature.net/en/tools\">tools</a> for citizens who "
+"want to take action and participate in the public debate. Tools such as <a "
+"target=\"_blank\" href=\"https://memopol.lqdn.fr\">Political Memory</a>, La "
+"Quadrature's <a target=\"_blank\" href=\"http://mediakit.laquadrature.net/"
+"\">Mediakit</a>, the <a target=\"_blank\" href=\"http://piphone.lqdn.fr\">Pi-"
+"Phone</a> or ad-hoc campaigning tools, such as <a target=\"_blank\" href="
+"\"http://respectmynet.eu\">Respect My Net</a>, are under constant "
+"development, in track with La Quadrature's campaigning, and participate in "
+"the technical and political empowerment of <a target=\"_blank\" href="
+"\"http://www.laquadrature.net/en/how-to-participate\" title=\"www."
+"laquadrature.net/en/how-to-participate\">citizens</a>."
+msgstr ""
+
+#: ../dev/texts.php:78
+msgid "Infrastructure"
+msgstr ""
+
+#: ../dev/texts.php:79
+msgid ""
+"<h3>Funding full-time activists and volunteers' actions</h3> La Quadrature "
+"du Net's infrastructure allows three full-time and one part-time activists "
+"as well as an intern to work together out of a shared space in Paris. This "
+"space enables volunteers to participate in workshops and campaigning. "
+"Funding also serves to organize volunteer action such as bringing citizens "
+"from all over Europe to the EU Parliament."
+msgstr ""
