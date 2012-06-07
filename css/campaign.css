@@ -104,9 +104,27 @@ h3 {
 	font-size: 1.2em;
         line-height:1.4em
     }
+    .animer_text.fr, .animel_text.fr {
+	COLOR:#000;
+	padding-top: 20px;
+        text-align:justify;
+	font-size: 1.1em;
+        line-height:1.2em
+
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+white-space: pre;
+white-space: -hp-pre-wrap; /* HP Printers */
+white-space: pre-line;
+word-break: normal;
+
+    }
 
     .animel_text{
-        width: 260px;
+        width: 17em;
         line-height: 1.4em;
         line-break: loose;
         padding-left: 17px;
@@ -125,7 +143,7 @@ h3 {
         padding-right:10px;
     }
     .animer_text{
-        width: 245px;
+        width: 17em;
         padding-left: 220px;
    }
    

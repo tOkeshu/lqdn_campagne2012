@@ -99,4 +99,6 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                         </div>                            
                     </div>                            
                     </form><!-- donation form -->
+
+								   <?php include("55_share.php"); ?>
                 </div>

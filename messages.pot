@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-08 00:41+0200\n"
+"POT-Creation-Date: 2012-06-08 01:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -549,4 +549,18 @@ msgstr ""
 
 #: ../dev/32_donation_form2_html.php:95
 msgid "Again (password check):"
+msgstr ""
+
+#: ../dev/60_footer.php:34 ../dev/60_footer.php:35 ../dev/60_footer.php:37
+#: ../dev/60_footer.php:40 ../dev/60_footer.php:41 ../dev/60_footer.php:43
+#: ../dev/60_footer.php:47 ../dev/60_footer.php:48 ../dev/60_footer.php:50
+#: ../dev/60_footer.php:52 ../dev/60_footer.php:53 ../dev/60_footer.php:55
+#: ../dev/60_footer.php:59 ../dev/60_footer.php:60 ../dev/60_footer.php:62
+#: ../dev/60_footer.php:66 ../dev/60_footer.php:67 ../dev/60_footer.php:69
+msgid "Support La Quadrature du Net against ACTA and beyond!"
+msgstr ""
+
+#: ../dev/60_footer.php:36 ../dev/60_footer.php:42 ../dev/60_footer.php:49
+#: ../dev/60_footer.php:54 ../dev/60_footer.php:61 ../dev/60_footer.php:68
+msgid "Add this image to your website:"
 msgstr ""

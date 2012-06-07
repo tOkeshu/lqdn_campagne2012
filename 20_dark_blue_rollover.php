@@ -25,13 +25,13 @@
 		      <?php $id2 = 0; /* in texts.php */ foreach($actapoints as $point => $details ): ?>
 		      <div class="animed" id="dap<?php $id2++; echo $id2; ?>">
 		        <div class="animel_figure" id="fap<?php echo $id2; ?>"><img id="figure_img" src="images/perso_<?php echo $id2; ?>.png"/></div>
-                        <div class="animel_text" id="tap<?php echo $id2; ?>"><?php echo $details; ?></div>
+                        <div class="animel_text <?php echo substr($lang,0,2); ?>" id="tap<?php echo $id2; ?>"><?php echo $details; ?></div>
 		      </div>
 			<?php endforeach ?>
 		      <?php  /* in texts.php */ foreach($beyondpoints as $point => $details ): ?>
 		      <div class="animed" id="dap<?php $id2++; echo $id2; ?>">
 		        <div class="animer_figure" id="fap<?php echo $id2; ?>"><img id="figure_img" src="images/perso_<?php echo $id2; ?>.png"/></div>
-                        <div class="animer_text" id="tap<?php echo $id2; ?>"><?php echo $details; ?></div>
+                        <div class="animer_text <?php echo substr($lang,0,2); ?>" id="tap<?php echo $id2; ?>"><?php echo $details; ?></div>
 		      </div>
 			<?php endforeach ?>
                     </div>
