@@ -6,7 +6,7 @@ require_once("all.php");
   <head>
     <title><?php __("Help La Quadrature defend our rights online against ACTA and beyond") ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="<?php __("La Quadrature has been defending citizens' rights and freedoms online since 2008. For the past three years, it has helped raise awareness and campaigned against ACTA. La Quadrature du Net needs your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms."); ?>" />
+    <meta name="description" content="<?php __("For the past four years, La Quadrature du Net has raised awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms."); ?>" />
     <meta name="author" content="la Quadrature du Net" />
     <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="css/campaign.css"/>
