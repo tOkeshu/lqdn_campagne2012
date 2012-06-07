@@ -228,14 +228,14 @@ h3 {
 li{list-style: none;}
 * label{display:inline;}
 
-.faq a{
+.faq #blockfaqsoutien a {
     font-weight:bold;
-    color:#3588cc;
+    color: #3588cc;
 }
 
-.faq a:hover{
+.faq #blockfaqsoutien a:hover{
     font-weight:bold;
-    color:#005580;
+    color: #005580;
     border-bottom: 1px solid #000;
     text-decoration: none;
 }
