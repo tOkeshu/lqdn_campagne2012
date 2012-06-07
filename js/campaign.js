@@ -22,6 +22,15 @@ $(document).ready(function() {
     // mouseOver
     $("a.anime_point").mouseover(manualAnime);
     $("a.anime_point").click(manualAnime);
+    $("#header").mouseover(function() {
+	switchAnime("ap99");
+    });
+    $("#progress").mouseover(function() {
+	switchAnime("ap99");
+    });
+    $("#donations").mouseover(function() {
+	switchAnime("ap99");
+    });
 
     // gifts
     $(".amounts_holder input").click(function(e){
@@ -47,6 +56,9 @@ $(document).ready(function() {
 	    }
 	});
     }
+
+    // Default = show the demonstration
+    switchAnime("ap99");
 
 })
 

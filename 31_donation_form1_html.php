@@ -1,4 +1,4 @@
-            <div class="row donations">
+            <div class="row donations" id="donations">
                 <div class="span6">
 
                     <div class="row">
@@ -57,7 +57,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="100" id="sum100"<?php ifcheck($_REQUEST["sum"]=="100"); ?> class="predef" />
                                     <label for="sum100">100&nbsp;&euro;</label>
                                     <div class="alert " id="piplome_ts"  style="display:none">
-                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a 'pi-shirt' with La Quadrature du Net's logo!</strong>"); ?></p>
+                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a wonderful tee-shirt!</strong>"); ?></p>
                                         <p class="cadeaux"><img src="images/piplomemail.png">
                                             <img src="images/pishirt.png"></p>
 				    </div>    
@@ -66,7 +66,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                                     <input type="radio" name="sum" value="250" id="sum250"<?php ifcheck($_REQUEST["sum"]=="25"); ?> class="predef" />
                                     <label for="sum250">250&nbsp;&euro;</label>
                                     <div class="alert " id="piplome_ts2"  style="display:none">
-                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a 'pi-shirt' with La Quadrature du Net's logo!</strong>"); ?></p>
+                                        <p><?php __("To thank you for your generous donation, La Quadrature du Net will send you a personnalised diploma with your very own 1 000 π digits, which <strong>you will receive as a PDF by email + an original print on high quality paper + a wonderful tee-shirt!</strong>"); ?></p>
                                         <p class="cadeaux"><img src="images/piplomemail.png">
                                             <img src="images/pishirt.png"></p>
 				    </div>    

@@ -1,4 +1,4 @@
-            <div class="row donations">
+            <div class="row donations" id="donations">
                 <div class="span6">
 
                     <div class="row">
