@@ -31,42 +31,42 @@
                     </h2>
                     <div>
                         <div class="spread">
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_125*125.gif" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-       <textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_125*125.gif" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_125*125.gif" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+       <textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_125*125.gif" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>
                         </div>
                         <div class="spread">
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_125*125.png" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-																																																										    <textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_125*125.png" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_125*125.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+																																																										    <textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_125*125.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>
                         </div>
 			<br clear="all" />
                         <div class="spread">
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_250*250.gif" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_250*250.gif" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>                        </div>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_250*250.gif" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_250*250.gif" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>                        </div>
                         <div class="spread">
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_250*250.png" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_250*250.png" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_250*250.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_250*250.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>
                         </div>
 			<br clear="all" />
 			<div class="spread">
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_468*60.png" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_468*60.png" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_468*60.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_468*60.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>
 			</div>
 			<div class="spread">
 
-				<a href="<?php echo ROOTURL; ?>" title="Support La Quadrature du Net against ACTA and beyond!" alt="Support La Quadrature du Net against ACTA and beyond!"><br />
-				<img src="images/LQDN_support_against_ACTA_and_beyond_728*90.png" alt="Support La Quadrature du Net against ACTA and beyond!" /><br /></a><br />
-				<br />Add this image to your website:<br />
-				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;Support La Quadrature du Net against ACTA and beyond!&quot; alt=&quot;Support La Quadrature du Net against ACTA and beyond!&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_728*90.png" alt="Support La Quadrature du Net against ACTA and beyond!" /&gt;&lt;/a&gt;</textarea>
+				<a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
+				<img src="images/LQDN_support_against_ACTA_and_beyond_728*90.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
+				<br /><?php __("Add this image to your website:"); ?><br />
+				<textarea rows="3" cols="60" style="max-width:100%; font-size:0.9em; overflow: hidden;" onclick="this.select();" ><a href=&quot;<?php echo ROOTURL; ?>&quot; title=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot; alt=&quot;<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>&quot;&gt;&lt;img src="<?php echo ROOTURL; ?>images/LQDN_support_against_ACTA_and_beyond_728*90.png" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /&gt;&lt;/a&gt;</textarea>
                         </div>
                     </div>
                     
