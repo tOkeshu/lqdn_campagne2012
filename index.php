@@ -27,7 +27,7 @@ require_once("all.php");
   <?php include(dirname(__FILE__) . "/40_progress_bar.php"); ?>
   
       
-     <div class="container-wrapper" id="support"><!-- donation form -->1
+     <div class="container-wrapper" id="support"><!-- donation form -->
         <div class="container" style="overflow:hidden">
     
          <?php include(dirname(__FILE__) . "/30_donation_form.php"); ?>

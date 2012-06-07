@@ -117,7 +117,6 @@ h3 {
 	font-color: #FF0000;
     }
     .animel_text a:hover, .animel_text a:active, .animer_text a:hover, .animer_text a:active {
-	border-bottom: 1px solid #000;
 	text-decoration: none;
     }
     .animel_figure{
@@ -239,7 +238,6 @@ li{list-style: none;}
 .faq #blockfaqsoutien a:hover{
     font-weight:bold;
     color: #005580;
-    border-bottom: 1px solid #000;
     text-decoration: none;
 }
 

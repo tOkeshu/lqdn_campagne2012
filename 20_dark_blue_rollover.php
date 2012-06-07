@@ -19,7 +19,7 @@
                 <div class="span6">
                     <div class="anime_display">
        <div class="animed" id="dap99">
-          <div class="animel_figure" id="fap99"><img id="figure_img" src="images/united_in_diversity_370.png"/></div>
+          <div id="fap99"><img id="figure_img" src="images/united_in_diversity_370.png"/></div>
        </div>
 		      <!-- hide/show through switchAnime() -->
 		      <?php $id2 = 0; /* in texts.php */ foreach($actapoints as $point => $details ): ?>
