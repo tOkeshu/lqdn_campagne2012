@@ -8,7 +8,7 @@
                <!-- <div class="offset1 span9"> -->
 <div  style="float: right; padding-left: 30px; margin-left:-30px;"><a href="http://laquadrature.net"><img src="images/lqdn.png"/></a></div>
        <h1><?php __("Support La Quadrature du Net"); ?></h1>
-       <p><?php __("For the past three years, La Quadrature du Net has helped raise awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms.");  ?> </p>
+       <p><?php __("For the past four years, La Quadrature du Net has raised awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms.");  ?> </p>
 
                <!-- </div> -->
 

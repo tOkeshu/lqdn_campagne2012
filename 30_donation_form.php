@@ -40,6 +40,3 @@ if (isset($_POST["etape2"])) {
   require_once("31_donation_form1_html.php");
 }
 ?>
-
-    
-

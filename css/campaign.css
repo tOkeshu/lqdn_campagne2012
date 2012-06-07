@@ -35,7 +35,7 @@ h3 {
 }
 
 #header{
-    background: #207cca; /* Old browsers */
+    background: #487ED6; /* Old browsers */
     border-bottom: 1px solid #2F53A7;
 }
 #header *{color:whitesmoke;
@@ -145,7 +145,7 @@ h3 {
     }
     
 #progress{
-    background: #1477c9; /* Old browsers */
+    background: #487ED6; /* Old browsers */
     border-bottom: 2px solid #21335E;
     border-top:1px solid #8FA7DF;
 }
@@ -165,7 +165,7 @@ h3 {
 #support label{display:inline;}
 .giftContainer{
     margin: 30px 5px;
-    padding: 10px 20px;
+    padding: 20px 10px;
 }
 .donations .amounts_holder {
     width: 55px;
@@ -226,7 +226,7 @@ h3 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.75);
     border-top: 3px solid rgba(0,0,0,0.6);
 }
-    #share *{color: hsl(222, 5%, 96%);}
+    #share {color: hsl(222, 5%, 96%);}
 
 .container-wrapper{padding:10px 0;}
 li{list-style: none;}
@@ -277,4 +277,10 @@ li{list-style: none;}
 #noscript{
     background:red;
     color:whitesmoke;
+}
+
+.spread {
+    padding: 20px;
+    float: left;
+    color: #888;
 }
