@@ -41,7 +41,7 @@ h3 {
 #header *{color:whitesmoke;
           text-align: center;}
 #anime{
-    background: no-repeat scroll 50% 50% #ddd;
+    background: url("../images/united_in_diversity.png") no-repeat scroll 50% 50% #DDDDDD;
     border-bottom: 2px solid rgba(0,0,0,0.75);
     border-top: 3px solid rgba(0,0,0,0.79);
     border:0px;
@@ -91,7 +91,10 @@ h3 {
 
 /* vinci's version : using hide/show and not html copying */
     .animed {
-	display: none;	
+        background: none repeat scroll 0 0 #DDDDDD;
+        display: none;
+        height: 400px;
+        margin-top: -10px;
     }
 
     .animer_text, .animel_text {
