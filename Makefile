@@ -10,3 +10,9 @@ locales/%/LC_MESSAGES/messages.po: messages.pot
 locales/fr_FR/LC_MESSAGES/messages.mo: locales/fr_FR/LC_MESSAGES/messages.po
 	msgfmt $^ -o $@
 
+pushtranslate:
+	git commit -m "New translation files" messages.pot locales/fr_FR/LC_MESSAGES/messages.po
+	git push
+
+pull:
+	tx pull -l fr
