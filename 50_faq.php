@@ -20,7 +20,7 @@
 			    <br/>Spread the word about this campaign! By speaking up on social networks, on blogs, or by telling people around you about the importance of La Quadrature's actions,  and how they can participate, you can help us. This support is vital, as La Quadrature can only exist through the citizens who share our commitment to the free Internet.
 			    <br/>You can also support La Quadrature du Net day after day by <a href="http://laquadrature.net/en/how-to-participate">getting involved</a>.
 			    <br/>Financial donations help la Quadrature work on a day-to-day basis by paying for its fulltime activists'  salaries, costs and such, but la Quadrature would be nothing without the people who give their time, skills and energy to support its actions  and make them their own.
-			    <br/>Please don't hesitate to <a href="http://www.laquadrature.net/fr/contact">get in touch</a> to find a way to contribute that suits you!
+			    <br/>Please don't hesitate to <a href="http://www.laquadrature.net/en/contact-us">get in touch</a> to find a way to contribute that suits you!
 			</div>
 			<h4 id="faq-tax"><a href="#faq-tax">Is my support tax-deductible?</a> </h4>
 			<div id="faq5" >
@@ -45,9 +45,6 @@
 			    </table> <br/>
 			    FDNN (Fond de Défense de la Net Neutralité, “Net Neutrality Defense Fund”), is the organisation which manages La Quadrature du Net's accounts.
 			</div>
-			<h4  id="faq-no-news-cheque"><a href="#faq-no-news-cheque">I sent my  check a few days ago and still have no news about  it.</a></h4>
-			<div id="faq3" > 
-			  Do not worry! To minimise the time we spend processing checks, these are  processed in batch. You should receive your pi digits (and other gifts depending on your donation) within a few days. </div> 
 			<h4 id="faq-virement-transfert"><a href="#faq-virement-transfert">Can I make a donation through money transfer?</a> </h4>
 			<div id="faq0" > 
 			  Sure! You need to transfer your donation to FDNN's bank account (FDNN takes care of La Quadrature du Net's accounts) using the following details. <br/>
@@ -66,14 +63,6 @@
 <a href="http://flattr.com/thing/129120/La-Quadrature-du-Net"><img src="/files/flattr-compact.png" title="Flattr this" alt="Flattr" />
 </a>
 			<br/>Flattr  also offers the possibility to make larger donations, which offers an  interesting alternative to PayPal.<br/>To make a donation to La  Quadrature du Net via Flattr, please use  <a href="https://flattr.com/donation/give/to/laquadrature">the  form on this page</a>. As Flattr donations are anonymous, we will not be able to send you your goodies, unless you <a href="http://www.laquadrature.net/en/contact-us">contact us</a> with identifiable information, and in particular the the amount you plan to give in your donation.
-			</div>
-			<h4 id="faq-bitcoin"><a href="#faq-bitcoin">Can I make a donation in Bitcoins?</a> </h4>
-			<div id="faq9" > 
-			<br/>Yes! La Quadrature has a Bitcoin wallet, so you can make a donation using Bitcoins, a decentralised peer-to-peer virtual currency.
-			<br/>To do so, once you reach the donation summary, do not click on the “proceed with your payment” button, and make your donation through Bitcoin by your own means instead.<br/>
-			<br/>La Quadrature wallet id is: <strong>126gkjYAmg2Tq7P3MFmBGnCsrnZytYwJEc</strong><br/>
-			<br/>Given how uncommon this type of donation is (so far), our system does not consider potential goodies associated with your donation. 
-			<br/>Please <a href="http://www.laquadrature.net/en/contact-us">contact us</a> let us know of your donation, quoting your support number, we will try to send you a few stickers should your donation be around 4 BC. (Given how volatile BC is, this number may change, just send us an e-mail.)
 			</div>
 			<h4 id="faq-buy-t-shirts"><a href="#faq-buy-t-shirts">Can I support La Quadrature du Net by buying a t-shirt?</a> </h4>
 			<div>
