@@ -21,7 +21,7 @@
 
                 <div class="span10">
                     <h2>
-       <?php __("Bloggers material"); ?>
+       <?php __("Spread the message!"); ?>
                     </h2>
                     <div class="blog_images row">
                         <div class="span2">

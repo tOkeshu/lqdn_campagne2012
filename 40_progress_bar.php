@@ -63,3 +63,17 @@
             </div>
         </div>
     </div><!-- progress bar -->
+<script type="text/javascript" >
+
+
+$(document).ready(function() {
+  // Sets the progress bar
+  $( "#progress_bar" ).progressbar({
+  value: <?php 
+	    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-06-04'"));
+	    echo intval($obj1count/100000); ?>
+  
+  });
+});
+
+</script>

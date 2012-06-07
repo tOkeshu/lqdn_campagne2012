@@ -38,10 +38,6 @@ $(document).ready(function() {
         var tgt = $(".giftContainer")
         tgt.show().html(src.html())
     });
-    // Sets the progress bar
-    $( "#progress_bar" ).progressbar({
-        value: 37
-    });
 
     // Activated the default donation radio button
     $('.donations input[checked=checked]').click();

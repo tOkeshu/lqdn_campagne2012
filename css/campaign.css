@@ -212,6 +212,8 @@ h3 {
     padding: 6px 0 6px 0;
     margin-left: 22px;
 }
+
+
 /*
 #facts{
     border-bottom:1px solid hsl(56,66%,98%);
@@ -230,18 +232,18 @@ h3 {
 li{list-style: none;}
 * label{display:inline;}
 
-.faq #blockfaqsoutien a {
+.giftContainer p a, .faq #blockfaqsoutien a {
     font-weight:bold;
     color: #3588cc;
 }
 
-.faq #blockfaqsoutien a:hover{
+.giftContainer p a:hover, .faq #blockfaqsoutien a:hover{
     font-weight:bold;
     color: #005580;
     text-decoration: none;
 }
 
-.faq a:visited{
+.giftContainer p a:visited, .faq a:visited{
     font-weight:bold;
     color:#3588cc;
 }
