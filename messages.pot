@@ -1,3 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LQDNCampaign 2012.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-08 00:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #: ../dev/00_noscript.php:5
 msgid ""
 "Your browser does not support Javascript or you deactivated it. Please "
@@ -10,8 +29,8 @@ msgstr ""
 
 #: ../dev/10_topheader.php:11
 msgid ""
-"For the past three years, La Quadrature du Net has helped raise awareness "
-"and campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
+"For the past four years, La Quadrature du Net has raised awareness and "
+"campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
 "forward, advocating for a positive agenda to protect our freedoms."
 msgstr ""
 
@@ -30,14 +49,14 @@ msgstr ""
 #: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
-"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you "
 "will receive as a PDF by email.</strong>."
 msgstr ""
 
 #: ../dev/31_donation_form1_html.php:51
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
-"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you "
 "will receive as a PDF by email + an original print on high quality paper</"
 "strong>."
 msgstr ""
@@ -45,7 +64,7 @@ msgstr ""
 #: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
-"a personnalised diploma with your very own 1 000  digits, which <strong>you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you "
 "will receive as a PDF by email + an original print on high quality paper + a "
 "wonderful tee-shirt!</strong>"
 msgstr ""
@@ -142,7 +161,7 @@ msgid "Mot de passe :"
 msgstr ""
 
 #: ../dev/32_donation_form2_html.php:95
-msgid "De nouveau (vrification) :"
+msgid "De nouveau (vérification) :"
 msgstr ""
 
 #: ../dev/32_donation_form2_html.php:107
@@ -181,14 +200,14 @@ msgstr ""
 
 #: ../dev/32_donation_form2_html.php:153
 msgid ""
-"Vous allez tre redirig vers le site de FDNN (Fonds de Dfense de la Neutralit "
-"du Net)"
+"Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la "
+"Neutralité du Net)"
 msgstr ""
 
 #: ../dev/32_donation_form2_html.php:155
 msgid ""
-"You will now be redirected to our bank's server (Crdit Mutuel) in the name "
-"of FDNN (Fonds de Dfense de la Net Neutralit), the NGO which manages La "
+"You will now be redirected to our bank's server (Crédit Mutuel) in the name "
+"of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La "
 "Quadrature du Net's accounts."
 msgstr ""
 
@@ -216,11 +235,26 @@ msgstr ""
 msgid "Share!"
 msgstr ""
 
-#: ../dev/60_footer.php:17
-msgid "Help La Quadrature defends your rights online against ACTA and beyond"
+#: ../dev/60_footer.php:11 ../dev/60_footer.php:14
+msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
 msgstr ""
 
-#: ../dev/60_footer.php:24
+#: ../dev/60_footer.php:17 ../dev/60_footer.php:20
+msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
+msgstr ""
+
+#: ../dev/60_footer.php:23
+msgid "Support La Quadrature du Net against ACTA and beyond"
+msgstr ""
+
+#: ../dev/60_footer.php:23
+msgid ""
+"For the past four years, La Quadrature du Net has raised awareness and "
+"campaigned against ACTA. We need your help to defeat ACTA and move forward, "
+"advocating for a positive agenda to protect our freedoms. "
+msgstr ""
+
+#: ../dev/60_footer.php:30
 msgid "Spread the message!"
 msgstr ""
 
@@ -249,7 +283,7 @@ msgid ""
 msgstr ""
 
 #: ../dev/texts.php:11
-msgid "Sorry, we can not accept donations under 5."
+msgid "Sorry, we can not accept donations under 5€."
 msgstr ""
 
 #: ../dev/texts.php:13
@@ -274,7 +308,7 @@ msgstr ""
 
 #: ../dev/texts.php:21
 msgid ""
-"We're experiencing technical difficulties, please try again in a few moments"
+"We're experiencing technical difficulties, please try again in a few moments…"
 msgstr ""
 
 #: ../dev/texts.php:23
@@ -410,7 +444,7 @@ msgid ""
 "type=COMPARL&reference=PE-486.174&format=PDF&language=EN&secondRef=02\">report</"
 "a> is finalized and adopted (21st June), and until the final consent vote in "
 "plenary (3, 4 or 5th of July). This final step will allow Members of the EU "
-"Parliament to destroy ACTA once and for all, <a target=\"_blank\" href ="
+"Parliament to reject ACTA once and for all, <a target=\"_blank\" href ="
 "\"http://www.laquadrature.net/en/a-strategy-looking-through-acta-and-beyond"
 "\">paving the way</a> for a positive reform of copyright."
 msgstr ""

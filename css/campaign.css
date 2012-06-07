@@ -284,3 +284,30 @@ li{list-style: none;}
     float: left;
     color: #888;
 }
+#sharelinks li { 
+    display: inline;
+}
+#sharelinks li a {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding: 6px; margin: 4px;
+    text-decoration: none;
+}
+#sharelinks li a:hover {
+    display: inline; 
+    color: #ccc;
+    font-weight: bold;
+    padding: 6px; margin: 4px;
+    text-decoration: none;
+}
+
+.langselect {
+    position: absolute; top: 0; right: 0; margin-right: 3px; margin-top: 12px;
+}
+.langselect a {
+    color: white; font-weight: bold;
+}
+.langselect a: hover {
+    color: #ccc; font-weight: bold;
+}

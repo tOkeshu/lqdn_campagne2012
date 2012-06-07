@@ -17,6 +17,10 @@ require_once("all.php");
     <script  type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
+<div class="langselect">
+<a href="https://support.laquadrature.net/">[ EN ]</a><br />
+<a href="https://soutien.laquadrature.net/">[ FR ]</a><br />
+</div>
 
   <?php include(dirname(__FILE__) . "/00_noscript.php"); ?>
 
