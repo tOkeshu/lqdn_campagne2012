@@ -89,10 +89,10 @@ foreach($errno as $e) echo "- "._($errors[$e])."<br />";
                                 <label for="bq_ville"><?php __("City:"); ?></label><br /> <input type="text" id="bq_ville" name="bq_ville" size="60" class="largeinput<?php badfield(107); ?>" value="<?php eher("bq_ville"); ?>"/> 
                             </p>
                             <p>
-                                <label for="passwd"><?php __("Mot de passe :"); ?></label><br /> <input type="password" id="passwd" name="passwd" size="60" class="largeinput<?php badfield(array(110,111)); ?>" value="<?php eher("passwd"); ?>"/> 
+                                <label for="passwd"><?php __("Password:"); ?></label><br /> <input type="password" id="passwd" name="passwd" size="60" class="largeinput<?php badfield(array(110,111)); ?>" value="<?php eher("passwd"); ?>"/> 
                             </p>
                             <p>
-                                <label for="passwd2"><?php __("De nouveau (vérification) :"); ?></label><br /> <input type="password" id="passwd2" name="passwd2" size="60" class="largeinput<?php badfield(array(110,111)); ?>" value="<?php eher("passwd2"); ?>"/> 
+                                <label for="passwd2"><?php __("Again (password check):"); ?></label><br /> <input type="password" id="passwd2" name="passwd2" size="60" class="largeinput<?php badfield(array(110,111)); ?>" value="<?php eher("passwd2"); ?>"/> 
                             </p>
                         </div>
                     </div>                          

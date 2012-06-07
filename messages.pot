@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-08 00:09+0200\n"
+"POT-Creation-Date: 2012-06-08 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -541,4 +541,12 @@ msgid ""
 "space enables volunteers to participate in workshops and campaigning. "
 "Funding also serves to organize volunteer action such as bringing citizens "
 "from all over Europe to the EU Parliament."
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:92
+msgid "Password:"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:95
+msgid "Again (password check):"
 msgstr ""
