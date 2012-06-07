@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-08 01:08+0200\n"
+"POT-Creation-Date: 2012-06-08 01:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Support La Quadrature du Net"
 msgstr ""
 
-#: ../dev/10_topheader.php:11
+#: ../dev/10_topheader.php:11 ../dev/index.php:9
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
@@ -231,30 +231,32 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ../dev/60_footer.php:7
+#: ../dev/60_footer.php:7 ../dev/55_share.php:6
 msgid "Share!"
 msgstr ""
 
-#: ../dev/60_footer.php:11 ../dev/60_footer.php:14
+#: ../dev/60_footer.php:11 ../dev/60_footer.php:14 ../dev/55_share.php:16
+#: ../dev/55_share.php:19
 msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
 msgstr ""
 
-#: ../dev/60_footer.php:17 ../dev/60_footer.php:20
+#: ../dev/60_footer.php:17 ../dev/60_footer.php:20 ../dev/55_share.php:23
+#: ../dev/55_share.php:26
 msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
 msgstr ""
 
-#: ../dev/60_footer.php:23
+#: ../dev/60_footer.php:23 ../dev/55_share.php:30
 msgid "Support La Quadrature du Net against ACTA and beyond"
 msgstr ""
 
-#: ../dev/60_footer.php:23
+#: ../dev/60_footer.php:23 ../dev/55_share.php:30
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. We need your help to defeat ACTA and move forward, "
 "advocating for a positive agenda to protect our freedoms. "
 msgstr ""
 
-#: ../dev/60_footer.php:30
+#: ../dev/60_footer.php:30 ../dev/60_footer.php:8
 msgid "Spread the message!"
 msgstr ""
 
@@ -557,10 +559,17 @@ msgstr ""
 #: ../dev/60_footer.php:52 ../dev/60_footer.php:53 ../dev/60_footer.php:55
 #: ../dev/60_footer.php:59 ../dev/60_footer.php:60 ../dev/60_footer.php:62
 #: ../dev/60_footer.php:66 ../dev/60_footer.php:67 ../dev/60_footer.php:69
+#: ../dev/60_footer.php:12 ../dev/60_footer.php:13 ../dev/60_footer.php:15
+#: ../dev/60_footer.php:18 ../dev/60_footer.php:19 ../dev/60_footer.php:21
+#: ../dev/60_footer.php:25 ../dev/60_footer.php:26 ../dev/60_footer.php:28
+#: ../dev/60_footer.php:30 ../dev/60_footer.php:31 ../dev/60_footer.php:33
+#: ../dev/60_footer.php:38 ../dev/60_footer.php:44 ../dev/60_footer.php:45
 msgid "Support La Quadrature du Net against ACTA and beyond!"
 msgstr ""
 
 #: ../dev/60_footer.php:36 ../dev/60_footer.php:42 ../dev/60_footer.php:49
 #: ../dev/60_footer.php:54 ../dev/60_footer.php:61 ../dev/60_footer.php:68
+#: ../dev/60_footer.php:14 ../dev/60_footer.php:20 ../dev/60_footer.php:27
+#: ../dev/60_footer.php:32 ../dev/60_footer.php:39 ../dev/60_footer.php:46
 msgid "Add this image to your website:"
 msgstr ""
