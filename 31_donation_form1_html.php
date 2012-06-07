@@ -73,7 +73,7 @@ foreach($errno as $e) echo _($errors[$e])."<br />";
                             </div>
                             <div class="span1 amounts_holder othersum">
 				    <input type="radio" name="sum" value="-1" id="sum1"<?php ifcheck(!in_array($_REQUEST["sum"],$asums)); ?> />
-                                    <input type="text" name="othersum" value="<?php if (in_array($_REQUEST["sum"],$asums)) __("Other"); else echo intval($_REQUEST["sum"]); ?>" />
+                                    <input type="text" name="othersum" value="<?php if (!in_array($_REQUEST["sum"],$asums)) echo intval($_REQUEST["sum"]); ?>" placeholder="<?php __("Other"); ?>"/>
                                     <label for="sum1">&euro;</label>
                                     <div class="alert " id="nocado5" style="display:none">
 				      <p><?php __("Please enter the amount you want to give. due to high banking costs, we cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://www.laquadrature.net/en/how-to-participate\">help us in other ways!</a>"); ?></p>
