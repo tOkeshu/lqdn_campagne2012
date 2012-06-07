@@ -227,7 +227,24 @@ h3 {
 .container-wrapper{padding:10px 0;}
 li{list-style: none;}
 * label{display:inline;}
-.faq{}
+
+.faq a{
+    font-weight:bold;
+    color:#3588cc;
+}
+
+.faq a:hover{
+    font-weight:bold;
+    color:#005580;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+
+.faq a:visited{
+    font-weight:bold;
+    color:#3588cc;
+}
+
 #blockfaqsoutien h4{font-size: 10pt;}
 .progress_indices{position:relative;}
     .progress_indices .steps{position: relative;}
@@ -257,20 +274,4 @@ li{list-style: none;}
 #noscript{
     background:red;
     color:whitesmoke;
-}
-
-.lien-faq{
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.lien-faq:hover{
-    text-decoration:none;
-    font-weight:bold;
-    color:red;
-}
-
-.lien-faq:visited{
-    text-decoration:none;
-    font-weight:bold;
 }
