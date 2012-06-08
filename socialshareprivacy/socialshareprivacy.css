@@ -55,7 +55,7 @@
     text-indent: -9999em;
     /* background: transparent url(images/socialshareprivacy_on_off.png) no-repeat 0 0 scroll; */
     background: transparent url("../images/sm_fb_grey.png") no-repeat 5px 0 scroll;
-    /* width: 23px; */
+    width: 45px; 
     height: 50px;
     overflow: hidden;
     float: left;
