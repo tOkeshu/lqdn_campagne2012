@@ -1,0 +1,1 @@
+<a href="http://www.shareaholic.com/api/share/?title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>&link=https://support.laquadrature.net/">Share this brole</a>
