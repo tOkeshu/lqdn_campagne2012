@@ -1,5 +1,5 @@
 <?php
-	    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-06-04'"));
+	    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT SUM(somme) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-06-04'"));
 ?>
 <a name="progressbar"></a>
     <div class="container-wrapper" id="progress"><!-- progress bar -->
@@ -9,7 +9,7 @@
                     <h3><?php __("Progress Bar"); ?></h3>
                 </div>-->
                 <div class="span10">
-	      <div id="progress_bar" title="<?php echo $obj1count; ?>"></div>
+	      <div id="progress_bar" title="<?php echo $obj1count." €, ".min(1,max(intval($obj1count/100000),100))." %"; ?>"></div>
                     <div class="progress_indices">
                         <div class="marks">
                             <div class="start">0&euro;</div>

@@ -16,7 +16,7 @@ $errno=0;
 // If we got a post, 
 if (isset($_POST["etape2"])) {
   // Check then step3 : 
-  $mkdon_msg = make_don($_POST, "fr_FR");
+  $mkdon_msg = make_don($_POST, $lang);
   if (is_string($mkdon_msg)) {
     echo $mkdon_msg;
   } else {
