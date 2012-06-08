@@ -18,8 +18,7 @@ require_once("all.php");
   </head>
   <body>
 <div class="langselect">
-<a href="https://support.laquadrature.net/">[ EN ]</a><br />
-<a href="https://soutien.laquadrature.net/">[ FR ]</a><br />
+<a href="https://support.laquadrature.net/">[ EN ]</a> <a href="https://soutien.laquadrature.net/">[ FR ]</a>
 </div>
 
   <?php include(dirname(__FILE__) . "/00_noscript.php"); ?>

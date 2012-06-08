@@ -321,7 +321,8 @@ li{list-style: none;}
 }
 
 .langselect {
-    position: absolute; top: 0; right: 0; margin-right: 3px; margin-top: 12px;
+    position: absolute; top: 0; right: 0; 
+    margin: 100px 25px 0 0;
 }
 .langselect a {
     color: white; font-weight: bold;
