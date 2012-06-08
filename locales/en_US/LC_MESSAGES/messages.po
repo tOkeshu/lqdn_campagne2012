@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-08 13:25+0200\n"
+"POT-Creation-Date: 2012-06-08 16:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -241,11 +241,12 @@ msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
 msgstr ""
 
 #: ../dev/60_footer.php:17 ../dev/60_footer.php:20 ../dev/55_share.php:23
-#: ../dev/55_share.php:26 ../dev/55_share.php:24
+#: ../dev/55_share.php:26 ../dev/55_share.php:24 ../dev/55_share.php:25
 msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
 msgstr ""
 
 #: ../dev/60_footer.php:23 ../dev/55_share.php:30 ../dev/55_share.php:27
+#: ../dev/55_share.php:28
 msgid "Support La Quadrature du Net against ACTA and beyond"
 msgstr ""
 
@@ -788,7 +789,7 @@ msgid ""
 "support.laquadrature.net/"
 msgstr ""
 
-#: ../dev/55_share.php:30 ../dev/55_share.php:27
+#: ../dev/55_share.php:30 ../dev/55_share.php:27 ../dev/55_share.php:28
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. We need your help to defeat ACTA and move forward, "
