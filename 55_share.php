@@ -23,7 +23,7 @@
        <a class="btn-mini" href="http://www.facebook.com/sharer.php?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_fb.png" /> Facebook</a>
 
 </div><div class="span2">
-                          <a class="btn-mini" href="http://reddit.com/submit?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_reddit.png" /> Reddit</a>
+                          <a class="btn-mini" href="http://reddit.com/submit?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond!")); ?>"><img src="images/sm_reddit.png" /> Reddit</a>
 
 </div></div><div class="row"><div class="span2">
 
