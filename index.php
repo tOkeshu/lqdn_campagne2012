@@ -14,6 +14,26 @@ require_once("all.php");
     <script  type="text/javascript" src="js/less-1.3.0.min.js"></script>
     <script  type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-1.7.2.min.js"></script>
     <script  type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script  type="text/javascript" src="socialshareprivacy/jquery.socialshareprivacy.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+          if($('#socialshareprivacy').length > 0){
+            $('#socialshareprivacy').socialSharePrivacy({
+                services : {
+                  facebook : {
+                    'txt_info' : 'Like in 2 clicks, this behavior avoid facebook from tracking you by default when you load this page. Click on it if you want to have the "like" button.'
+                  },
+                  twitter : {
+                    'status': 'off'
+                  },
+                  gplus : {
+                    'status': 'off'
+                  }
+                } 
+            }); 
+          }
+        });
+    </script>
     <script  type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
