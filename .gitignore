@@ -2,3 +2,4 @@
 config.php
 locales/*/LC_MESSAGES/*.mo
 /.tx/
+robots.txt
