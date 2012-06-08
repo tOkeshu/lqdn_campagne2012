@@ -1,3 +1,4 @@
 /nbproject/private/
 config.php
 locales/*/LC_MESSAGES/*.mo
+/.tx/
