@@ -1,4 +1,4 @@
-all:	locales/fr_FR/LC_MESSAGES/messages.mo
+all:	locales/fr_FR/LC_MESSAGES/messages.mo locales/en_US/LC_MESSAGES/messages.mo
 
 messages.pot: ../*/*.php
 	[ -r $@ ] || touch $@
@@ -10,8 +10,11 @@ locales/%/LC_MESSAGES/messages.po: messages.pot
 locales/fr_FR/LC_MESSAGES/messages.mo: locales/fr_FR/LC_MESSAGES/messages.po
 	msgfmt $^ -o $@
 
+locales/en_US/LC_MESSAGES/messages.mo: locales/en_US/LC_MESSAGES/messages.po
+	msgfmt $^ -o $@
+
 pushtranslate:
-	git commit -m "New translation files" messages.pot locales/fr_FR/LC_MESSAGES/messages.po
+	git commit -m "New translation files" messages.pot locales/fr_FR/LC_MESSAGES/messages.po locales/en_US/LC_MESSAGES/messages.po
 	git push
 
 pull:

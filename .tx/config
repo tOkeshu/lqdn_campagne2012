@@ -5,4 +5,5 @@ host = https://www.transifex.net
 source_file = messages.pot
 source_lang = en
 trans.fr = locales/fr_FR/LC_MESSAGES/messages.po
+trans.en_US = locales/en_US/LC_MESSAGES/messages.po
 
