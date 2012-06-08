@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Benjamin Sonntag <benjamin@sonntag.fr>, 2012.
+#   <mr@laquadrature.net>, 2012.
+# Oriane  <>, 2012.
+#   <transifex@tofz.org>, 2012.
+#   <yost3d@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: LQDN Support\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-08 13:43+0200\n"
+"PO-Revision-Date: 2012-06-08 11:28+0000\n"
+"Last-Translator: meli_melo <mr@laquadrature.net>\n"
+"Language-Team: French (http://www.transifex.net/projects/p/lqdnsupport/"
+"language/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: ../dev/mail.php:4 ../site/cb2.php:83 ../soutien/mail.php:4
+msgid "Thanks for your support to La Quadrature du Net"
+msgstr "Merci pour votre soutien à La Quadrature du Net !"
+
+#: ../dev/mail.php:6 ../site/cb2.php:89 ../site/cb.php:75
+#: ../site/paypal_debug.php:21 ../site/paypal.php:147 ../soutien/mail.php:6
+#: ../trash_janv2012/28mars_mail.php:33
+msgid "mail_1"
+msgstr ""
+"Cher %%NAME%%,\n"
+"Merci pour votre soutien à La Quadrature du Net et à ses actions !\n"
+"\n"
+"Grâce à vous La Quadrature continuera à informer sur les projets législatifs "
+"menaçant les libertés individuelles dans l'environnement numérique. Elle "
+"pourra permettre encore plus efficacement aux citoyens désireux d'agir de "
+"placer les questions de neutralité du Net et de libertés individuelles au "
+"coeur des débats de société.\n"
+"\n"
+"Votre générosité permettra de financer ceux qui agissent au quotidien.\n"
+"\n"
+"Pour vous remercier, nous vous adressons symboliquement ces mille décimales "
+"de Pi.\n"
+"(en pièce jointe, et disponible aussi en ligne à l'adresse : \n"
+"%%URL%% )\n"
+"\n"
+"Benjamin, Gérald, Jérémie, Philippe,\n"
+"Co-fondateurs de La Quadrature du Net."
+
+
+#: ../dev/mail.php:8 ../site/cb2.php:92 ../site/cb.php:78
+#: ../site/paypal_debug.php:24 ../site/paypal.php:150 ../soutien/mail.php:8
+#: ../trash_janv2012/28mars_mail.php:36
+msgid "mail_2"
+msgstr ""
+"Cher %%NAME%%,\n"
+"Merci pour votre soutien à La Quadrature du Net et à ses actions !\n"
+"\n"
+"Grâce à vous La Quadrature continuera à informer sur les projets législatifs "
+"menaçant les libertés individuelles dans l'environnement numérique. Elle "
+"pourra permettre encore plus efficacement aux citoyens désireux d'agir de "
+"placer les questions de neutralité du Net et de libertés individuelles au "
+"coeur des débats de société.\n"
+"\n"
+"Votre générosité permettra de financer ceux qui agissent au quotidien.\n"
+"\n"
+"Pour vous remercier, nous vous adressons symboliquement ces mille décimales "
+"de Pi, que nous vous ferons parvernir par courrier, sur tirage limité, à "
+"l'adresse suivante :\n"
+"\n"
+"%%ADDRESS%%\n"
+"\n"
+"Benjamin, Gérald, Jérémie, Philippe,\n"
+"Co-fondateurs de La Quadrature du Net."
+
+#: ../dev/mail.php:10 ../site/cb2.php:95 ../site/cb.php:81
+#: ../site/paypal_debug.php:27 ../site/paypal.php:153 ../soutien/mail.php:10
+#: ../trash_janv2012/28mars_mail.php:39
+msgid "mail_3"
+msgstr ""
+"Cher %%NAME%%,\n"
+"Merci pour votre soutien à La Quadrature du Net et à ses actions !\n"
+"\n"
+"Grâce à vous La Quadrature continuera à informer sur les projets législatifs "
+"menaçant les libertés individuelles dans l'environnement numérique. Elle "
+"pourra permettre encore plus efficacement aux citoyens désireux d'agir de "
+"placer les questions de neutralité du Net et de libertés individuelles au "
+"coeur des débats de société.\n"
+"\n"
+"Votre générosité permettra de financer ceux qui agissent au quotidien.\n"
+"\n"
+"Pour vous remercier, nous vous adressons symboliquement ces mille décimales "
+"de Pi, que nous vous ferons parvernir par courrier, sur tirage limité, ainsi "
+"qu'un superbe 'pi-shirt', à l'adresse suivante : \n"
+"\n"
+"%%ADDRESS%%\n"
+"\n"
+"Benjamin, Gérald, Jérémie, Philippe,\n"
+"Co-fondateurs de La Quadrature du Net."
