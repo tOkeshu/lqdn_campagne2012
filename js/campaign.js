@@ -32,6 +32,7 @@ $(document).ready(function() {
 	switchAnime("ap99");
     });
 
+
     // gifts
     $(".amounts_holder input").click(function(e){
         var src = $(this).parent("div").find(".alert")
@@ -41,6 +42,13 @@ $(document).ready(function() {
 
     // Activated the default donation radio button
     $('.donations input[checked=checked]').click();
+
+    // auto select "other" radio button on text input focus
+    $(".othersum input[type=text]").on("focus",function(){
+        $("#sum1").attr("checked","checked")
+    })
+
+
 
     // nocado = swap the other fields...
     if ($("#nocado")) {
