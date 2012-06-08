@@ -3,7 +3,7 @@
                     <div class="row">
                         <div class="span6">
                             <h2>
-			      <?php __("Share!"); ?>
+                              <?php __("Share!"); ?>
                             </h2>
                         </div>
                     </div>
@@ -12,8 +12,8 @@
                         <div class="span6">
 
 <p>
-                    
-			<a class="btn-mini" href="https://identi.ca/notice/new?status_textarea=<?php echo urlencode(_("Like me, support @LaQuadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_identica.png" /> Identi.ca</a>
+
+                        <a class="btn-mini" href="https://identi.ca/notice/new?status_textarea=<?php echo urlencode(_("Like me, support @LaQuadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_identica.png" /> Identi.ca</a>
 
 
        <a class="btn-mini" href="http://twitter.com/home?status=<?php echo urlencode(_("Like me, support @LaQuadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_twitter.png" /> Twitter</a>
@@ -23,7 +23,7 @@
        <a class="btn-mini" href="http://www.facebook.com/sharer.php?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_fb.png" /> Facebook</a>
 
 
-			  <a class="btn-mini" href="http://reddit.com/submit?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_reddit.png" /> Reddit</a>
+                          <a class="btn-mini" href="http://reddit.com/submit?url=<?php echo urlencode(ROOTURL); ?>&title=<?php echo urlencode(_("Like me, support La Quadrature du Net against #ACTA and beyond! https://support.laquadrature.net/")); ?>"><img src="images/sm_reddit.png" /> Reddit</a>
 
 </p><p>
 
