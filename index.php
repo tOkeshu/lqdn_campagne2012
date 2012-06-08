@@ -9,6 +9,7 @@ require_once("all.php");
     <meta name="description" content="<?php __("For the past four years, La Quadrature du Net has raised awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms."); ?>" />
     <meta name="author" content="la Quadrature du Net" />
     <meta property="og:image" content="/images/LQDN_support_against_ACTA_and_beyond_125*125.gif"/> 
+    <link rel="icon" type="image/png" href="images/logo_laquadrature-net_titre_carre_grand_cadre.png" />
     <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="css/campaign.css"/>
     <link type="text/css" rel="stylesheet" href="jquery-ui-1.8.20.custom/css/custom-theme/jquery-ui-1.8.20.custom.css"/>
