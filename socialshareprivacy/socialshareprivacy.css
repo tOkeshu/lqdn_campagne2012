@@ -1,6 +1,6 @@
 .social_share_privacy_area {
     clear: both;
-    margin: 20px 0 !important;
+    margin: 0px 0 !important;
 	list-style-type: none;
 	padding: 0 !important;
 	width: auto;
@@ -14,11 +14,10 @@
 	float: left;
 }
 .social_share_privacy_area li .dummy_btn {
-    float: left;
-    margin: 0 0 0 10px;
     cursor: pointer;
-    padding: 0;
-    height: inherit;
+    position: absolute;
+    top: 12px;
+    left: 50px;
 }
 .social_share_privacy_area li div iframe {
     overflow: hidden;
@@ -55,7 +54,7 @@
     display: inline-block;
     text-indent: -9999em;
     /* background: transparent url(images/socialshareprivacy_on_off.png) no-repeat 0 0 scroll; */
-    background: transparent url(../images/sm_fb_grey.png) no-repeat 0 0 scroll;
+    background: transparent url("../images/sm_fb_grey.png") no-repeat 5px 0 scroll;
     /* width: 23px; */
     height: 50px;
     overflow: hidden;
@@ -65,7 +64,7 @@
     cursor: pointer;
 }
 .social_share_privacy_area li .switch.on {
-    background: transparent url(../images/sm_fb.png) no-repeat 0 0 scroll;
+    background: transparent url("../images/sm_fb.png") no-repeat 5px 0 scroll;
     display: inline-block;
     text-indent: -9999em;
     padding: 0;
