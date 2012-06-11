@@ -23,7 +23,7 @@ require_once("all.php");
             $('#socialshareprivacy').socialSharePrivacy({
                 services : {
                   facebook : {
-                    'txt_info' : 'Like in 2 clicks, this behavior avoid facebook from tracking you by default when you load this page. Click on it if you want to have the "like" button.'
+                    'txt_info' : '“Like” in two clicks. This behaviour prevents Facebook from tracking you by default as soon you load this page. Click on it if you want to see the “share” button.'
                   },
                   twitter : {
                     'status': 'off'
