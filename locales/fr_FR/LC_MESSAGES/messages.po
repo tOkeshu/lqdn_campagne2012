@@ -271,12 +271,12 @@ msgstr "Partagez&nbsp;!"
 
 #: ../dev/60_footer.php:11 ../dev/60_footer.php:14 ../dev/55_share.php:16
 #: ../dev/55_share.php:19
-msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
+msgid "Support @LaQuadrature du Net, against #ACTA and beyond!"
 msgstr "Comme moi, soutenez @LaQuadrature du Net, contre #ACTA et au delà !"
 
 #: ../dev/60_footer.php:17 ../dev/60_footer.php:20 ../dev/55_share.php:23
 #: ../dev/55_share.php:26 ../dev/55_share.php:24 ../dev/55_share.php:25
-msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
+msgid "Support La Quadrature du Net against #ACTA and beyond!"
 msgstr "Comme moi, soutenez La Quadrature du Net, contre ACTA et au delà !"
 
 #: ../dev/60_footer.php:23 ../dev/55_share.php:30 ../dev/55_share.php:27
@@ -351,19 +351,19 @@ msgid ""
 "Your email address seems incorrect (accentuated and special characters can "
 "not be used)."
 msgstr ""
-"Votre adresse email semble incorrecte (caractères accentués ou spéciaux ne "
-"doivent pas être utilisés)."
+"Votre adresse email semble incorrecte (les caractères accentués ou spéciaux ne "
+"peuvent pas être utilisés)."
 
 #: ../dev/texts.php:17
 msgid "Please give as at least a nickname to personnalise your pi-ploma!"
 msgstr ""
 "Donnez-nous au moins votre pseudo, que nous puissions personnaliser votre pi-"
-"plome !"
+"plome&nbsp;!"
 
 #: ../dev/texts.php:19
 msgid "Your complete address is needed to send you your goodies!"
 msgstr ""
-"Votre adresse postale complète, afin que nous vous envoyions vos cadeaux !"
+"Votre adresse postale complète, afin que nous vous envoyions vos cadeaux&nbsp;!"
 
 #: ../dev/texts.php:21
 msgid ""
@@ -380,7 +380,7 @@ msgid ""
 msgstr ""
 "Notre processeur de paiement en ligne n'est pas disponible en ce moment. "
 "Nous avons été notifiés d'un problème, et nous travaillons dur à le remettre "
-"d'aplomb rapidement. Ré-essayez dans quelques minutes. Désolés, et merci!"
+"d'aplomb rapidement. Ré-essayez dans quelques minutes. Désolés, et merci&nbsp;!"
 
 #: ../dev/texts.php:42
 msgid "Male, Size S"
@@ -781,11 +781,11 @@ msgstr "Ajouter cette image à votre site web&nbsp;:"
 
 #: ../dev/50_faq.php:13
 msgid "Where will my money go?"
-msgstr "À quoi sert cet argent ?"
+msgstr "À quoi sert cet argent&nbsp;?"
 
 #: ../dev/50_faq.php:18
 msgid "I don't have any money,  how can I help La Quadrature du Net?"
-msgstr "Je n'ai pas d'argent, comment puis-je aider La Quadrature du Net ?"
+msgstr "Je n'ai pas d'argent, comment puis-je aider La Quadrature du Net&nbsp;?"
 
 #: ../dev/50_faq.php:20
 msgid ""
@@ -830,11 +830,11 @@ msgid ""
 msgstr ""
 "N'hésitez pas à entrer en <a target=\"_blank\" href=\"http://www."
 "laquadrature.net/fr/contact\">contact</a> avec nous pour trouver une façon "
-"d'aider qui vous corresponde ! "
+"d'aider qui vous corresponde&nbsp;! "
 
 #: ../dev/50_faq.php:25
 msgid "Is my support tax-deductible?"
-msgstr "Puis-je déduire ce don de mes impôts ?"
+msgstr "Puis-je déduire ce don de mes impôts&nbsp;?"
 
 #: ../dev/50_faq.php:27
 msgid ""
@@ -861,7 +861,7 @@ msgstr ""
 
 #: ../dev/50_faq.php:33
 msgid "Who supports La Quadrature du Net?"
-msgstr "Qui soutient La Quadrature du Net ?"
+msgstr "Qui soutient La Quadrature du Net&nbsp;?"
 
 #: ../dev/50_faq.php:35
 msgid ""
@@ -879,14 +879,14 @@ msgstr ""
 
 #: ../dev/50_faq.php:37
 msgid "Can I make a donation by check?"
-msgstr "Puis-je faire un don par chèque ?"
+msgstr "Puis-je faire un don par chèque&nbsp;?"
 
 #: ../dev/50_faq.php:39
 msgid ""
 "Yes. To donate by check, stop the payment procedure when you are at our "
 "bank's website. Send your check to the following address:"
 msgstr ""
-"Oui bien sûr ! Dans ce cas, arrêtez-vous juste après avoir posté le "
+"Oui bien sûr&nbsp;! Dans ce cas, arrêtez-vous juste après avoir posté le "
 "formulaire <br /> \n"
 "(ne cliquez pas sur le bouton 'Procéder au paiement') <br /> \n"
 "et envoyez votre chèque comme suit&nbsp;: <br /> "
@@ -960,7 +960,7 @@ msgstr ""
 
 #: ../dev/50_faq.php:55
 msgid "Can I make a donation through PayPal?"
-msgstr "Puis-je faire un don par PayPal ?"
+msgstr "Puis-je faire un don par PayPal&nbsp;?"
 
 #: ../dev/50_faq.php:56
 msgid ""
@@ -1022,7 +1022,7 @@ msgstr ""
 #: ../dev/50_faq.php:65
 msgid "Can I support La Quadrature du Net by buying a t-shirt?"
 msgstr ""
-"Peut-on vous soutenir en achetant des t-shirts de La Quadrature du Net ?"
+"Peut-on vous soutenir en achetant des t-shirts de La Quadrature du Net&nbsp;?"
 
 #: ../dev/50_faq.php:67
 msgid ""
@@ -1061,7 +1061,7 @@ msgid ""
 "support.laquadrature.net/"
 msgstr ""
 "Comme moi, soutenez @LaQuadrature du Net contre #ACTA et au-delà ! https://"
-"support.laquadrature.net/"
+"soutien.laquadrature.net/"
 
 #: ../dev/55_share.php:23
 msgid ""

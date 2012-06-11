@@ -99,7 +99,7 @@ foreach($errno as $e) echo "- "._($errors[$e])."<br />";
 	     <?php } ?>
 
 
-<?php  if ($_REQUEST["sum"] >= 50 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
+<?php  if ($_REQUEST["sum"] >= 50 || ($_REQUEST["monthly"])) { ?>
 
                     <div class="row">
                         <div class="span6">
@@ -110,12 +110,12 @@ foreach($errno as $e) echo "- "._($errors[$e])."<br />";
                         </div>
                     </div>                          
 
-<?php if ($_REQUEST["sum"] >= 50 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
+<?php if ($_REQUEST["sum"] >= 50 || ($_REQUEST["monthly"])) { ?>
 
                     <div class="row" id="needcado">
                         <div class="span6">
 
-		       <?php if ($_REQUEST["sum"] >= 100 || ($_REQUEST["sum"] >= 15 && $_REQUEST["monthly"])) { ?>
+		       <?php if ($_REQUEST["sum"] >= 100 || ($_REQUEST["monthly"])) { ?>
                             <p>
                                 <label for="taille"><?php __("Style/Size of your pi-shirt:"); ?></label><br /> <select id="taille" name="taille" ><?php eoption($atailles,$_REQUEST["taille"]); ?></select> 
                             </p>
