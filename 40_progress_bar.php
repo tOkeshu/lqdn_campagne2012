@@ -9,7 +9,7 @@
                     <h3><?php __("Progress Bar"); ?></h3>
                 </div>-->
                 <div class="span10">
-	      <div id="progress_bar" title="<?php echo $obj1count." €, ".min(1,max(intval($obj1count/100000),100))." %"; ?>"></div>
+	      <div id="progress_bar" title="<?php echo $obj1count." €, ".min(1,max(intval($obj1count/1000),100))." %"; ?>"></div>
                     <div class="progress_indices">
                         <div class="marks">
                             <div class="start">0&euro;</div>
@@ -73,7 +73,7 @@ $(document).ready(function() {
   // Sets the progress bar
   $( "#progress_bar" ).progressbar({
   value: <?php 
-  echo min(1,max(intval($obj1count/100000),100)); 
+  echo min(1,max(intval($obj1count/1000),100)); 
 ?>
   
   });
