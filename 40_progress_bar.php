@@ -1,5 +1,8 @@
 <?php
-	    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT SUM(somme) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-04-04'"));
+    list($obj1count)=@mysql_fetch_array(mysql_query("SELECT SUM(somme) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-04-04'"));
+    
+    $pct = intval($obj1count/1000);
+    if( $pct > 100 ) $pct = 100;
 ?>
 <a name="progressbar"></a>
     <div class="container-wrapper" id="progress"><!-- progress bar -->
@@ -9,7 +12,7 @@
                     <h3><?php __("Progress Bar"); ?></h3>
                 </div>-->
                 <div class="span10">
-	      <div id="progress_bar" title="<?php echo $obj1count." €, ".intval($obj1count/1000)." %"; ?>"></div>
+	      <div id="progress_bar" title="<?php echo $obj1count." €, ".$pct." %"; ?>"></div>
                     <div class="progress_indices">
                         <div class="marks">
                             <div class="start">0&euro;</div>
@@ -40,7 +43,7 @@
                     <p id="donator-container"></p>
                     <?php
                         // TODO : fetch from api
-                        $donatorsList = '[["jean",100],["ahmed",1000],["simone",15],["ganesh",50]]';
+                        //$donatorsList = '[["jean",100],["ahmed",1000],["simone",15],["ganesh",50]]';
                     ?>
                     <script type="text/javascript">
                         var donator_id = 0;
@@ -72,10 +75,7 @@
 $(document).ready(function() {
   // Sets the progress bar
   $( "#progress_bar" ).progressbar({
-  value: <?php 
-    echo intval($obj1count/1000);
-?>
-  
+  value: <?= $pct ?>
   });
 });
 
