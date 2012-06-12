@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 18:52+0200\n"
+"POT-Creation-Date: 2012-06-12 20:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,50 +17,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../dev/00_noscript.php:5
+#: 00_noscript.php:5
 msgid ""
-"Your browser does not support Javascript or you deactivated it. Please "
-"enable it for a better experience,."
+"Hey, you have Javascript off. It's cool, we use NoScript all the time too. "
+"Please enable it to make sure this page runs nice and smooth, thanks!"
 msgstr ""
 
-#: ../dev/10_topheader.php:10 ../soutien/10_topheader.php:10
+#: 10_topheader.php:10
 msgid "Support La Quadrature du Net"
 msgstr ""
 
-#: ../dev/10_topheader.php:11 ../dev/index.php:9
-#: ../soutien/10_topheader.php:11 ../soutien/index.php:9
+#: 10_topheader.php:11 index.php:9
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
 "forward, advocating for a positive agenda to protect our freedoms."
 msgstr ""
 
-#: ../dev/20_dark_blue_rollover.php:6 ../soutien/20_dark_blue_rollover.php:6
+#: 20_dark_blue_rollover.php:6
 msgid "Against ACTA..."
 msgstr ""
 
-#: ../dev/20_dark_blue_rollover.php:40 ../soutien/20_dark_blue_rollover.php:44
+#: 20_dark_blue_rollover.php:40
 msgid "...And Beyond!"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:7 ../soutien/31_donation_form1_html.php:8
-#: ../dev/31_donation_form1_html.php:8
+#: 31_donation_form1_html.php:8
 msgid "Support Us"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
-#: ../soutien/31_donation_form1_html.php:36
-#: ../soutien/31_donation_form1_html.php:44
-#: ../dev/31_donation_form1_html.php:36 ../dev/31_donation_form1_html.php:44
+#: 31_donation_form1_html.php:36 31_donation_form1_html.php:44
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
 "will receive as a PDF by email.</strong>."
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:51
-#: ../soutien/31_donation_form1_html.php:52
-#: ../dev/31_donation_form1_html.php:52
+#: 31_donation_form1_html.php:52
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -68,10 +61,7 @@ msgid ""
 "strong>."
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
-#: ../soutien/31_donation_form1_html.php:61
-#: ../soutien/31_donation_form1_html.php:70
-#: ../dev/31_donation_form1_html.php:61 ../dev/31_donation_form1_html.php:70
+#: 31_donation_form1_html.php:61 31_donation_form1_html.php:70
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -79,333 +69,539 @@ msgid ""
 "wonderful tee-shirt!</strong>"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:76
-#: ../soutien/31_donation_form1_html.php:77
-#: ../dev/31_donation_form1_html.php:77
+#: 31_donation_form1_html.php:77
 msgid "Other"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:79
-#: ../soutien/31_donation_form1_html.php:80
-#: ../dev/31_donation_form1_html.php:80
+#: 31_donation_form1_html.php:80
 msgid ""
 "Please enter the amount you want to give. due to high banking costs, we "
 "cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://"
 "www.laquadrature.net/en/how-to-participate\">help us in other ways!</a>"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:86
-#: ../soutien/31_donation_form1_html.php:87
-#: ../dev/31_donation_form1_html.php:87
+#: 31_donation_form1_html.php:87
 msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
 msgstr ""
 
-#: ../dev/31_donation_form1_html.php:92
-#: ../soutien/31_donation_form1_html.php:93
-#: ../dev/31_donation_form1_html.php:93
+#: 31_donation_form1_html.php:93
 msgid "I support La Quadrature du Net"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:7 ../soutien/32_donation_form2_html.php:7
+#: 32_donation_form2_html.php:7
 msgid "Support us (step 2/3)"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:33
-#: ../soutien/32_donation_form2_html.php:33
+#: 32_donation_form2_html.php:33
 #, php-format
 msgid "Make a donation of: <b>%s &euro;</b>"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:41
-#: ../soutien/32_donation_form2_html.php:41
+#: 32_donation_form2_html.php:41
 msgid ""
 "You wish to support us with a monthly donation, thank you for your kind "
-"support. For your convenience, you will have to possibility to pause or stop "
-"this donation each month."
+"support. For your convenience, you will have the possibility to pause or "
+"stop this donation each month."
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:44
-#: ../soutien/32_donation_form2_html.php:44
+#: 32_donation_form2_html.php:44
 msgid "Email:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:47
-#: ../soutien/32_donation_form2_html.php:47
+#: 32_donation_form2_html.php:47
 msgid "First Name, Full Name or Nickname:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:50
-#: ../soutien/32_donation_form2_html.php:50
+#: 32_donation_form2_html.php:50
 msgid "Please show me in the public donor list"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:53
-#: ../soutien/32_donation_form2_html.php:53
+#: 32_donation_form2_html.php:53
 msgid "Please send me La Quadradure du Net's monthly newsletter"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:62
-#: ../soutien/32_donation_form2_html.php:62
+#: 32_donation_form2_html.php:62
 msgid "Bank information for your monthly donation"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:64
-#: ../soutien/32_donation_form2_html.php:64
+#: 32_donation_form2_html.php:64
 msgid "Donor's Last Name:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:67
-#: ../soutien/32_donation_form2_html.php:67
+#: 32_donation_form2_html.php:67
 msgid "Donor's First Name:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:70
-#: ../soutien/32_donation_form2_html.php:70
+#: 32_donation_form2_html.php:70
 msgid "Bank account holder's name<br />(if different):"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:73
-#: ../soutien/32_donation_form2_html.php:73
+#: 32_donation_form2_html.php:73
 msgid "Bank account details:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:80
-#: ../soutien/32_donation_form2_html.php:80
+#: 32_donation_form2_html.php:80
 msgid "Financial Institution's Name:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:83
-#: ../soutien/32_donation_form2_html.php:83
+#: 32_donation_form2_html.php:83
 msgid "Institution's postal address:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:86
-#: ../soutien/32_donation_form2_html.php:86
+#: 32_donation_form2_html.php:86
 msgid "Postal Code:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:89
-#: ../soutien/32_donation_form2_html.php:89
+#: 32_donation_form2_html.php:89
 msgid "City:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:92
-msgid "Mot de passe :"
+#: 32_donation_form2_html.php:92
+msgid "Password:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:95
-msgid "De nouveau (vérification) :"
+#: 32_donation_form2_html.php:95
+msgid "Again (password check):"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:107
-#: ../soutien/32_donation_form2_html.php:107
+#: 32_donation_form2_html.php:107
 msgid ""
 "Please do <b>not</b> send me any goodies, so my entire donation can be used "
 "directly to help La Quadrature du Net."
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:120
-#: ../soutien/32_donation_form2_html.php:120
+#: 32_donation_form2_html.php:120
 msgid "Style/Size of your pi-shirt:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:124
-#: ../soutien/32_donation_form2_html.php:124
+#: 32_donation_form2_html.php:124
 msgid "Donor's name (for the parcel):"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:127
-#: ../soutien/32_donation_form2_html.php:127
+#: 32_donation_form2_html.php:127
 msgid "Donor's Postal Address:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:130
-#: ../soutien/32_donation_form2_html.php:130
+#: 32_donation_form2_html.php:130
 msgid "Donor's Zipcode:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:133
-#: ../soutien/32_donation_form2_html.php:133
+#: 32_donation_form2_html.php:133
 msgid "Donor's City:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:136
-#: ../soutien/32_donation_form2_html.php:136
+#: 32_donation_form2_html.php:136
 msgid "Donor's Country:"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:147
-#: ../soutien/32_donation_form2_html.php:147
+#: 32_donation_form2_html.php:147
 msgid "Yes, make this donation to La Quadrature du Net"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:153
-#: ../soutien/32_donation_form2_html.php:153
+#: 32_donation_form2_html.php:153
 msgid ""
 "Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la "
 "Neutralité du Net)"
 msgstr ""
 
-#: ../dev/32_donation_form2_html.php:155
-#: ../soutien/32_donation_form2_html.php:155
+#: 32_donation_form2_html.php:155
 msgid ""
 "You will now be redirected to our bank's server (Crédit Mutuel) in the name "
 "of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La "
 "Quadrature du Net's accounts."
 msgstr ""
 
-#: ../dev/40_progress_bar.php:6 ../dev/40_progress_bar.php:9
-#: ../soutien/40_progress_bar.php:12 ../dev/40_progress_bar.php:12
+#: 40_progress_bar.php:12
 msgid "Progress Bar"
 msgstr ""
 
-#: ../dev/40_progress_bar.php:35 ../dev/40_progress_bar.php:38
-#: ../soutien/40_progress_bar.php:41 ../dev/40_progress_bar.php:41
+#: 40_progress_bar.php:41
 msgid "days until the end of this campaign"
 msgstr ""
 
-#: ../dev/40_progress_bar.php:36 ../dev/40_progress_bar.php:39
-#: ../soutien/40_progress_bar.php:42 ../dev/40_progress_bar.php:42
+#: 40_progress_bar.php:42
 msgid "Generous donators"
 msgstr ""
 
-#: ../dev/40_progress_bar.php:50 ../dev/40_progress_bar.php:53
-#: ../soutien/40_progress_bar.php:56 ../dev/40_progress_bar.php:56
+#: 40_progress_bar.php:56
 msgid ":"
 msgstr ""
 
-#: ../dev/50_faq.php:4 ../soutien/50_faq.php:4
+#: 50_faq.php:4
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ../dev/60_footer.php:7 ../dev/55_share.php:6 ../soutien/55_share.php:6
+#: 50_faq.php:13
+msgid "Where will my money go?"
+msgstr ""
+
+#: 50_faq.php:18
+msgid "I don't have any money,  how can I help La Quadrature du Net?"
+msgstr ""
+
+#: 50_faq.php:20
+msgid ""
+"Spread the word about this campaign! By speaking up on social networks, on "
+"blogs, or by telling people around you about the importance of La "
+"Quadrature's actions,  and how they can participate, you can help us. This "
+"support is vital, as La Quadrature can only exist through the citizens who "
+"share our commitment to the free Internet."
+msgstr ""
+
+#: 50_faq.php:21
+msgid ""
+"You can also support La Quadrature du Net day after day by <a target=\"_blank"
+"\" href=\"http://laquadrature.net/en/how-to-participate\">getting involved"
+msgstr ""
+
+#: 50_faq.php:22
+msgid ""
+"Financial donations help la Quadrature work on a day-to-day basis by paying "
+"for its fulltime activists'  salaries, costs and such, but la Quadrature "
+"would be nothing without the people who give their time, skills and energy "
+"to support its actions  and make them their own."
+msgstr ""
+
+#: 50_faq.php:23
+msgid ""
+"Please don't hesitate to <a target=\"_blank\" href=\"http://www.laquadrature."
+"net/en/contact-us\">get in touch</a> to find a way to contribute that suits "
+"you!"
+msgstr ""
+
+#: 50_faq.php:25
+msgid "Is my support tax-deductible?"
+msgstr ""
+
+#: 50_faq.php:27
+msgid ""
+"Not at the moment. We are looking into a way of making this possible, but "
+"unfortunately it is not possible for current donations."
+msgstr ""
+
+#: 50_faq.php:29
+msgid "I need a receipt or an invoice for my donation."
+msgstr ""
+
+#: 50_faq.php:31
+msgid ""
+"We can send you a receipt for accounting purposes. Please <a target=\"_blank"
+"\" href=\"http://www.laquadrature.net/en/contact-us\">contact us</a> by "
+"email."
+msgstr ""
+
+#: 50_faq.php:33
+msgid "Who supports La Quadrature du Net?"
+msgstr ""
+
+#: 50_faq.php:35
+msgid ""
+"Several <a target=\"_blank\" href=\"http://www.laquadrature.net/en/they-"
+"support-la-quadrature-du-net\">NGOs support La Quadrature</a>, as well as <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/public-supporters"
+"\">thousands of individuals who have made a donation</a> and wish to be "
+"listed publicly."
+msgstr ""
+
+#: 50_faq.php:37
+msgid "Who funds La Quadrature du Net?"
+msgstr ""
+
+#: 50_faq.php:39
+msgid ""
+"The <a target=\"_blank\" href=\"http://www.soros.org\">Open Society "
+"Foundation</a> has been contributing to La Quadrature du Net's budget "
+"through a yearly grant of 50K euros (60K for 2012), but the majority (all "
+"the rest) of our funds come from individual citizens' contributions. This is "
+"a guarantee of independence, but at the same time creates uncertainty "
+"regarding the sustainability of our income and of our action."
+msgstr ""
+
+#: 50_faq.php:41
+msgid "Can I make a donation by check?"
+msgstr ""
+
+#: 50_faq.php:43
+msgid ""
+"Yes. To donate by check, stop the payment procedure when you are at our "
+"bank's website. Send your check to the following address:"
+msgstr ""
+
+#: 50_faq.php:45
+msgid "<tr><td><i>Payable to: </i></td><td>FDNN</td></tr>"
+msgstr ""
+
+#: 50_faq.php:46
+msgid ""
+"<tr><td><i>Address: </i></td><td>FDNN, 16 rue de Cachy, 80090 Amiens</td></"
+"tr>"
+msgstr ""
+
+#: 50_faq.php:47
+msgid ""
+"<tr><td><b>Important note: </b></td><td>Please write down the name you gave "
+"us on the back of your check in order to allow us to find you easily.</td></"
+"tr>"
+msgstr ""
+
+#: 50_faq.php:49
+msgid ""
+"FDNN (Fond de Défense de la Net Neutralité, “Net Neutrality Defense Fund”), "
+"is the organisation which manages La Quadrature du Net's accounts."
+msgstr ""
+
+#: 50_faq.php:51
+msgid "Can I make a donation through money transfer?"
+msgstr ""
+
+#: 50_faq.php:53
+msgid ""
+"Sure! You need to transfer your donation to FDNN's bank account (FDNN takes "
+"care of La Quadrature du Net's accounts) using the following details."
+msgstr ""
+
+#: 50_faq.php:55
+msgid ""
+"<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
+"2270 187<br />This number is usually enough to make a wire transfer from "
+"anywhere in Europe"
+msgstr ""
+
+#: 50_faq.php:56
+msgid ""
+"You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
+"RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."
+msgstr ""
+
+#: 50_faq.php:57
+msgid ""
+"<b>Important note: </b>Please quote the name you gave us as your transfer's "
+"comment, so we can send you your pi decimals or other goodies."
+msgstr ""
+
+#: 50_faq.php:59
+msgid "Can I make a donation through PayPal?"
+msgstr ""
+
+#: 50_faq.php:60
+msgid ""
+"We do not recommend using PayPal for donations, for ethical reasons (their "
+"actions against WikiLeaks, among others) and because of the overtly "
+"expensive costs incurred. Nevertheless, if it is your only option, you  may "
+"use the following account: paypal@laquadrature.net."
+msgstr ""
+
+#: 50_faq.php:62
+msgid "Can I make a donation via Flattr?"
+msgstr ""
+
+#: 50_faq.php:64
+msgid ""
+"Yes! If you wish to support la Quadrature via Flattr, you can simply flatter "
+"this page, or any of the site's articles."
+msgstr ""
+
+#: 50_faq.php:65
+msgid ""
+"Flattr is a great way to support us, but as a Flattr is quite small, please  "
+"don't hesitate to flatter our articles to your heart's content.\n"
+"<a href=\"http://flattr.com/thing/129120/La-Quadrature-du-Net\"><img src=\"/"
+"files/flattr-compact.png\" title=\"Flattr this\" alt=\"Flattr\" /></a>"
+msgstr ""
+
+#: 50_faq.php:67
+msgid ""
+"Flattr also offers the possibility to make larger donations, which offers "
+"an  interesting alternative to PayPal.<br/>To make a donation to La  "
+"Quadrature du Net via Flattr, please use  <a target=\"_blank\" href="
+"\"https://flattr.com/donation/give/to/laquadrature\">the form on this page</"
+"a>. As Flattr donations are anonymous, we will not be able to send you your "
+"goodies, unless you <a target=\"_blank\" href=\"http://www.laquadrature.net/"
+"en/contact-us\">contact us</a> with identifiable information, and in "
+"particular the the amount you plan to give in your donation."
+msgstr ""
+
+#: 50_faq.php:69
+msgid "Can I support La Quadrature du Net by buying a t-shirt?"
+msgstr ""
+
+#: 50_faq.php:71
+msgid ""
+"La Quadrature du Net does not sell t-shirts. The only way to support la "
+"Quadrature du Net (financially) is to make a donation. Of course, you can "
+"also help and support la Quadrature in other ways, by helping out for "
+"instance. Selling t-shirts would require a lot of time and effort and would "
+"probably mean hiring someone in order to make anything substantial from it. "
+"It would not be worth it. The pi-shirts are but a (small) gift from la "
+"Quadrature to show its gratitude and thank its most generous benefactors."
+msgstr ""
+
+#: 50_faq.php:73
+msgid "When will I get my shirt?"
+msgstr ""
+
+#: 50_faq.php:75
+msgid ""
+"For logistical reasons, t-shirts are sent in batch. This may take a while, "
+"sometimes up to a couple months. Please forgive us for this delay."
+msgstr ""
+
+#: 55_share.php:6
 msgid "Share!"
 msgstr ""
 
-#: ../dev/60_footer.php:11 ../dev/60_footer.php:14 ../dev/55_share.php:16
-#: ../dev/55_share.php:19
-msgid "Like me, support @LaQuadrature du Net against #ACTA and beyond!"
+#: 55_share.php:16 55_share.php:19
+msgid ""
+"Like me, support @LaQuadrature du Net against #ACTA and beyond! https://"
+"support.laquadrature.net/"
 msgstr ""
 
-#: ../dev/60_footer.php:17 ../dev/60_footer.php:20 ../dev/55_share.php:23
-#: ../dev/55_share.php:26 ../dev/55_share.php:24 ../dev/55_share.php:25
-#: ../soutien/55_share.php:25
+#: 55_share.php:25
 msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
 msgstr ""
 
-#: ../dev/60_footer.php:23 ../dev/55_share.php:30 ../dev/55_share.php:27
-#: ../dev/55_share.php:28 ../soutien/55_share.php:28
+#: 55_share.php:28
 msgid "Support La Quadrature du Net against ACTA and beyond"
 msgstr ""
 
-#: ../dev/60_footer.php:23 ../dev/55_share.php:30
+#: 55_share.php:28
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. We need your help to defeat ACTA and move forward, "
-"advocating for a positive agenda to protect our freedoms. "
+"advocating for a positive agenda to protect our freedoms. https://support."
+"laquadrature.net/"
 msgstr ""
 
-#: ../dev/60_footer.php:30 ../dev/60_footer.php:8 ../soutien/60_footer.php:8
+#: 60_footer.php:8
 msgid "Spread the message!"
 msgstr ""
 
-#: ../dev/index.php:7 ../soutien/index.php:7
+#: 60_footer.php:11
+msgid ""
+"<a href=\"http://www.laquadrature.net/wiki/"
+"Support_LQDN_against_ACTA_and_beyond\">Others banners and source files are "
+"available here</a>. Create and share yours!</div>"
+msgstr ""
+
+#: 60_footer.php:13 60_footer.php:14 60_footer.php:16 60_footer.php:19
+#: 60_footer.php:20 60_footer.php:22 60_footer.php:26 60_footer.php:27
+#: 60_footer.php:29 60_footer.php:31 60_footer.php:32 60_footer.php:34
+#: 60_footer.php:38 60_footer.php:39 60_footer.php:41 60_footer.php:44
+#: 60_footer.php:45 60_footer.php:47 60_footer.php:50 60_footer.php:51
+#: 60_footer.php:53 60_footer.php:56 60_footer.php:57 60_footer.php:59
+msgid "Support La Quadrature du Net against ACTA and beyond!"
+msgstr ""
+
+#: 60_footer.php:15 60_footer.php:21 60_footer.php:28 60_footer.php:33
+#: 60_footer.php:40 60_footer.php:46 60_footer.php:52 60_footer.php:58
+msgid "Add this image to your website:"
+msgstr ""
+
+#: index.php:7
 msgid "Help La Quadrature defend our rights online against ACTA and beyond"
 msgstr ""
 
-#: ../dev/index.php:9
-msgid ""
-"La Quadrature has been defending citizens' rights and freedoms online since "
-"2008. For the past three years, it has helped raise awareness and campaigned "
-"against ACTA. La Quadrature du Net needs your help to defeat ACTA and move "
-"forward, advocating for a positive agenda to protect our freedoms."
+#: mail.php:4
+msgid "Thanks for your support to La Quadrature du Net"
 msgstr ""
 
-#: ../dev/texts.php:7 ../soutien/texts.php:7
+#: mail.php:6
+msgid "mail_1"
+msgstr ""
+
+#: mail.php:8
+msgid "mail_2"
+msgstr ""
+
+#: mail.php:10
+msgid "mail_3"
+msgstr ""
+
+#: texts.php:7
 msgid ""
 "You should now be redirected to the payment process. If not, please click on "
 "previous in your browser."
 msgstr ""
 
-#: ../dev/texts.php:9 ../soutien/texts.php:9
+#: texts.php:9
 msgid ""
 "An error happened while handling the form. Please contact us if the error "
 "persists."
 msgstr ""
 
-#: ../dev/texts.php:11 ../soutien/texts.php:11
+#: texts.php:11
 msgid "Sorry, we can not accept donations under 5€."
 msgstr ""
 
-#: ../dev/texts.php:13 ../soutien/texts.php:13
+#: texts.php:13
 msgid ""
 "Please enter an email address (it can be a disposable one) so we can send "
 "you our warmest thank you and your pi-ploma!"
 msgstr ""
 
-#: ../dev/texts.php:15 ../soutien/texts.php:15
+#: texts.php:15
 msgid ""
 "Your email address seems incorrect (accentuated and special characters can "
 "not be used)."
 msgstr ""
 
-#: ../dev/texts.php:17 ../soutien/texts.php:17
+#: texts.php:17
 msgid "Please give as at least a nickname to personnalise your pi-ploma!"
 msgstr ""
 
-#: ../dev/texts.php:19 ../soutien/texts.php:19
+#: texts.php:19
 msgid "Your complete address is needed to send you your goodies!"
 msgstr ""
 
-#: ../dev/texts.php:21 ../soutien/texts.php:21
+#: texts.php:21
 msgid ""
 "We're experiencing technical difficulties, please try again in a few moments…"
 msgstr ""
 
-#: ../dev/texts.php:23 ../soutien/texts.php:23
+#: texts.php:23
 msgid ""
 "Our online payment processor is unavailable right now. We have been notified "
 "of the problem and are working hard to get it back up and running quickly. "
 "Please try again in a few hours. Sorry and thank you!"
 msgstr ""
 
-#: ../dev/texts.php:42 ../soutien/texts.php:42
+#: texts.php:42
 msgid "Male, Size S"
 msgstr ""
 
-#: ../dev/texts.php:44 ../soutien/texts.php:44
+#: texts.php:44
 msgid "Male, Size M"
 msgstr ""
 
-#: ../dev/texts.php:46 ../soutien/texts.php:46
+#: texts.php:46
 msgid "Male, Size L"
 msgstr ""
 
-#: ../dev/texts.php:48 ../soutien/texts.php:48
+#: texts.php:48
 msgid "Male, Size XL"
 msgstr ""
 
-#: ../dev/texts.php:50 ../soutien/texts.php:50
+#: texts.php:50
 msgid "Female, Size S"
 msgstr ""
 
-#: ../dev/texts.php:52 ../soutien/texts.php:52
+#: texts.php:52
 msgid "Female, Size M"
 msgstr ""
 
-#: ../dev/texts.php:54 ../soutien/texts.php:54
+#: texts.php:54
 msgid "Female, Size L"
 msgstr ""
 
-#: ../dev/texts.php:56 ../soutien/texts.php:56
+#: texts.php:56
 msgid "Female, Size XL"
 msgstr ""
 
-#: ../dev/texts.php:61 ../soutien/texts.php:61
+#: texts.php:61
 msgid "Information"
 msgstr ""
 
-#: ../dev/texts.php:62 ../soutien/texts.php:62
+#: texts.php:62
 msgid ""
 "<h3>Information since 2008, a web-dossier, 120 press releases</h3> La "
 "Quadrature du Net has documented and analyzed each and every <a target="
@@ -434,11 +630,11 @@ msgid ""
 "worked from within the EU Parliament to defeat ACTA."
 msgstr ""
 
-#: ../dev/texts.php:63 ../soutien/texts.php:63
+#: texts.php:63
 msgid "Action"
 msgstr ""
 
-#: ../dev/texts.php:64 ../soutien/texts.php:64
+#: texts.php:64
 msgid ""
 "<h3>Citizen action in the European Parliament</h3> Throughout the various "
 "stages of ACTA's parliamentary process, <a target=\"_blank\" href=\"http://"
@@ -460,11 +656,11 @@ msgid ""
 "EU Parliament."
 msgstr ""
 
-#: ../dev/texts.php:65 ../soutien/texts.php:65
+#: texts.php:65
 msgid "Campaigns"
 msgstr ""
 
-#: ../dev/texts.php:66 ../soutien/texts.php:66
+#: texts.php:66
 msgid ""
 "<h3>An animated movie seen over 2.5 million times</h3> \"<a target=\"_blank"
 "\" href=\"http://www.laquadrature.net/en/video-acta-get-informed-take-action"
@@ -476,11 +672,11 @@ msgid ""
 "translated into 15 languages by volunteers."
 msgstr ""
 
-#: ../dev/texts.php:67 ../soutien/texts.php:67
+#: texts.php:67
 msgid "Mobilisation"
 msgstr ""
 
-#: ../dev/texts.php:68 ../soutien/texts.php:68
+#: texts.php:68
 msgid ""
 "<h3>Let's bury it and build a post-ACTA world!</h3> Citizens must <a target="
 "\"_blank\" href=\"http://www.laquadrature.net/en/over-1-million-views-for-no-"
@@ -500,11 +696,11 @@ msgid ""
 "\">paving the way</a> for a positive reform of copyright."
 msgstr ""
 
-#: ../dev/texts.php:72 ../soutien/texts.php:72
+#: texts.php:72
 msgid "Sharing"
 msgstr ""
 
-#: ../dev/texts.php:73 ../soutien/texts.php:73
+#: texts.php:73
 msgid ""
 "<h3>Our cultural practices must be made legal</h3> Editing and modifying "
 "works of art (remix) has become a means of expression for a whole "
@@ -530,11 +726,11 @@ msgid ""
 "\">copyright must evolve</a>."
 msgstr ""
 
-#: ../dev/texts.php:74 ../soutien/texts.php:74
+#: texts.php:74
 msgid "Freedom Online"
 msgstr ""
 
-#: ../dev/texts.php:75 ../soutien/texts.php:75
+#: texts.php:75
 msgid ""
 "<h3>Safeguarding a universal Net and free expression online</h3> The "
 "network's <a target=\"_blank\" href=\"http://www.laquadrature.net/en/eu-"
@@ -559,11 +755,11 @@ msgid ""
 "capacity to create, access and share knowledge and information."
 msgstr ""
 
-#: ../dev/texts.php:76 ../soutien/texts.php:76
+#: texts.php:76
 msgid "Empowerment"
 msgstr ""
 
-#: ../dev/texts.php:77 ../soutien/texts.php:77
+#: texts.php:77
 msgid ""
 "<h3>Building tools empowering citizens to change things</h3> La Quadrature "
 "du Net provides <a target=\"_blank\" href=\"http://www.laquadrature.net/en/"
@@ -580,11 +776,11 @@ msgid ""
 "laquadrature.net/en/how-to-participate\">citizens</a>."
 msgstr ""
 
-#: ../dev/texts.php:78 ../soutien/texts.php:78
+#: texts.php:78
 msgid "Infrastructure"
 msgstr ""
 
-#: ../dev/texts.php:79 ../soutien/texts.php:79
+#: texts.php:79
 msgid ""
 "<h3>Funding full-time activists and volunteers' actions</h3> La Quadrature "
 "du Net's infrastructure allows three full-time and one part-time activists "
@@ -592,880 +788,4 @@ msgid ""
 "space enables volunteers to participate in workshops and campaigning. "
 "Funding also serves to organize volunteer action such as bringing citizens "
 "from all over Europe to the EU Parliament."
-msgstr ""
-
-#: ../dev/32_donation_form2_html.php:92
-#: ../soutien/32_donation_form2_html.php:92
-msgid "Password:"
-msgstr ""
-
-#: ../dev/32_donation_form2_html.php:95
-#: ../soutien/32_donation_form2_html.php:95
-msgid "Again (password check):"
-msgstr ""
-
-#: ../dev/60_footer.php:34 ../dev/60_footer.php:35 ../dev/60_footer.php:37
-#: ../dev/60_footer.php:40 ../dev/60_footer.php:41 ../dev/60_footer.php:43
-#: ../dev/60_footer.php:47 ../dev/60_footer.php:48 ../dev/60_footer.php:50
-#: ../dev/60_footer.php:52 ../dev/60_footer.php:53 ../dev/60_footer.php:55
-#: ../dev/60_footer.php:59 ../dev/60_footer.php:60 ../dev/60_footer.php:62
-#: ../dev/60_footer.php:66 ../dev/60_footer.php:67 ../dev/60_footer.php:69
-#: ../dev/60_footer.php:12 ../dev/60_footer.php:13 ../dev/60_footer.php:15
-#: ../dev/60_footer.php:18 ../dev/60_footer.php:19 ../dev/60_footer.php:21
-#: ../dev/60_footer.php:25 ../dev/60_footer.php:26 ../dev/60_footer.php:28
-#: ../dev/60_footer.php:30 ../dev/60_footer.php:31 ../dev/60_footer.php:33
-#: ../dev/60_footer.php:38 ../dev/60_footer.php:44 ../dev/60_footer.php:45
-#: ../dev/60_footer.php:46 ../dev/60_footer.php:49 ../dev/60_footer.php:56
-#: ../dev/60_footer.php:58 ../soutien/60_footer.php:12
-#: ../soutien/60_footer.php:13 ../soutien/60_footer.php:15
-#: ../soutien/60_footer.php:18 ../soutien/60_footer.php:19
-#: ../soutien/60_footer.php:21 ../soutien/60_footer.php:25
-#: ../soutien/60_footer.php:26 ../soutien/60_footer.php:28
-#: ../soutien/60_footer.php:30 ../soutien/60_footer.php:31
-#: ../soutien/60_footer.php:33 ../soutien/60_footer.php:37
-#: ../soutien/60_footer.php:38 ../soutien/60_footer.php:40
-#: ../soutien/60_footer.php:43 ../soutien/60_footer.php:44
-#: ../soutien/60_footer.php:46 ../soutien/60_footer.php:49
-#: ../soutien/60_footer.php:50 ../soutien/60_footer.php:52
-#: ../soutien/60_footer.php:55 ../soutien/60_footer.php:56
-#: ../soutien/60_footer.php:58 ../dev/60_footer.php:14 ../dev/60_footer.php:16
-#: ../dev/60_footer.php:20 ../dev/60_footer.php:22 ../dev/60_footer.php:27
-#: ../dev/60_footer.php:29 ../dev/60_footer.php:32 ../dev/60_footer.php:39
-#: ../dev/60_footer.php:51 ../dev/60_footer.php:57
-msgid "Support La Quadrature du Net against ACTA and beyond!"
-msgstr ""
-
-#: ../dev/60_footer.php:36 ../dev/60_footer.php:42 ../dev/60_footer.php:49
-#: ../dev/60_footer.php:54 ../dev/60_footer.php:61 ../dev/60_footer.php:68
-#: ../dev/60_footer.php:14 ../dev/60_footer.php:20 ../dev/60_footer.php:27
-#: ../dev/60_footer.php:32 ../dev/60_footer.php:39 ../dev/60_footer.php:46
-#: ../dev/60_footer.php:45 ../dev/60_footer.php:51 ../dev/60_footer.php:57
-#: ../soutien/60_footer.php:14 ../soutien/60_footer.php:20
-#: ../soutien/60_footer.php:27 ../soutien/60_footer.php:32
-#: ../soutien/60_footer.php:39 ../soutien/60_footer.php:45
-#: ../soutien/60_footer.php:51 ../soutien/60_footer.php:57
-#: ../dev/60_footer.php:15 ../dev/60_footer.php:21 ../dev/60_footer.php:28
-#: ../dev/60_footer.php:33 ../dev/60_footer.php:40 ../dev/60_footer.php:52
-#: ../dev/60_footer.php:58
-msgid "Add this image to your website:"
-msgstr ""
-
-#: ../dev/50_faq.php:13 ../soutien/50_faq.php:13
-msgid "Where will my money go?"
-msgstr ""
-
-#: ../dev/50_faq.php:18 ../soutien/50_faq.php:18
-msgid "I don't have any money,  how can I help La Quadrature du Net?"
-msgstr ""
-
-#: ../dev/50_faq.php:20 ../soutien/50_faq.php:20
-msgid ""
-"Spread the word about this campaign! By speaking up on social networks, on "
-"blogs, or by telling people around you about the importance of La "
-"Quadrature's actions,  and how they can participate, you can help us. This "
-"support is vital, as La Quadrature can only exist through the citizens who "
-"share our commitment to the free Internet."
-msgstr ""
-
-#: ../dev/50_faq.php:21 ../soutien/50_faq.php:21
-msgid ""
-"You can also support La Quadrature du Net day after day by <a target=\"_blank"
-"\" href=\"http://laquadrature.net/en/how-to-participate\">getting involved"
-msgstr ""
-
-#: ../dev/50_faq.php:22 ../soutien/50_faq.php:22
-msgid ""
-"Financial donations help la Quadrature work on a day-to-day basis by paying "
-"for its fulltime activists'  salaries, costs and such, but la Quadrature "
-"would be nothing without the people who give their time, skills and energy "
-"to support its actions  and make them their own."
-msgstr ""
-
-#: ../dev/50_faq.php:23 ../soutien/50_faq.php:23
-msgid ""
-"Please don't hesitate to <a target=\"_blank\" href=\"http://www.laquadrature."
-"net/en/contact-us\">get in touch</a> to find a way to contribute that suits "
-"you!"
-msgstr ""
-
-#: ../dev/50_faq.php:25 ../soutien/50_faq.php:25
-msgid "Is my support tax-deductible?"
-msgstr ""
-
-#: ../dev/50_faq.php:27 ../soutien/50_faq.php:27
-msgid ""
-"Not at the moment. We are looking into a way of making this possible, but "
-"unfortunately it is not possible for current donations."
-msgstr ""
-
-#: ../dev/50_faq.php:29 ../soutien/50_faq.php:29
-msgid "I need a receipt or an invoice for my donation."
-msgstr ""
-
-#: ../dev/50_faq.php:31 ../soutien/50_faq.php:31
-msgid ""
-"We can send you a receipt for accounting purposes. Please <a target=\"_blank"
-"\" href=\"http://www.laquadrature.net/en/contact-us\">contact us</a> by "
-"email."
-msgstr ""
-
-#: ../dev/50_faq.php:33 ../soutien/50_faq.php:33
-msgid "Who supports La Quadrature du Net?"
-msgstr ""
-
-#: ../dev/50_faq.php:35 ../soutien/50_faq.php:35
-msgid ""
-"Several <a target=\"_blank\" href=\"http://www.laquadrature.net/en/they-"
-"support-la-quadrature-du-net\">NGOs support La Quadrature</a>, as well as <a "
-"target=\"_blank\" href=\"http://www.laquadrature.net/en/public-supporters"
-"\">thousands of individuals who have made a donation</a> and wish to be "
-"listed publicly."
-msgstr ""
-
-#: ../dev/50_faq.php:37 ../soutien/50_faq.php:37 ../dev/50_faq.php:41
-msgid "Can I make a donation by check?"
-msgstr ""
-
-#: ../dev/50_faq.php:39 ../soutien/50_faq.php:39 ../dev/50_faq.php:43
-msgid ""
-"Yes. To donate by check, stop the payment procedure when you are at our "
-"bank's website. Send your check to the following address:"
-msgstr ""
-
-#: ../dev/50_faq.php:41 ../soutien/50_faq.php:41 ../dev/50_faq.php:45
-msgid "<tr><td><i>Payable to: </i></td><td>FDNN</td></tr>"
-msgstr ""
-
-#: ../dev/50_faq.php:42 ../soutien/50_faq.php:42 ../dev/50_faq.php:46
-msgid ""
-"<tr><td><i>Address: </i></td><td>FDNN, 16 rue de Cachy, 80090 Amiens</td></"
-"tr>"
-msgstr ""
-
-#: ../dev/50_faq.php:43 ../soutien/50_faq.php:43 ../dev/50_faq.php:47
-msgid ""
-"<tr><td><b>Important note: </b></td><td>Please write down the name you gave "
-"us on the back of your check in order to allow us to find you easily.</td></"
-"tr>"
-msgstr ""
-
-#: ../dev/50_faq.php:45 ../soutien/50_faq.php:45 ../dev/50_faq.php:49
-msgid ""
-"FDNN (Fond de Défense de la Net Neutralité, “Net Neutrality Defense Fund”), "
-"is the organisation which manages La Quadrature du Net's accounts."
-msgstr ""
-
-#: ../dev/50_faq.php:47 ../soutien/50_faq.php:47 ../dev/50_faq.php:51
-msgid "Can I make a donation through money transfer?"
-msgstr ""
-
-#: ../dev/50_faq.php:49 ../soutien/50_faq.php:49 ../dev/50_faq.php:53
-msgid ""
-"Sure! You need to transfer your donation to FDNN's bank account (FDNN takes "
-"care of La Quadrature du Net's accounts) using the following details."
-msgstr ""
-
-#: ../dev/50_faq.php:51
-msgid ""
-"<b>International bank transfer: </b>IBAN: FR76 1027 8060 3100 0203 2270 187"
-msgstr ""
-
-#: ../dev/50_faq.php:52
-msgid ""
-"You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
-"RIB_FDNN.pdf\">download the details of FDNN's bank account</a>."
-msgstr ""
-
-#: ../dev/50_faq.php:53 ../soutien/50_faq.php:53 ../dev/50_faq.php:57
-msgid ""
-"<b>Important note: </b>Please quote the name you gave us as your transfer's "
-"comment, so we can send you your pi decimals or other goodies."
-msgstr ""
-
-#: ../dev/50_faq.php:55 ../soutien/50_faq.php:55 ../dev/50_faq.php:59
-msgid "Can I make a donation through PayPal?"
-msgstr ""
-
-#: ../dev/50_faq.php:56 ../soutien/50_faq.php:56 ../dev/50_faq.php:60
-msgid ""
-"We do not recommend using PayPal for donations, for ethical reasons (their "
-"actions against WikiLeaks, among others) and because of the overtly "
-"expensive costs incurred. Nevertheless, if it is your only option, you  may "
-"use the following account: paypal@laquadrature.net."
-msgstr ""
-
-#: ../dev/50_faq.php:58 ../soutien/50_faq.php:58 ../dev/50_faq.php:62
-msgid "Can I make a donation via Flattr?"
-msgstr ""
-
-#: ../dev/50_faq.php:60 ../soutien/50_faq.php:60 ../dev/50_faq.php:64
-msgid ""
-"Yes! If you wish to support la Quadrature via Flattr, you can simply flatter "
-"this page, or any of the site's articles."
-msgstr ""
-
-#: ../dev/50_faq.php:61 ../soutien/50_faq.php:61 ../dev/50_faq.php:65
-msgid ""
-"Flattr is a great way to support us, but as a Flattr is quite small, please  "
-"don't hesitate to flatter our articles to your heart's content.\n"
-"<a href=\"http://flattr.com/thing/129120/La-Quadrature-du-Net\"><img src=\"/"
-"files/flattr-compact.png\" title=\"Flattr this\" alt=\"Flattr\" /></a>"
-msgstr ""
-
-#: ../dev/50_faq.php:63 ../soutien/50_faq.php:63 ../dev/50_faq.php:67
-msgid ""
-"Flattr also offers the possibility to make larger donations, which offers "
-"an  interesting alternative to PayPal.<br/>To make a donation to La  "
-"Quadrature du Net via Flattr, please use  <a target=\"_blank\" href="
-"\"https://flattr.com/donation/give/to/laquadrature\">the form on this page</"
-"a>. As Flattr donations are anonymous, we will not be able to send you your "
-"goodies, unless you <a target=\"_blank\" href=\"http://www.laquadrature.net/"
-"en/contact-us\">contact us</a> with identifiable information, and in "
-"particular the the amount you plan to give in your donation."
-msgstr ""
-
-#: ../dev/50_faq.php:65 ../soutien/50_faq.php:65 ../dev/50_faq.php:69
-msgid "Can I support La Quadrature du Net by buying a t-shirt?"
-msgstr ""
-
-#: ../dev/50_faq.php:67 ../soutien/50_faq.php:67 ../dev/50_faq.php:71
-msgid ""
-"La Quadrature du Net does not sell t-shirts. The only way to support la "
-"Quadrature du Net (financially) is to make a donation. Of course, you can "
-"also help and support la Quadrature in other ways, by helping out for "
-"instance. Selling t-shirts would require a lot of time and effort and would "
-"probably mean hiring someone in order to make anything substantial from it. "
-"It would not be worth it. The pi-shirts are but a (small) gift from la "
-"Quadrature to show its gratitude and thank its most generous benefactors."
-msgstr ""
-
-#: ../dev/50_faq.php:69 ../soutien/50_faq.php:69 ../dev/50_faq.php:73
-msgid "When will I get my shirt?"
-msgstr ""
-
-#: ../dev/50_faq.php:71 ../soutien/50_faq.php:71 ../dev/50_faq.php:75
-msgid ""
-"For logistical reasons, t-shirts are sent in batch. This may take a while, "
-"sometimes up to a couple months. Please forgive us for this delay."
-msgstr ""
-
-#: ../dev/55_share.php:16 ../dev/55_share.php:19 ../soutien/55_share.php:16
-#: ../soutien/55_share.php:19
-msgid ""
-"Like me, support @LaQuadrature du Net against #ACTA and beyond! https://"
-"support.laquadrature.net/"
-msgstr ""
-
-#: ../dev/55_share.php:23
-msgid ""
-"Like me, support La Quadrature du Net against #ACTA and beyond! https://"
-"support.laquadrature.net/"
-msgstr ""
-
-#: ../dev/55_share.php:30 ../dev/55_share.php:27 ../dev/55_share.php:28
-#: ../soutien/55_share.php:28
-msgid ""
-"For the past four years, La Quadrature du Net has raised awareness and "
-"campaigned against ACTA. We need your help to defeat ACTA and move forward, "
-"advocating for a positive agenda to protect our freedoms. https://support."
-"laquadrature.net/"
-msgstr ""
-
-#: ../dev/mail.php:4 ../site/cb2.php:42 ../site/cb.php:81
-#: ../soutien/mail.php:4
-msgid "Thanks for your support to La Quadrature du Net"
-msgstr ""
-
-#: ../dev/mail.php:6 ../site/cb2.php:47 ../site/cb.old.php:75
-#: ../site/cb.php:87 ../site/paypal_debug.php:21 ../site/paypal.php:147
-#: ../soutien/mail.php:6 ../trash_janv2012/28mars_mail.php:33
-msgid "mail_1"
-msgstr ""
-
-#: ../dev/mail.php:8 ../site/cb2.php:50 ../site/cb.old.php:78
-#: ../site/cb.php:90 ../site/paypal_debug.php:24 ../site/paypal.php:150
-#: ../soutien/mail.php:8 ../trash_janv2012/28mars_mail.php:36
-msgid "mail_2"
-msgstr ""
-
-#: ../dev/mail.php:10 ../site/cb2.php:53 ../site/cb.old.php:81
-#: ../site/cb.php:93 ../site/paypal_debug.php:27 ../site/paypal.php:153
-#: ../soutien/mail.php:10 ../trash_janv2012/28mars_mail.php:39
-msgid "mail_3"
-msgstr ""
-
-#: ../petition/confirm.php:23 ../petition.orig/confirm.php:23
-msgid ""
-"The link you clicked is incorrect, please check it: it must end with "
-"something like 'id=123&auth=1234567890123456'"
-msgstr ""
-
-#: ../petition/confirm.php:31 ../petition.orig/confirm.php:31
-msgid ""
-"The auth code is incorrect, please check your mail, or refill the signature "
-"form"
-msgstr ""
-
-#: ../petition/confirm.php:43 ../petition.orig/confirm.php:43
-msgid "Your signature has been confirmed, Thanks for your support!"
-msgstr ""
-
-#: ../petition/confirm.php:46 ../petition.orig/confirm.php:46
-#: ../petition.orig/sign.php:70 ../petition/sign.php:71
-msgid ""
-"You already signed this petition, and your signature has been properly "
-"recorded. Thanks for your support!"
-msgstr ""
-
-#: ../petition/confirm.php:50 ../petition.orig/confirm.php:50
-msgid ""
-"Your unconfirmed signature has not been found. You may refill the signature "
-"form. Sorry."
-msgstr ""
-
-#: ../petition/functions.php:428 ../petition/functions.php:430
-#: ../petition.orig/functions.php:419 ../petition.orig/functions.php:421
-msgid "Previous"
-msgstr ""
-
-#: ../petition/functions.php:484 ../petition/functions.php:486
-#: ../petition.orig/functions.php:475 ../petition.orig/functions.php:477
-msgid "Next"
-msgstr ""
-
-#: ../petition/index.php:22 ../petition.orig/index.php:22
-msgid ""
-"There is currently no petition'd text: create an HTML extract with your "
-"petition's text and save it to templates/petition.html or templates/"
-"petition.'lang'.html for each language version"
-msgstr ""
-
-#: ../petition/list.php:85
-#, php-format
-msgid "(Total %d signatures)"
-msgstr ""
-
-#: ../petition.orig/sign.php:36 ../petition/sign.php:37
-msgid "Please fill in the mandatory fields."
-msgstr ""
-
-#: ../petition.orig/sign.php:42 ../petition/sign.php:43
-msgid "The country is incorrect, please check it"
-msgstr ""
-
-#: ../petition.orig/sign.php:48 ../petition/sign.php:49
-msgid "Your email address seems to be incorrect, please check it"
-msgstr ""
-
-#: ../petition.orig/sign.php:67 ../petition/sign.php:68
-msgid ""
-"You already signed the petition, but you didn't confirmed your signature: "
-"please check your mail and click the link inside it."
-msgstr ""
-
-#: ../petition.orig/sign.php:86 ../petition/sign.php:87
-msgid ""
-"Something went wrong with the petition database. Please try again later..."
-msgstr ""
-
-#: ../petition.orig/sign.php:99 ../petition/sign.php:100
-msgid ""
-"Oups, the mail.txt or mail.'lang'.txt text file does not exist at the "
-"moment ! Your petition setup is incorrect !"
-msgstr ""
-
-#: ../petition.orig/sign.php:138 ../petition/sign.php:139
-#, php-format
-msgid ""
-"An email has been sent to your address %s, please click on the link inside "
-"it to confirm your signature."
-msgstr ""
-
-#: ../pi/don2.php:9
-msgid "R&eacute;capitulation de votre don &agrave; La Quadrature du Net"
-msgstr ""
-
-#: ../pi/don2.php:11
-msgid ""
-"Merci de v&eacute;rifier les informations sur votre don avant de passer "
-"&agrave; l'&eacute;tape suivante : vous serez alors redirig&eacute; vers le "
-"site de Paypal pour proc&eacute;der au paiement de votre don."
-msgstr ""
-
-#: ../pi/don2.php:14
-msgid "Somme &agrave; donner&nbsp;:"
-msgstr ""
-
-#: ../pi/don2.php:18 ../trash_janv2012/don2010_2.php:21
-#: ../trash_janv2012/don2.php:18
-msgid ""
-"Vous recevrez un PDF personnel et unique contenant 1000 d&eacute;cimales de "
-"PI, sign&eacute; par la Quadrature du Net !"
-msgstr ""
-
-#: ../pi/don2.php:21 ../trash_janv2012/don2010_2.php:24
-#: ../trash_janv2012/don2.php:21
-msgid "Il sera envoy&eacute; &agrave; l'adresse email&nbsp;:"
-msgstr ""
-
-#: ../pi/don2.php:23 ../trash_janv2012/don2010_2.php:26
-#: ../trash_janv2012/don2.php:23
-msgid ""
-"Il vous sera mis &agrave; disposition apr&egrave;s retour du paiement "
-"Paypal. N'oubliez pas de cliquez sur le lien de retour au site apr&egrave;s "
-"votre paiement !"
-msgstr ""
-
-#: ../pi/don2.php:29 ../trash_janv2012/don2010_2.php:32
-#: ../trash_janv2012/don2.php:29
-msgid ""
-"Vous recevrez par ailleurs le m&ecirc;me PDF par courrier sur papier "
-"sp&eacute;cial, chez vous !"
-msgstr ""
-
-#: ../pi/don2.php:32 ../trash_janv2012/don2010_2.php:35
-#: ../trash_janv2012/don2.php:32
-msgid ""
-"Vous recevrez par ailleurs un T-Shirt s&eacute;rie limit&eacute;e de la "
-"Quadrature Du Net !"
-msgstr ""
-
-#: ../pi/don2.php:35 ../trash_janv2012/don2010_2.php:38
-#: ../trash_janv2012/don2.php:35
-msgid "Votre adresse"
-msgstr ""
-
-#: ../pi/don2.php:65 ../trash_janv2012/don2.php:67
-msgid "Proceder au paiement sur Paypal"
-msgstr ""
-
-#: ../pi/don2.php:66 ../trash_janv2012/don2010_2.php:99
-#: ../trash_janv2012/don2.php:68
-msgid "Retour au formulaire"
-msgstr ""
-
-#: ../pi/don.php:20 ../trash_janv2012/don2010.php:20
-#: ../trash_janv2012/don.php:20
-msgid "- Choisissez le montant de votre soutien"
-msgstr ""
-
-#: ../pi/don.php:25 ../trash_janv2012/don2010.php:25
-#: ../trash_janv2012/don.php:25
-msgid ""
-"- Merci de choisir une somme sup&eacute;rieure ou &eacute;gale &agrave; "
-"5&euro;. (Les frais bancaires sont trop importants sinon)"
-msgstr ""
-
-#: ../pi/don.php:42 ../pi/don.php:56 ../pi/don.php:60
-#: ../trash_janv2012/don2010.php:42 ../trash_janv2012/don2010.php:56
-#: ../trash_janv2012/don2010.php:60 ../trash_janv2012/don.php:42
-#: ../trash_janv2012/don.php:56 ../trash_janv2012/don.php:60
-msgid ""
-"- Afin de personnaliser vos 1000 d&eacute;cimales, entrez votre nom ou "
-"pseudo."
-msgstr ""
-
-#: ../pi/don.php:53 ../trash_janv2012/don2010.php:53
-#: ../trash_janv2012/don.php:53
-msgid ""
-"- Pour recevoir vos 1000 d&eacute;cimales en &eacute;dition "
-"personnalis&eacute;e, merci de renseigner vos noms et adresse compl&egrave;"
-"te. Sinon d&eacute;cochez la case."
-msgstr ""
-
-#: ../pi/don.php:66 ../trash_janv2012/don2010.php:66
-#: ../trash_janv2012/don.php:66
-msgid ""
-"- Si vous souhaitez &ecirc;tre abonn&eacute; &agrave; la lettre "
-"d'information de la Quadrature du Net, merci de renseigner votre adresse de "
-"courrier &eacute;lectronique. sinon d&eacute;cochez la case d'abonnement."
-msgstr ""
-
-#: ../pi/don.php:70 ../trash_janv2012/don2010.php:70
-#: ../trash_janv2012/don.php:70
-msgid ""
-"- Votre adresse email semble incorrecte, v&eacute;rifiez-l&agrave; (pas "
-"d'accent ou de caract&egrave;re sp&eacute;ciaux interdits) pour pouvoir "
-"continuer..."
-msgstr ""
-
-#: ../pi/don.php:88 ../trash_janv2012/don2010.php:100
-#: ../trash_janv2012/don.php:100
-msgid "Probl&egrave;me technique, merci de r&eacute;essayer plus tard ..."
-msgstr ""
-
-#: ../pi/don.php:117 ../trash_janv2012/don.php:125
-msgid ""
-"Je soutiens la Quadrature du Net et son action. En &eacute;change, et en "
-"fonction du montant donn&eacute;, je recevrai 1000 d&eacute;cimales de Pi, "
-"une &eacute;dition limit&eacute;e de ces 1000 d&eacute;cimales, un 'pi-"
-"shirt' collector&nbsp;:"
-msgstr ""
-
-#: ../pi/don.php:123 ../trash_janv2012/don2010.php:130
-#: ../trash_janv2012/don.php:131
-msgid "5 &euro;"
-msgstr ""
-
-#: ../pi/don.php:127 ../trash_janv2012/don2010.php:131
-#: ../trash_janv2012/don.php:135
-msgid "25 &euro;"
-msgstr ""
-
-#: ../pi/don.php:128 ../trash_janv2012/don2010.php:132
-#: ../trash_janv2012/don.php:136
-msgid "50 &euro;"
-msgstr ""
-
-#: ../pi/don.php:129 ../trash_janv2012/don2010.php:136
-#: ../trash_janv2012/don.php:137
-msgid "Autre"
-msgstr ""
-
-#: ../pi/don.php:135 ../trash_janv2012/don.php:143
-msgid ""
-"Nous ne pouvons pas accepter les soutiens inf&eacute;rieurs &agrave; 5&euro; "
-"(frais bancaires trop importants)<br />Vous pouvez toujours nous aider par "
-"votre action : contactez nous !"
-msgstr ""
-
-#: ../pi/don.php:144 ../trash_janv2012/don.php:152
-msgid ""
-"Pour vous remercier de votre soutien, vous recevrez : <br />1000 d&eacute;"
-"cimales de &pi; dans un certificat personnalis&eacute; aux couleurs de La "
-"Quadrature du Net !"
-msgstr ""
-
-#: ../pi/don.php:151
-msgid ""
-"Pour vous remercier de votre soutien, vous recevrez : <br />Vos 1000 "
-"d&eacute;cimales de &pi; dans un certificat personnalis&eacute; aux couleurs "
-"de La Quadrature du Net ! Vous recevrez votre certificat <b>chez vous</b> "
-"sur un tirage original de qualit&eacute; sup&egrave;rieure, <b>sign&eacute; "
-"par les co-fondateurs de La Quadrature</b>."
-msgstr ""
-
-#: ../pi/don.php:153 ../pi/don.php:163 ../trash_janv2012/don.php:161
-#: ../trash_janv2012/don.php:171
-msgid "Pour cela, merci de nous fournir vos noms et adresse postale."
-msgstr ""
-
-#: ../pi/don.php:161
-msgid ""
-"Pour vous remercier de votre soutien, vous recevrez : <br />Vos 1000 "
-"d&eacute;cimales de &pi; dans un certificat personnalis&eacute; aux couleurs "
-"de La Quadrature du Net ! Vous recevrez votre certificat <b>chez vous</b> "
-"sur un tirage original de qualit&eacute; sup&egrave;rieure, <b>sign&eacute; "
-"par les co-fondateurs de La Quadrature</b>, ainsi qu'un <b>t-shirt collector "
-"de La Quadrature du Net</b> !"
-msgstr ""
-
-#: ../pi/don.php:174
-msgid ""
-"Cocher cette case si vous voulez recevoir votre cadeau (papier de PI et/ou t-"
-"shirt)"
-msgstr ""
-
-#: ../pi/don.php:181 ../trash_janv2012/don2010.php:177
-#: ../trash_janv2012/don.php:189
-msgid "Pr&eacute;nom et Nom"
-msgstr ""
-
-#: ../pi/don.php:181 ../trash_janv2012/don2010.php:177
-#: ../trash_janv2012/don.php:189
-msgid "(ou pseudo)"
-msgstr ""
-
-#: ../pi/don.php:188 ../trash_janv2012/don2010.php:184
-#: ../trash_janv2012/don.php:196
-msgid "Adresse"
-msgstr ""
-
-#: ../pi/don.php:188 ../trash_janv2012/don2010.php:184
-#: ../trash_janv2012/don.php:196
-msgid "(et votre nom si vous avez mis un pseudo ci-dessus)"
-msgstr ""
-
-#: ../pi/don.php:192 ../trash_janv2012/don2010.php:188
-#: ../trash_janv2012/don.php:200
-msgid "Code Postal, Ville, Pays"
-msgstr ""
-
-#: ../pi/don.php:202 ../trash_janv2012/don2010.php:203
-#: ../trash_janv2012/don.php:215
-msgid "Adresse Email"
-msgstr ""
-
-#: ../pi/don.php:202 ../trash_janv2012/don2010.php:203
-#: ../trash_janv2012/don.php:215
-msgid "(facultative)"
-msgstr ""
-
-#: ../pi/don.php:204 ../trash_janv2012/don2010.php:205
-#: ../trash_janv2012/don.php:217
-msgid ""
-"(Votre adresse email ne sera utilis&eacute;e que pour vous envoyer votre "
-"certificat personnalis&eacute; &agrave; vos d&eacute;cimales de Pi)"
-msgstr ""
-
-#: ../pi/don.php:208 ../trash_janv2012/don.php:221
-msgid ""
-"Voulez-vous vous inscrire &agrave; la lettre mensuelle d'actualit&eacute; de "
-"la Quadrature&nbsp;?"
-msgstr ""
-
-#: ../pi/don.php:214 ../trash_janv2012/don2010.php:217
-#: ../trash_janv2012/don.php:230
-msgid "Je soutiens La Quadrature !"
-msgstr ""
-
-#: ../pi/plome.php:64
-msgid "tient  remercier pour son soutien"
-msgstr ""
-
-#: ../pi/plome.php:69
-#, php-format
-msgid "et lui dcerne les dcimales %s  %s de %s"
-msgstr ""
-
-#: ../pi/plome.php:92
-msgid ""
-"La Quadrature du Net est une organisation de dfense des droits et liberts "
-"des citoyens dans l'environnement numrique. Elle n'existe que par votre "
-"soutien. Merci."
-msgstr ""
-
-#: ../site/cb.old.php:69
-msgid "Merci pour votre soutien à La Quadrature du Net !"
-msgstr ""
-
-#: ../site/mailing2.php:30
-msgid "Votre pi-plome de soutien  La Quadrature du Net"
-msgstr ""
-
-#: ../site/mailing.php:30
-msgid "Votre pi-plome de soutien à La Quadrature du Net"
-msgstr ""
-
-#: ../site/paypal_debug.php:15 ../site/paypal.php:141
-#: ../trash_janv2012/28mars_mail.php:27
-msgid "Merci pour votre soutien a La Quadrature du Net !"
-msgstr ""
-
-#: ../site/plome.php:37
-msgid "Chaine de test de trad: Lang FR"
-msgstr ""
-
-#: ../site/plome.php:66
-msgid "tient \\`a remercier pour son soutien"
-msgstr ""
-
-#: ../site/plome.php:71
-#, php-format
-msgid "et lui d\\'ecerne les d\\'ecimales %s \\`a %s de %s"
-msgstr ""
-
-#: ../site/plome.php:94
-msgid ""
-"La Quadrature du Net est une organisation de d\\'efense des droits et libert"
-"\\'es des citoyens dans l'environnement num\\'erique. Elle n'existe que par "
-"votre soutien. Merci."
-msgstr ""
-
-#: ../soutien/00_noscript.php:5 ../dev/00_noscript.php:5
-msgid ""
-"Hey, you have Javascript off. It's cool, we use NoScript all the time too. "
-"Please enable it to make sure this page runs nice and smooth, thanks!"
-msgstr ""
-
-#: ../soutien/50_faq.php:51 ../dev/50_faq.php:51 ../dev/50_faq.php:55
-msgid ""
-"<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
-"2270 187<br />This number is usually enough to make a wire transfer from "
-"anywhere in Europe"
-msgstr ""
-
-#: ../soutien/50_faq.php:52 ../dev/50_faq.php:52 ../dev/50_faq.php:56
-msgid ""
-"You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
-"RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."
-msgstr ""
-
-#: ../trash_janv2012/don2010_2.php:12 ../trash_janv2012/don2.php:9
-msgid "R&eacute;capitulation de votre soutien &agrave; La Quadrature du Net"
-msgstr ""
-
-#: ../trash_janv2012/don2010_2.php:14 ../trash_janv2012/don2.php:11
-msgid ""
-"Merci de v&eacute;rifier les informations sur votre soutien avant de passer "
-"&agrave; l'&eacute;tape suivante : vous serez alors redirig&eacute; vers le "
-"site de Paypal pour proc&eacute;der au paiement de votre soutien."
-msgstr ""
-
-#: ../trash_janv2012/don2010_2.php:17 ../trash_janv2012/don2.php:14
-msgid "Somme&nbsp;:"
-msgstr ""
-
-#: ../trash_janv2012/don2010_2.php:98
-msgid "Proceder au paiement par Paypal ou par carte de crédit"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:133
-msgid "100 &euro;"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:134
-msgid "200 &euro;"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:143
-msgid ""
-"Nous ne pouvons pas accepter les soutiens inf&eacute;rieurs &agrave; 5&euro; "
-"(frais bancaires trop importants) Vous pouvez toujours nous aider par votre "
-"action : contactez nous !"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:147
-msgid ""
-"Vous recevrez vos 1000 d&eacute;cimales de &pi; dans un certificat "
-"personnalis&eacute; aux couleurs de La Quadrature du Net !"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:151
-msgid ""
-"Vous recevrez, <b>chez vous, un tirage original de qualit&eacute; sup&eacute;"
-"rieure</b> de vos 1000 d&eacute;cimales de &pi; dans un certificat "
-"personnalis&eacute; aux couleurs de La Quadrature du Net !"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:155
-msgid ""
-"Vous recevrez, <b>chez vous, un tirage original de qualit&eacute; sup&eacute;"
-"rieure</b> de vos 1000 d&eacute;cimales de &pi; dans un certificat "
-"personnalis&eacute;,  ainsi qu'un <b>'pi-shirt' collector de La Quadrature "
-"du Net !</b>"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:159
-msgid ""
-"Vous recevrez, <b>chez vous, un tirage original de qualit&eacute; sup&eacute;"
-"rieure</b> de vos 1000 d&eacute;cimales de &pi; dans un certificat "
-"personnalis&eacute;, ainsi qu'<b>un 'pi-shirt' collector, et un myst&eacute;"
-"rieux cadeau, historique, num&eacute;rot&eacute; et d&eacute;dicac&eacute;."
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:170 ../trash_janv2012/don.php:182
-msgid ""
-"Cochez cette case si vous voulez recevoir votre cadeau (papier de PI et/ou t-"
-"shirt)"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:194 ../trash_janv2012/don.php:206
-msgid "Quelle coupe/taille pour votre pi-shirt ?"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:209
-msgid ""
-"Je souhaite m'inscrire &agrave; la lettre mensuelle d'actualit&eacute; de la "
-"Quadrature"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:212 ../trash_janv2012/don.php:224
-msgid ""
-"Je souhaite appara&icirc;tre dans la liste des soutiens &agrave; la "
-"Quadrature"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:212 ../trash_janv2012/don.php:224
-msgid "(Nous n'afficherons que votre nom ou pseudo)"
-msgstr ""
-
-#: ../trash_janv2012/don2010.php:220
-msgid "questions fr&eacute;quentes (FAQ) :"
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:24
-#: ../trash_janv2012/don2010_retour.php:32
-#: ../trash_janv2012/don2010_retour.php:42
-#, php-format
-msgid "Pour tout soutien entre %s et %s &euro; :"
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:26
-msgid ""
-"Vous recevrez : <br />vos 1000 d&eacute;cimales de &pi; dans un certificat "
-"personnalis&eacute; aux couleurs de La Quadrature du Net !"
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:34
-msgid ""
-"Vous recevrez, <b>chez vous</b><br /> <b>un tirage original de "
-"qualit&eacute; sup&eacute;rieure</b> de vos 1000 d&eacute;cimales de &pi; "
-"dans un certificat personnalis&eacute; aux couleurs de La Quadrature du "
-"Net !."
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:36
-#: ../trash_janv2012/don2010_retour.php:46
-#: ../trash_janv2012/don2010_retour.php:56
-msgid "(merci de nous fournir vos noms et adresse postale.)"
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:44
-msgid ""
-"Vous recevrez, <b>chez vous</b><br /> <b>un tirage original de "
-"qualit&eacute; sup&eacute;rieure</b> de vos 1000 d&eacute;cimales de &pi; "
-"dans un certificat personnalis&eacute;,  ainsi qu'un <b>'pi-shirt' collector "
-"de La Quadrature du Net !</b> !."
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:52
-#, php-format
-msgid "Pour tout soutien sup&eacute;rieur ou &eacute;gal &agrave; %s &euro; :"
-msgstr ""
-
-#: ../trash_janv2012/don2010_retour.php:54
-msgid ""
-"Vous recevrez, <b>chez vous</b><br /> <b>un tirage original de "
-"qualit&eacute; sup&eacute;rieure</b> de vos 1000 d&eacute;cimales de &pi; "
-"dans un certificat personnalis&eacute;, ainsi qu'<b>un 'pi-shirt' collector, "
-"et un mystérieux cadeau, historique, numéroté et dédicacé</b> !."
-msgstr ""
-
-#: ../trash_janv2012/don.php:159
-msgid ""
-"Pour vous remercier de votre soutien, vous recevrez : <br />Vos 1000 "
-"d&eacute;cimales de &pi; dans un certificat personnalis&eacute; aux couleurs "
-"de La Quadrature du Net ! Vous recevrez votre certificat <b>chez vous</b> "
-"sur <b>un tirage original de qualit&eacute; sup&eacute;rieure</b>."
-msgstr ""
-
-#: ../trash_janv2012/don.php:169
-msgid ""
-"Pour vous remercier de votre soutien, vous recevrez : <br />Vos 1000 "
-"d&eacute;cimales de &pi; dans un certificat personnalis&eacute; aux couleurs "
-"de La Quadrature du Net ! Vous recevrez votre certificat <b>chez vous</b> "
-"sur <b>un tirage original de qualit&eacute; sup&eacute;rieure</b> ainsi "
-"qu'un <b>'pi-shirt' collector de La Quadrature du Net !</b>"
-msgstr ""
-
-#: ../dev/32_donation_form2_html.php:41
-msgid ""
-"You wish to support us with a monthly donation, thank you for your kind "
-"support. For your convenience, you will have the possibility to pause or "
-"stop this donation each month."
-msgstr ""
-
-#: ../dev/50_faq.php:37
-msgid "Who funds La Quadrature du Net?"
-msgstr ""
-
-#: ../dev/50_faq.php:39
-msgid ""
-"The <a target=\"_blank\" href=\"http://www.soros.org\">Open Society "
-"Foundation</a> has been contributing to La Quadrature du Net's budget "
-"through a yearly grant of 50K euros (60K for 2012), but the majority (all "
-"the rest) of our funds come from individual citizens' contributions. This is "
-"a guarantee of independence, but at the same time creates uncertainty "
-"regarding the sustainability of our income and of our action."
 msgstr ""
