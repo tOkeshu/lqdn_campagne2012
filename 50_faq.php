@@ -34,6 +34,10 @@
 			<div>
 			    <?php __("Several <a target=\"_blank\" href=\"http://www.laquadrature.net/en/they-support-la-quadrature-du-net\">NGOs support La Quadrature</a>, as well as <a target=\"_blank\" href=\"http://www.laquadrature.net/en/public-supporters\">thousands of individuals who have made a donation</a> and wish to be listed publicly."); ?>
 			</div>
+			<h4 id="faq-who"><a href="#faq-who"><?php __("Who funds La Quadrature du Net?"); ?></a></h4>
+			<div>
+			    <?php __("The <a target=\"_blank\" href=\"http://www.soros.org\">Open Society Foundation</a> has been contributing to La Quadrature du Net's budget through a yearly grant of 50K euros (60K for 2012), but the majority (all the rest) of our funds come from individual citizens' contributions. This is a guarantee of independence, but at the same time creates uncertainty regarding the sustainability of our income and of our action."); ?>
+			</div>
 			<h4 id="faq-cheque"><a href="#faq-cheque"><?php __("Can I make a donation by check?"); ?></a></h4>
 			<div>
 			    <?php __("Yes. To donate by check, stop the payment procedure when you are at our bank's website. Send your check to the following address:"); ?> <br />
