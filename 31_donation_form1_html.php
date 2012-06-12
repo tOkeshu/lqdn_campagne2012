@@ -3,8 +3,9 @@
 
                     <div class="row">
                         <div class="span6">
+                            
                             <h2>
-                            <?php __("Support Us"); ?>
+                            <a name="a_support" >&nbsp;</a><?php __("Support Us"); ?>
                             </h2>
                         </div>
                     </div>
