@@ -98,7 +98,7 @@ msgid ""
 "cannot accept donations under 5&nbsp;&euro;. You can still <a "
 "href=\"http://www.laquadrature.net/en/how-to-participate\">help us in other "
 "ways!</a>"
-msgstr "Merci d'entrer le montant de votre choix. Du fait de frais bancaires importants, nous ne pouvons pas accepter les dons de moins de 5&nbsp;&euros;. Vous pouvez toujours nous aider par <a href=\"https://www.laquadrature.net/fr/participer\">votre action</a>&nbsp;!"
+msgstr "Merci d'entrer le montant de votre choix. Du fait de frais bancaires importants, nous ne pouvons pas accepter les dons de moins de 5&nbsp;&euro;. Vous pouvez toujours nous aider par <a href=\"https://www.laquadrature.net/fr/participer\">votre action</a>&nbsp;!"
 
 #: ../dev/31_donation_form1_html.php:86
 #: ../soutien/31_donation_form1_html.php:87
