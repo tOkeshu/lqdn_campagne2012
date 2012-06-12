@@ -8,6 +8,7 @@
        <?php __("Spread the message!"); ?>
                     </h2>
                     <div>
+<div style="text-align: left">Some others banners and source files are available <a href="http://www.laquadrature.net/wiki/Support_LQDN_against_ACTA_and_beyond">here</a>. Create and share yours!</div>
                         <div class="spread">
                                 <a href="<?php echo ROOTURL; ?>" title="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>"><br />
                                 <img src="images/LQDN_support_against_ACTA_and_beyond_125*125.gif" alt="<?php __("Support La Quadrature du Net against ACTA and beyond!"); ?>" /><br /></a><br />
