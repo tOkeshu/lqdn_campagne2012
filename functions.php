@@ -266,10 +266,12 @@ function make_don($data, $lang = 'fr') {
 	if (count($errors)) return $errors;
 
 	// On convertit le UTF-8 du nom en ISO si besoin
+	/*
 	$u=new Utils();
 	if ($u->isUTF8_str($pseudo)==true && $u->surelyUTF8==true) {
 		$pseudo=iconv("UTF-8", "ISO-8859-1//TRANSLIT",$pseudo);
 	}
+	*/
 
 	if (!$lang) $lang="fr_FR";
 

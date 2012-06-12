@@ -48,8 +48,8 @@
 			<div id="faq0" > 
 			  <?php __("Sure! You need to transfer your donation to FDNN's bank account (FDNN takes care of La Quadrature du Net's accounts) using the following details."); ?> <br/>
 			<br/> 
-			  <?php __("<b>International bank transfer: </b>IBAN: FR76 1027 8060 3100 0203 2270 187"); ?><br />
-			  <br/><?php __("You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/RIB_FDNN.pdf\">download the details of FDNN's bank account</a>."); ?> 
+			  <?php __("<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 2270 187<br />This number is usually enough to make a wire transfer from anywhere in Europe"); ?><br />
+			  <br/><?php __("You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."); ?> 
 			      <?php __("<b>Important note: </b>Please quote the name you gave us as your transfer's comment, so we can send you your pi decimals or other goodies."); ?>
 			</div>
 			<h4 id="faq-paypal"><a href="#faq-paypal"><?php __("Can I make a donation through PayPal?"); ?></a></h4>
