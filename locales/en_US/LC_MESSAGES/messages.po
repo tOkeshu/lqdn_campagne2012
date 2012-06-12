@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 15:08+0200\n"
+"POT-Creation-Date: 2012-06-12 18:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -722,44 +722,44 @@ msgid ""
 "listed publicly."
 msgstr ""
 
-#: ../dev/50_faq.php:37 ../soutien/50_faq.php:37
+#: ../dev/50_faq.php:37 ../soutien/50_faq.php:37 ../dev/50_faq.php:41
 msgid "Can I make a donation by check?"
 msgstr ""
 
-#: ../dev/50_faq.php:39 ../soutien/50_faq.php:39
+#: ../dev/50_faq.php:39 ../soutien/50_faq.php:39 ../dev/50_faq.php:43
 msgid ""
 "Yes. To donate by check, stop the payment procedure when you are at our "
 "bank's website. Send your check to the following address:"
 msgstr ""
 
-#: ../dev/50_faq.php:41 ../soutien/50_faq.php:41
+#: ../dev/50_faq.php:41 ../soutien/50_faq.php:41 ../dev/50_faq.php:45
 msgid "<tr><td><i>Payable to: </i></td><td>FDNN</td></tr>"
 msgstr ""
 
-#: ../dev/50_faq.php:42 ../soutien/50_faq.php:42
+#: ../dev/50_faq.php:42 ../soutien/50_faq.php:42 ../dev/50_faq.php:46
 msgid ""
 "<tr><td><i>Address: </i></td><td>FDNN, 16 rue de Cachy, 80090 Amiens</td></"
 "tr>"
 msgstr ""
 
-#: ../dev/50_faq.php:43 ../soutien/50_faq.php:43
+#: ../dev/50_faq.php:43 ../soutien/50_faq.php:43 ../dev/50_faq.php:47
 msgid ""
 "<tr><td><b>Important note: </b></td><td>Please write down the name you gave "
 "us on the back of your check in order to allow us to find you easily.</td></"
 "tr>"
 msgstr ""
 
-#: ../dev/50_faq.php:45 ../soutien/50_faq.php:45
+#: ../dev/50_faq.php:45 ../soutien/50_faq.php:45 ../dev/50_faq.php:49
 msgid ""
 "FDNN (Fond de Défense de la Net Neutralité, “Net Neutrality Defense Fund”), "
 "is the organisation which manages La Quadrature du Net's accounts."
 msgstr ""
 
-#: ../dev/50_faq.php:47 ../soutien/50_faq.php:47
+#: ../dev/50_faq.php:47 ../soutien/50_faq.php:47 ../dev/50_faq.php:51
 msgid "Can I make a donation through money transfer?"
 msgstr ""
 
-#: ../dev/50_faq.php:49 ../soutien/50_faq.php:49
+#: ../dev/50_faq.php:49 ../soutien/50_faq.php:49 ../dev/50_faq.php:53
 msgid ""
 "Sure! You need to transfer your donation to FDNN's bank account (FDNN takes "
 "care of La Quadrature du Net's accounts) using the following details."
@@ -776,17 +776,17 @@ msgid ""
 "RIB_FDNN.pdf\">download the details of FDNN's bank account</a>."
 msgstr ""
 
-#: ../dev/50_faq.php:53 ../soutien/50_faq.php:53
+#: ../dev/50_faq.php:53 ../soutien/50_faq.php:53 ../dev/50_faq.php:57
 msgid ""
 "<b>Important note: </b>Please quote the name you gave us as your transfer's "
 "comment, so we can send you your pi decimals or other goodies."
 msgstr ""
 
-#: ../dev/50_faq.php:55 ../soutien/50_faq.php:55
+#: ../dev/50_faq.php:55 ../soutien/50_faq.php:55 ../dev/50_faq.php:59
 msgid "Can I make a donation through PayPal?"
 msgstr ""
 
-#: ../dev/50_faq.php:56 ../soutien/50_faq.php:56
+#: ../dev/50_faq.php:56 ../soutien/50_faq.php:56 ../dev/50_faq.php:60
 msgid ""
 "We do not recommend using PayPal for donations, for ethical reasons (their "
 "actions against WikiLeaks, among others) and because of the overtly "
@@ -794,17 +794,17 @@ msgid ""
 "use the following account: paypal@laquadrature.net."
 msgstr ""
 
-#: ../dev/50_faq.php:58 ../soutien/50_faq.php:58
+#: ../dev/50_faq.php:58 ../soutien/50_faq.php:58 ../dev/50_faq.php:62
 msgid "Can I make a donation via Flattr?"
 msgstr ""
 
-#: ../dev/50_faq.php:60 ../soutien/50_faq.php:60
+#: ../dev/50_faq.php:60 ../soutien/50_faq.php:60 ../dev/50_faq.php:64
 msgid ""
 "Yes! If you wish to support la Quadrature via Flattr, you can simply flatter "
 "this page, or any of the site's articles."
 msgstr ""
 
-#: ../dev/50_faq.php:61 ../soutien/50_faq.php:61
+#: ../dev/50_faq.php:61 ../soutien/50_faq.php:61 ../dev/50_faq.php:65
 msgid ""
 "Flattr is a great way to support us, but as a Flattr is quite small, please  "
 "don't hesitate to flatter our articles to your heart's content.\n"
@@ -812,7 +812,7 @@ msgid ""
 "files/flattr-compact.png\" title=\"Flattr this\" alt=\"Flattr\" /></a>"
 msgstr ""
 
-#: ../dev/50_faq.php:63 ../soutien/50_faq.php:63
+#: ../dev/50_faq.php:63 ../soutien/50_faq.php:63 ../dev/50_faq.php:67
 msgid ""
 "Flattr also offers the possibility to make larger donations, which offers "
 "an  interesting alternative to PayPal.<br/>To make a donation to La  "
@@ -824,11 +824,11 @@ msgid ""
 "particular the the amount you plan to give in your donation."
 msgstr ""
 
-#: ../dev/50_faq.php:65 ../soutien/50_faq.php:65
+#: ../dev/50_faq.php:65 ../soutien/50_faq.php:65 ../dev/50_faq.php:69
 msgid "Can I support La Quadrature du Net by buying a t-shirt?"
 msgstr ""
 
-#: ../dev/50_faq.php:67 ../soutien/50_faq.php:67
+#: ../dev/50_faq.php:67 ../soutien/50_faq.php:67 ../dev/50_faq.php:71
 msgid ""
 "La Quadrature du Net does not sell t-shirts. The only way to support la "
 "Quadrature du Net (financially) is to make a donation. Of course, you can "
@@ -839,11 +839,11 @@ msgid ""
 "Quadrature to show its gratitude and thank its most generous benefactors."
 msgstr ""
 
-#: ../dev/50_faq.php:69 ../soutien/50_faq.php:69
+#: ../dev/50_faq.php:69 ../soutien/50_faq.php:69 ../dev/50_faq.php:73
 msgid "When will I get my shirt?"
 msgstr ""
 
-#: ../dev/50_faq.php:71 ../soutien/50_faq.php:71
+#: ../dev/50_faq.php:71 ../soutien/50_faq.php:71 ../dev/50_faq.php:75
 msgid ""
 "For logistical reasons, t-shirts are sent in batch. This may take a while, "
 "sometimes up to a couple months. Please forgive us for this delay."
@@ -1278,14 +1278,14 @@ msgid ""
 "Please enable it to make sure this page runs nice and smooth, thanks!"
 msgstr ""
 
-#: ../soutien/50_faq.php:51 ../dev/50_faq.php:51
+#: ../soutien/50_faq.php:51 ../dev/50_faq.php:51 ../dev/50_faq.php:55
 msgid ""
 "<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
 "2270 187<br />This number is usually enough to make a wire transfer from "
 "anywhere in Europe"
 msgstr ""
 
-#: ../soutien/50_faq.php:52 ../dev/50_faq.php:52
+#: ../soutien/50_faq.php:52 ../dev/50_faq.php:52 ../dev/50_faq.php:56
 msgid ""
 "You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
 "RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."
@@ -1454,4 +1454,18 @@ msgid ""
 "You wish to support us with a monthly donation, thank you for your kind "
 "support. For your convenience, you will have the possibility to pause or "
 "stop this donation each month."
+msgstr ""
+
+#: ../dev/50_faq.php:37
+msgid "Who funds La Quadrature du Net?"
+msgstr ""
+
+#: ../dev/50_faq.php:39
+msgid ""
+"The <a target=\"_blank\" href=\"http://www.soros.org\">Open Society "
+"Foundation</a> has been contributing to La Quadrature du Net's budget "
+"through a yearly grant of 50K euros (60K for 2012), but the majority (all "
+"the rest) of our funds come from individual citizens' contributions. This is "
+"a guarantee of independence, but at the same time creates uncertainty "
+"regarding the sustainability of our income and of our action."
 msgstr ""
