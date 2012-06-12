@@ -38,7 +38,7 @@ foreach($errno as $e) echo "- "._($errors[$e])."<br />";
                     <div class="row">
                         <div class="span6">
 	       <?php if ($_REQUEST["monthly"])  { ?>
-		     <div class="information">  <?php __("You wish to support us with a monthly donation, thank you for your kind support. For your convenience, you will have to possibility to pause or stop this donation each month."); ?></div>
+		     <div class="information">  <?php __("You wish to support us with a monthly donation, thank you for your kind support. For your convenience, you will have the possibility to pause or stop this donation each month."); ?></div>
 	     <?php } ?>
 			<p>
                                 <label for="email"><?php __("Email:"); ?></label><br /> <input type="text" id="email" name="email" size="60" class="largeinput<?php badfield(array(3,4)); ?>" value="<?php eher("email"); ?>"/> 

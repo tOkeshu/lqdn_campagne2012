@@ -11,7 +11,7 @@
                             </script>
 
 			<h4 id="faq-budget"><a href="#faq-budget"><?php __("Where will my money go?"); ?></a></h4>
-			<div><img src="/images/pichart_en2012.png"/>
+			<div><img src="/images/pichart_<?php if ($lang=="fr_FR") echo "fr"; else echo "en"; ?>2012.png"/>
 			<br/>
 			<!--<br/>Forecasted Budget for 2012: 201&nbsp;K &euro;-->
 			</div>

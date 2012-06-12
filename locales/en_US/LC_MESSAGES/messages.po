@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 02:13+0200\n"
+"POT-Creation-Date: 2012-06-12 15:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,12 +44,14 @@ msgid "...And Beyond!"
 msgstr ""
 
 #: ../dev/31_donation_form1_html.php:7 ../soutien/31_donation_form1_html.php:8
+#: ../dev/31_donation_form1_html.php:8
 msgid "Support Us"
 msgstr ""
 
 #: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
 #: ../soutien/31_donation_form1_html.php:36
 #: ../soutien/31_donation_form1_html.php:44
+#: ../dev/31_donation_form1_html.php:36 ../dev/31_donation_form1_html.php:44
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -58,6 +60,7 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:51
 #: ../soutien/31_donation_form1_html.php:52
+#: ../dev/31_donation_form1_html.php:52
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -68,6 +71,7 @@ msgstr ""
 #: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
 #: ../soutien/31_donation_form1_html.php:61
 #: ../soutien/31_donation_form1_html.php:70
+#: ../dev/31_donation_form1_html.php:61 ../dev/31_donation_form1_html.php:70
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -77,11 +81,13 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:76
 #: ../soutien/31_donation_form1_html.php:77
+#: ../dev/31_donation_form1_html.php:77
 msgid "Other"
 msgstr ""
 
 #: ../dev/31_donation_form1_html.php:79
 #: ../soutien/31_donation_form1_html.php:80
+#: ../dev/31_donation_form1_html.php:80
 msgid ""
 "Please enter the amount you want to give. due to high banking costs, we "
 "cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://"
@@ -90,11 +96,13 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:86
 #: ../soutien/31_donation_form1_html.php:87
+#: ../dev/31_donation_form1_html.php:87
 msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
 msgstr ""
 
 #: ../dev/31_donation_form1_html.php:92
 #: ../soutien/31_donation_form1_html.php:93
+#: ../dev/31_donation_form1_html.php:93
 msgid "I support La Quadrature du Net"
 msgstr ""
 
@@ -247,22 +255,22 @@ msgid ""
 msgstr ""
 
 #: ../dev/40_progress_bar.php:6 ../dev/40_progress_bar.php:9
-#: ../soutien/40_progress_bar.php:12
+#: ../soutien/40_progress_bar.php:12 ../dev/40_progress_bar.php:12
 msgid "Progress Bar"
 msgstr ""
 
 #: ../dev/40_progress_bar.php:35 ../dev/40_progress_bar.php:38
-#: ../soutien/40_progress_bar.php:41
+#: ../soutien/40_progress_bar.php:41 ../dev/40_progress_bar.php:41
 msgid "days until the end of this campaign"
 msgstr ""
 
 #: ../dev/40_progress_bar.php:36 ../dev/40_progress_bar.php:39
-#: ../soutien/40_progress_bar.php:42
+#: ../soutien/40_progress_bar.php:42 ../dev/40_progress_bar.php:42
 msgid "Generous donators"
 msgstr ""
 
 #: ../dev/40_progress_bar.php:50 ../dev/40_progress_bar.php:53
-#: ../soutien/40_progress_bar.php:56
+#: ../soutien/40_progress_bar.php:56 ../dev/40_progress_bar.php:56
 msgid ":"
 msgstr ""
 
@@ -620,7 +628,10 @@ msgstr ""
 #: ../soutien/60_footer.php:46 ../soutien/60_footer.php:49
 #: ../soutien/60_footer.php:50 ../soutien/60_footer.php:52
 #: ../soutien/60_footer.php:55 ../soutien/60_footer.php:56
-#: ../soutien/60_footer.php:58
+#: ../soutien/60_footer.php:58 ../dev/60_footer.php:14 ../dev/60_footer.php:16
+#: ../dev/60_footer.php:20 ../dev/60_footer.php:22 ../dev/60_footer.php:27
+#: ../dev/60_footer.php:29 ../dev/60_footer.php:32 ../dev/60_footer.php:39
+#: ../dev/60_footer.php:51 ../dev/60_footer.php:57
 msgid "Support La Quadrature du Net against ACTA and beyond!"
 msgstr ""
 
@@ -633,6 +644,9 @@ msgstr ""
 #: ../soutien/60_footer.php:27 ../soutien/60_footer.php:32
 #: ../soutien/60_footer.php:39 ../soutien/60_footer.php:45
 #: ../soutien/60_footer.php:51 ../soutien/60_footer.php:57
+#: ../dev/60_footer.php:15 ../dev/60_footer.php:21 ../dev/60_footer.php:28
+#: ../dev/60_footer.php:33 ../dev/60_footer.php:40 ../dev/60_footer.php:52
+#: ../dev/60_footer.php:58
 msgid "Add this image to your website:"
 msgstr ""
 
@@ -1258,20 +1272,20 @@ msgid ""
 "votre soutien. Merci."
 msgstr ""
 
-#: ../soutien/00_noscript.php:5
+#: ../soutien/00_noscript.php:5 ../dev/00_noscript.php:5
 msgid ""
 "Hey, you have Javascript off. It's cool, we use NoScript all the time too. "
 "Please enable it to make sure this page runs nice and smooth, thanks!"
 msgstr ""
 
-#: ../soutien/50_faq.php:51
+#: ../soutien/50_faq.php:51 ../dev/50_faq.php:51
 msgid ""
 "<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
 "2270 187<br />This number is usually enough to make a wire transfer from "
 "anywhere in Europe"
 msgstr ""
 
-#: ../soutien/50_faq.php:52
+#: ../soutien/50_faq.php:52 ../dev/50_faq.php:52
 msgid ""
 "You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
 "RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."
@@ -1433,4 +1447,11 @@ msgid ""
 "de La Quadrature du Net ! Vous recevrez votre certificat <b>chez vous</b> "
 "sur <b>un tirage original de qualit&eacute; sup&eacute;rieure</b> ainsi "
 "qu'un <b>'pi-shirt' collector de La Quadrature du Net !</b>"
+msgstr ""
+
+#: ../dev/32_donation_form2_html.php:41
+msgid ""
+"You wish to support us with a monthly donation, thank you for your kind "
+"support. For your convenience, you will have the possibility to pause or "
+"stop this donation each month."
 msgstr ""

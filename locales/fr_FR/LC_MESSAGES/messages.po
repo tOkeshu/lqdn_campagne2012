@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDN Support\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 02:13+0200\n"
+"POT-Creation-Date: 2012-06-12 15:08+0200\n"
 "PO-Revision-Date: 2012-06-08 14:01+0000\n"
 "Last-Translator: meli_melo <mr@laquadrature.net>\n"
 "Language-Team: French (http://www.transifex.net/projects/p/lqdnsupport/"
@@ -55,12 +55,14 @@ msgid "...And Beyond!"
 msgstr "...et au-delà !"
 
 #: ../dev/31_donation_form1_html.php:7 ../soutien/31_donation_form1_html.php:8
+#: ../dev/31_donation_form1_html.php:8
 msgid "Support Us"
 msgstr "Soutenez-nous"
 
 #: ../dev/31_donation_form1_html.php:35 ../dev/31_donation_form1_html.php:43
 #: ../soutien/31_donation_form1_html.php:36
 #: ../soutien/31_donation_form1_html.php:44
+#: ../dev/31_donation_form1_html.php:36 ../dev/31_donation_form1_html.php:44
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -71,6 +73,7 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:51
 #: ../soutien/31_donation_form1_html.php:52
+#: ../dev/31_donation_form1_html.php:52
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -84,6 +87,7 @@ msgstr ""
 #: ../dev/31_donation_form1_html.php:60 ../dev/31_donation_form1_html.php:69
 #: ../soutien/31_donation_form1_html.php:61
 #: ../soutien/31_donation_form1_html.php:70
+#: ../dev/31_donation_form1_html.php:61 ../dev/31_donation_form1_html.php:70
 msgid ""
 "To thank you for your generous donation, La Quadrature du Net will send you "
 "a personnalised diploma with your very own 1 000 π digits, which <strong>you "
@@ -97,11 +101,13 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:76
 #: ../soutien/31_donation_form1_html.php:77
+#: ../dev/31_donation_form1_html.php:77
 msgid "Other"
 msgstr "Autre"
 
 #: ../dev/31_donation_form1_html.php:79
 #: ../soutien/31_donation_form1_html.php:80
+#: ../dev/31_donation_form1_html.php:80
 msgid ""
 "Please enter the amount you want to give. due to high banking costs, we "
 "cannot accept donations under 5&nbsp;&euro;. You can still <a href=\"http://"
@@ -114,12 +120,14 @@ msgstr ""
 
 #: ../dev/31_donation_form1_html.php:86
 #: ../soutien/31_donation_form1_html.php:87
+#: ../dev/31_donation_form1_html.php:87
 msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
 msgstr ""
 "Je souhaite faire ce don tous les mois. (<b>banque française seulement</b>)"
 
 #: ../dev/31_donation_form1_html.php:92
 #: ../soutien/31_donation_form1_html.php:93
+#: ../dev/31_donation_form1_html.php:93
 msgid "I support La Quadrature du Net"
 msgstr "Je soutiens La Quadrature du Net"
 
@@ -281,22 +289,22 @@ msgstr ""
 "au nom de l'association FDNN (Fonds de Défense de la Neutralité du Net)."
 
 #: ../dev/40_progress_bar.php:6 ../dev/40_progress_bar.php:9
-#: ../soutien/40_progress_bar.php:12
+#: ../soutien/40_progress_bar.php:12 ../dev/40_progress_bar.php:12
 msgid "Progress Bar"
 msgstr "Jauge des soutiens"
 
 #: ../dev/40_progress_bar.php:35 ../dev/40_progress_bar.php:38
-#: ../soutien/40_progress_bar.php:41
+#: ../soutien/40_progress_bar.php:41 ../dev/40_progress_bar.php:41
 msgid "days until the end of this campaign"
 msgstr "jours avant la fin de cette campagne"
 
 #: ../dev/40_progress_bar.php:36 ../dev/40_progress_bar.php:39
-#: ../soutien/40_progress_bar.php:42
+#: ../soutien/40_progress_bar.php:42 ../dev/40_progress_bar.php:42
 msgid "Generous donators"
 msgstr "Généreux donateurs"
 
 #: ../dev/40_progress_bar.php:50 ../dev/40_progress_bar.php:53
-#: ../soutien/40_progress_bar.php:56
+#: ../soutien/40_progress_bar.php:56 ../dev/40_progress_bar.php:56
 msgid ":"
 msgstr "&nbsp;:"
 
@@ -823,7 +831,10 @@ msgstr "De nouveau (vérification du mot de passe) :"
 #: ../soutien/60_footer.php:46 ../soutien/60_footer.php:49
 #: ../soutien/60_footer.php:50 ../soutien/60_footer.php:52
 #: ../soutien/60_footer.php:55 ../soutien/60_footer.php:56
-#: ../soutien/60_footer.php:58
+#: ../soutien/60_footer.php:58 ../dev/60_footer.php:14 ../dev/60_footer.php:16
+#: ../dev/60_footer.php:20 ../dev/60_footer.php:22 ../dev/60_footer.php:27
+#: ../dev/60_footer.php:29 ../dev/60_footer.php:32 ../dev/60_footer.php:39
+#: ../dev/60_footer.php:51 ../dev/60_footer.php:57
 msgid "Support La Quadrature du Net against ACTA and beyond!"
 msgstr "Soutenez La Quadrature du Net contre ACTA et au-delà&nbsp;!"
 
@@ -836,6 +847,9 @@ msgstr "Soutenez La Quadrature du Net contre ACTA et au-delà&nbsp;!"
 #: ../soutien/60_footer.php:27 ../soutien/60_footer.php:32
 #: ../soutien/60_footer.php:39 ../soutien/60_footer.php:45
 #: ../soutien/60_footer.php:51 ../soutien/60_footer.php:57
+#: ../dev/60_footer.php:15 ../dev/60_footer.php:21 ../dev/60_footer.php:28
+#: ../dev/60_footer.php:33 ../dev/60_footer.php:40 ../dev/60_footer.php:52
+#: ../dev/60_footer.php:58
 msgid "Add this image to your website:"
 msgstr "Ajouter cette image à votre site web&nbsp;:"
 
@@ -1292,8 +1306,7 @@ msgstr ""
 
 #: ../petition.orig/sign.php:48 ../petition/sign.php:49
 msgid "Your email address seems to be incorrect, please check it"
-msgstr ""
-"Votre adresse email semble incorrecte, merci de la vérifier"
+msgstr "Votre adresse email semble incorrecte, merci de la vérifier"
 
 #: ../petition.orig/sign.php:67 ../petition/sign.php:68
 msgid ""
@@ -1578,18 +1591,15 @@ msgid "Merci pour votre soutien à La Quadrature du Net !"
 msgstr "Merci pour votre soutien à La Quadrature du Net !"
 
 #: ../site/mailing2.php:30
-#, fuzzy
 msgid "Votre pi-plome de soutien  La Quadrature du Net"
 msgstr ""
 
 #: ../site/mailing.php:30
-#, fuzzy
 msgid "Votre pi-plome de soutien à La Quadrature du Net"
 msgstr ""
 
 #: ../site/paypal_debug.php:15 ../site/paypal.php:141
 #: ../trash_janv2012/28mars_mail.php:27
-#, fuzzy
 msgid "Merci pour votre soutien a La Quadrature du Net !"
 msgstr ""
 
@@ -1613,26 +1623,30 @@ msgid ""
 "votre soutien. Merci."
 msgstr ""
 
-#: ../soutien/00_noscript.php:5
+#: ../soutien/00_noscript.php:5 ../dev/00_noscript.php:5
 msgid ""
 "Hey, you have Javascript off. It's cool, we use NoScript all the time too. "
 "Please enable it to make sure this page runs nice and smooth, thanks!"
 msgstr ""
 
-#: ../soutien/50_faq.php:51
+#: ../soutien/50_faq.php:51 ../dev/50_faq.php:51
 msgid ""
 "<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
 "2270 187<br />This number is usually enough to make a wire transfer from "
 "anywhere in Europe"
-msgstr "<b>Numéro de compte bancaire international : </b>IBAN: FR76 1027 8060 3100 0203 2270 187<br />Ce numéro suffit généralement pour effectuer un virement depuis un pays d'Europe."
+msgstr ""
+"<b>Numéro de compte bancaire international : </b>IBAN: FR76 1027 8060 3100 "
+"0203 2270 187<br />Ce numéro suffit généralement pour effectuer un virement "
+"depuis un pays d'Europe."
 
-#: ../soutien/50_faq.php:52
+#: ../soutien/50_faq.php:52 ../dev/50_faq.php:52
 msgid ""
 "You can also <a target=\"_blank\" href=\"http://www.laquadrature.net/images/"
 "RIB_FDNN.pdf\">download the details of FDNN's bank account</a> (in french)."
 msgstr ""
 "Vous pouvez aussi <a target=\"_blank\" href=\"http://www.laquadrature.net/"
-"images/RIB_FDNN.pdf\">télécharger</a> les détails du compte bancaire de FDNN (en français)."
+"images/RIB_FDNN.pdf\">télécharger</a> les détails du compte bancaire de FDNN "
+"(en français)."
 
 #: ../trash_janv2012/don2010_2.php:12 ../trash_janv2012/don2.php:9
 msgid "R&eacute;capitulation de votre soutien &agrave; La Quadrature du Net"
@@ -1791,3 +1805,13 @@ msgid ""
 "sur <b>un tirage original de qualit&eacute; sup&eacute;rieure</b> ainsi "
 "qu'un <b>'pi-shirt' collector de La Quadrature du Net !</b>"
 msgstr ""
+
+#: ../dev/32_donation_form2_html.php:41
+msgid ""
+"You wish to support us with a monthly donation, thank you for your kind "
+"support. For your convenience, you will have the possibility to pause or "
+"stop this donation each month."
+msgstr ""
+"Vous souhaitez effectuer ce don tous les mois, La Quadrature du Net vous en "
+"remercie ! La possibilité vous sera bien entendu donnée de faire une pause "
+"ou stopper ce don récurrent."
