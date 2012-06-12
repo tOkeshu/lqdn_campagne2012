@@ -1,6 +1,6 @@
 all:	locales/fr_FR/LC_MESSAGES/messages.mo locales/en_US/LC_MESSAGES/messages.mo
 
-messages.pot: ../*/*.php
+messages.pot: *.php
 	[ -r $@ ] || touch $@
 	xgettext --package-name=LQDNCampaign --package-version=2012.1 --force-po -o $@ --keyword=__ --keyword=_  -L PHP --from-code=UTF-8 -j $^
 
