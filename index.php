@@ -2,9 +2,10 @@
 require_once("all.php");
 ?>
 <!DOCTYPE html>
-<html lang="<?= $lang ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <title><?php __("Help La Quadrature defend our rights online against ACTA and beyond") ?></title>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="<?php __("For the past four years, La Quadrature du Net has raised awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms."); ?>" />
     <meta name="author" content="la Quadrature du Net" />
@@ -17,6 +18,14 @@ require_once("all.php");
     <script  type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-1.7.2.min.js"></script>
     <script  type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-ui-1.8.20.custom.min.js"></script>
     <script  type="text/javascript" src="socialshareprivacy/jquery.socialshareprivacy.js"></script>
+
+    <meta property="og:title" content="<?php __("Help La Quadrature defend our rights online against ACTA and beyond") ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<?php echo "http".(($_SERVER["HTTPS"])?"s":"")."://".$_SERVER["HTTP_HOST"]."/"; ?>" />
+    <meta property="og:site_name" content="La Quadrature du Net" />
+    <meta property="og:image" content="<?php echo "http".(($_SERVER["HTTPS"])?"s":"")."://".$_SERVER["HTTP_HOST"]."/"; ?>images/LQDN_support_against_ACTA_and_beyond_125*125.gif" />
+    <meta property="og:description" content="<?php __("For the past four years, La Quadrature du Net has raised awareness and campaigned against ACTA. <br/>We need your help to defeat ACTA and move forward, advocating for a positive agenda to protect our freedoms."); ?>" />
+
     <script type="text/javascript">
         jQuery(document).ready(function($){
           if($('#socialshareprivacy').length > 0){
