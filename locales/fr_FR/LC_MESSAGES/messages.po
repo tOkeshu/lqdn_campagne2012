@@ -1,0 +1,816 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Benjamin Sonntag <benjamin@sonntag.fr>, 2012.
+#   <mr@laquadrature.net>, 2012.
+# Oriane  <>, 2012.
+#   <transifex@tofz.org>, 2012.
+#   <yost3d@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: LQDN Support\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-14 11:15+0200\n"
+"PO-Revision-Date: 2012-06-14 09:16+0000\n"
+"Last-Translator: Benjamin Sonntag <benjamin@sonntag.fr>\n"
+"Language-Team: French (http://www.transifex.net/projects/p/lqdnsupport/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: 00_noscript.php:5
+msgid ""
+"Hey, you have Javascript off. It's cool, we use NoScript all the time too. "
+"Please enable it to make sure this page runs nice and smooth, thanks!"
+msgstr "Bonjour, vous avez désactivé javascript. Ce qui est bien c'est que grâce à NoScript, on s'en rend compte. Si vous activez javascript, la page passera beaucoup mieux, merci !"
+
+#: 10_topheader.php:10
+msgid "Support La Quadrature du Net"
+msgstr "Soutenez la Quadrature du Net"
+
+#: 10_topheader.php:11 index.php:9 index.php:10 index.php:27
+msgid ""
+"For the past four years, La Quadrature du Net has raised awareness and "
+"campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
+"forward, advocating for a positive agenda to protect our freedoms."
+msgstr "Durant ces quatre dernières années, La Quadrature du Net a alerté et fait campagne contre ACTA.<br />Nous avons besoin de votre aide pour vaincre ACTA et aller de l'avant avec un agenda positif pour <br />défendre nos libertés."
+
+#: 20_dark_blue_rollover.php:6
+msgid "Against ACTA..."
+msgstr "Contre ACTA..."
+
+#: 20_dark_blue_rollover.php:40
+msgid "...And Beyond!"
+msgstr "...et au-delà !"
+
+#: 31_donation_form1_html.php:8
+msgid "Support Us"
+msgstr "Soutenez-nous"
+
+#: 31_donation_form1_html.php:36 31_donation_form1_html.php:44
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you"
+" will receive as a PDF by email.</strong>."
+msgstr "En remerciement de votre don, vous recevrez 1 000 décimales de π dans un certificat personnalisé, envoyé <strong>par email au format PDF</strong>."
+
+#: 31_donation_form1_html.php:52
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you"
+" will receive as a PDF by email + an original print on high quality "
+"paper</strong>."
+msgstr "En remerciement de votre don, vous recevrez 1 000 décimales de π dans un certificat personnalisé, envoyé <strong>par email au format PDF + un  tirage original de qualité supérieure</strong>."
+
+#: 31_donation_form1_html.php:61 31_donation_form1_html.php:70
+msgid ""
+"To thank you for your generous donation, La Quadrature du Net will send you "
+"a personnalised diploma with your very own 1 000 π digits, which <strong>you"
+" will receive as a PDF by email + an original print on high quality paper + "
+"a wonderful tee-shirt!</strong>"
+msgstr "En remerciement de votre don, vous recevrez 1 000 décimales de π dans un certificat personnalisé, envoyé <strong>par email au format PDF + un  tirage original de qualité supérieure + un splendide 'pi-shirt' de La Quadrature du Net !"
+
+#: 31_donation_form1_html.php:77
+msgid "Other"
+msgstr "Autre"
+
+#: 31_donation_form1_html.php:80
+msgid ""
+"Please enter the amount you want to give. due to high banking costs, we "
+"cannot accept donations under 5&nbsp;&euro;. You can still <a "
+"href=\"http://www.laquadrature.net/en/how-to-participate\">help us in other "
+"ways!</a>"
+msgstr "Merci d'entrer le montant de votre choix. Du fait de frais bancaires importants, nous ne pouvons pas accepter les dons de moins de 5&nbsp;&euros;. Vous pouvez toujours nous aider par <a href=\"https://www.laquadrature.net/fr/participer\">votre action</a>&nbsp;!"
+
+#: 31_donation_form1_html.php:87
+msgid "Make this a monthly donation (<b>french bank accounts only</b>)"
+msgstr "Je souhaite faire ce don tous les mois. (<b>banque française seulement</b>)"
+
+#: 31_donation_form1_html.php:93
+msgid "I support La Quadrature du Net"
+msgstr "Je soutiens La Quadrature du Net"
+
+#: 32_donation_form2_html.php:7
+msgid "Support us (step 2/3)"
+msgstr "Nous soutenir (étape 2/3)"
+
+#: 32_donation_form2_html.php:33
+#, php-format
+msgid "Make a donation of: <b>%s &euro;</b>"
+msgstr "Faire un don de&nbsp;: <b>%s &euro;</b>"
+
+#: 32_donation_form2_html.php:41
+msgid ""
+"You wish to support us with a monthly donation, thank you for your kind "
+"support. For your convenience, you will have the possibility to pause or "
+"stop this donation each month."
+msgstr "Vous souhaitez effectuer ce don tous les mois, merci de votre soutien ! Pour votre confort, vous pourrez mettre en pause ou arrêter votre don mensuel à tout instant."
+
+#: 32_donation_form2_html.php:44
+msgid "Email:"
+msgstr "Email&nbsp;:"
+
+#: 32_donation_form2_html.php:47
+msgid "First Name, Full Name or Nickname:"
+msgstr "Prénom, Nom ou Pseudo&nbsp;:"
+
+#: 32_donation_form2_html.php:50
+msgid "Please show me in the public donor list"
+msgstr "Je souhaite apparaître dans la liste des soutiens"
+
+#: 32_donation_form2_html.php:53
+msgid "Please send me La Quadradure du Net's monthly newsletter"
+msgstr "Je souhaite recevoir la lettre d'actualité de La Quadrature du Net"
+
+#: 32_donation_form2_html.php:62
+msgid "Bank information for your monthly donation"
+msgstr "Informations bancaires pour votre don mensuel"
+
+#: 32_donation_form2_html.php:64
+msgid "Donor's Last Name:"
+msgstr "Nom du donateur&nbsp;:"
+
+#: 32_donation_form2_html.php:67
+msgid "Donor's First Name:"
+msgstr "Prénom du donateur&nbsp;:"
+
+#: 32_donation_form2_html.php:70
+msgid "Bank account holder's name<br />(if different):"
+msgstr "Titulaire du compte bancaire (si différent)&nbsp;:"
+
+#: 32_donation_form2_html.php:73
+msgid "Bank account details:"
+msgstr "RIB&nbsp;:"
+
+#: 32_donation_form2_html.php:80
+msgid "Financial Institution's Name:"
+msgstr "Établissement teneur du compte&nbsp;:"
+
+#: 32_donation_form2_html.php:83
+msgid "Institution's postal address:"
+msgstr "Adresse de la banque&nbsp;:"
+
+#: 32_donation_form2_html.php:86
+msgid "Postal Code:"
+msgstr "Code postal&nbsp;:"
+
+#: 32_donation_form2_html.php:89
+msgid "City:"
+msgstr "Ville&nbsp;:"
+
+#: 32_donation_form2_html.php:92
+msgid "Password:"
+msgstr "Mot de passe :"
+
+#: 32_donation_form2_html.php:95
+msgid "Again (password check):"
+msgstr "De nouveau (vérification du mot de passe) :"
+
+#: 32_donation_form2_html.php:107
+msgid ""
+"Please do <b>not</b> send me any goodies, so my entire donation can be used "
+"directly to help La Quadrature du Net."
+msgstr "Je ne souhaite <b>pas</b> recevoir de cadeaux, afin que l'intégralité de mon don serve à La Quadrature du Net"
+
+#: 32_donation_form2_html.php:120
+msgid "Style/Size of your pi-shirt:"
+msgstr "Coupe et Taille du Pi-Shirt&nbsp;:"
+
+#: 32_donation_form2_html.php:124
+msgid "Donor's name (for the parcel):"
+msgstr "Nom du donateur (pour le colis)&nbsp;:"
+
+#: 32_donation_form2_html.php:127
+msgid "Donor's Postal Address:"
+msgstr "Votre adresse postale&nbsp;:"
+
+#: 32_donation_form2_html.php:130
+msgid "Donor's Zipcode:"
+msgstr "Votre code postal&nbsp;:"
+
+#: 32_donation_form2_html.php:133
+msgid "Donor's City:"
+msgstr "Votre Ville&nbsp;:"
+
+#: 32_donation_form2_html.php:136
+msgid "Donor's Country:"
+msgstr "Votre Pays&nbsp;:"
+
+#: 32_donation_form2_html.php:147
+msgid "Yes, make this donation to La Quadrature du Net"
+msgstr "Je confirme ce don à La Quadrature du Net"
+
+#: 32_donation_form2_html.php:153
+msgid ""
+"Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la "
+"Neutralité du Net)"
+msgstr "Vous allez être redirigé vers le site de FDNN (Fonds de Défense de la Neutralité du Net)"
+
+#: 32_donation_form2_html.php:155
+msgid ""
+"You will now be redirected to our bank's server (Crédit Mutuel) in the name "
+"of FDNN (Fonds de Défense de la Net Neutralité), the NGO which manages La "
+"Quadrature du Net's accounts."
+msgstr "Vous allez être redirigé vers le serveur de notre banque (le Crédit Mutuel) au nom de l'association FDNN (Fonds de Défense de la Neutralité du Net)."
+
+#: 40_progress_bar.php:12 40_progress_bar.php:17
+msgid "Progress Bar"
+msgstr "Jauge des soutiens"
+
+#: 40_progress_bar.php:41 40_progress_bar.php:47
+msgid "days until the end of this campaign"
+msgstr "jours avant la fin de cette campagne"
+
+#: 40_progress_bar.php:42 40_progress_bar.php:48
+msgid "Generous donators"
+msgstr "Généreux donateurs"
+
+#: 40_progress_bar.php:56 40_progress_bar.php:62
+msgid ":"
+msgstr "&nbsp;:"
+
+#: 50_faq.php:4
+msgid "Frequently Asked Questions"
+msgstr "Foire Aux Questions "
+
+#: 50_faq.php:13
+msgid "Where will my money go?"
+msgstr "À quoi sert cet argent&nbsp;?"
+
+#: 50_faq.php:18
+msgid "I don't have any money,  how can I help La Quadrature du Net?"
+msgstr "Je n'ai pas d'argent, comment puis-je aider La Quadrature du Net&nbsp;?"
+
+#: 50_faq.php:20
+msgid ""
+"Spread the word about this campaign! By speaking up on social networks, on "
+"blogs, or by telling people around you about the importance of La "
+"Quadrature's actions,  and how they can participate, you can help us. This "
+"support is vital, as La Quadrature can only exist through the citizens who "
+"share our commitment to the free Internet."
+msgstr "Vous pouvez propager cet appel, le relayer sur votre blog ou sur les réseaux sociaux, en parler autour de vous et expliquer l'importance des actions de la Quadrature du Net. Ce soutien est primordial, la Quadrature n'existe que par les gens qui partagent ses convictions."
+
+#: 50_faq.php:21
+msgid ""
+"You can also support La Quadrature du Net day after day by <a "
+"target=\"_blank\" href=\"http://laquadrature.net/en/how-to-"
+"participate\">getting involved"
+msgstr "Jour après jour, vous pouvez soutenir La Quadrature du Net en <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/participer\">participant</a> à ses actions."
+
+#: 50_faq.php:22
+msgid ""
+"Financial donations help la Quadrature work on a day-to-day basis by paying "
+"for its fulltime activists'  salaries, costs and such, but la Quadrature "
+"would be nothing without the people who give their time, skills and energy "
+"to support its actions  and make them their own."
+msgstr "Les dons financiers aident la Quadrature à agir quotidiennement en payant ses activistes financés, les frais induits par son activité et les défraiements, mais la Quadrature ne serait rien sans les personnes qui donnent de leur temps, leurs compétences et leur énergie pour porter ses actions et se les approprier."
+
+#: 50_faq.php:23
+msgid ""
+"Please don't hesitate to <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/contact-us\">get in touch</a> to find "
+"a way to contribute that suits you!"
+msgstr "N'hésitez pas à entrer en <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/contact\">contact</a> avec nous pour trouver une façon d'aider qui vous corresponde&nbsp;! "
+
+#: 50_faq.php:25
+msgid "Is my support tax-deductible?"
+msgstr "Puis-je déduire ce don de mes impôts&nbsp;?"
+
+#: 50_faq.php:27
+msgid ""
+"Not at the moment. We are looking into a way of making this possible, but "
+"unfortunately it is not possible for current donations."
+msgstr "Pas pour le moment. Nous nous renseignons sur les possibilités en la matière, mais vos dons ne sont pas déductibles à ce jour. "
+
+#: 50_faq.php:29
+msgid "I need a receipt or an invoice for my donation."
+msgstr "J'ai besoin d'un reçu, ou d'une facture pour mon soutien."
+
+#: 50_faq.php:31
+msgid ""
+"We can send you a receipt for accounting purposes. Please <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/contact-us\">contact"
+" us</a> by email."
+msgstr "Vous trouverez un reçu généré automatiquement dans votre interface utilisateur sur le site de FDNN (fdn2.org), qui gère la partie financière de la Quadrature. Si vous avez besoin d'aide, <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/contact\">contactez-nous</a>."
+
+#: 50_faq.php:33
+msgid "Who supports La Quadrature du Net?"
+msgstr "Qui soutient La Quadrature du Net&nbsp;?"
+
+#: 50_faq.php:35
+msgid ""
+"Several <a target=\"_blank\" href=\"http://www.laquadrature.net/en/they-"
+"support-la-quadrature-du-net\">NGOs support La Quadrature</a>, as well as <a"
+" target=\"_blank\" href=\"http://www.laquadrature.net/en/public-"
+"supporters\">thousands of individuals who have made a donation</a> and wish "
+"to be listed publicly."
+msgstr "Outre les <a href=\"http://www.laquadrature.net/fr/ils-soutiennent-la-quadrature-du-net\">associations soutenant La Quadrature</a>, vous pouvez consulter une liste des <a href=\"http://www.laquadrature.net/fr/liste-des-soutiens\">individus ayant fait un don</a> et souhaitant apparaître publiquement."
+
+#: 50_faq.php:37
+msgid "Who funds La Quadrature du Net?"
+msgstr "Qui finance La Quadrature du Net ?"
+
+#: 50_faq.php:39
+msgid ""
+"The <a target=\"_blank\" href=\"http://www.soros.org\">Open Society "
+"Foundation</a> has been contributing to La Quadrature du Net's budget "
+"through a yearly grant of 50K euros (60K for 2012), but the majority (all "
+"the rest) of our funds come from individual citizens' contributions. This is"
+" a guarantee of independence, but at the same time creates uncertainty "
+"regarding the sustainability of our income and of our action."
+msgstr "L'<a target=\"_blank\" href=\"http://www.soros.org/\">Open Society Foundation</a> contribue au budget de La Quadrature du Net au travers d'un don annuel de 50K euros (60K pour l'année 2012), mais la majorité (tout le reste) de nos ressources provient directement des citoyens. C'est une garantie d'indépendance, mais en même temps crée de l'incertitude quant à la pérennité de notre financement et de notre action.a"
+
+#: 50_faq.php:41
+msgid "Can I make a donation by check?"
+msgstr "Puis-je faire un don par chèque&nbsp;?"
+
+#: 50_faq.php:43
+msgid ""
+"Yes. To donate by check, stop the payment procedure when you are at our "
+"bank's website. Send your check to the following address:"
+msgstr "Oui bien sûr&nbsp;! Dans ce cas, arrêtez-vous juste après avoir posté le formulaire <br /> \n(ne cliquez pas sur le bouton 'Procéder au paiement') <br /> \net envoyez votre chèque comme suit&nbsp;: <br /> "
+
+#: 50_faq.php:45
+msgid "<tr><td><i>Payable to: </i></td><td>FDNN</td></tr>"
+msgstr "<tr><td><i>Ordre&nbsp;: </i></td><td> FDNN</td></tr>"
+
+#: 50_faq.php:46
+msgid ""
+"<tr><td><i>Address: </i></td><td>FDNN, 16 rue de Cachy, 80090 "
+"Amiens</td></tr>"
+msgstr "<tr><td><i>Adresse&nbsp;: </i></td><td> FDNN, 16 rue de Cachy, 80090 Amiens</td></tr> "
+
+#: 50_faq.php:47
+msgid ""
+"<tr><td><b>Important note: </b></td><td>Please write down the name you gave "
+"us on the back of your check in order to allow us to find you "
+"easily.</td></tr>"
+msgstr "<tr><td><b>Note importante&nbsp;: </b></td><td>Inscrivez au dos le nom ou pseudo que vous avez renseigné plus tôt, afin que nous vous retrouvions facilement</td></tr> "
+
+#: 50_faq.php:49
+msgid ""
+"FDNN (Fond de Défense de la Net Neutralité, “Net Neutrality Defense Fund”), "
+"is the organisation which manages La Quadrature du Net's accounts."
+msgstr "FDNN (Fonds de Défense de la Net Neutralité), est l'association qui gère les comptes de La Quadrature du Net"
+
+#: 50_faq.php:51
+msgid "Can I make a donation through money transfer?"
+msgstr "Puis-je faire un don par virement&nbsp;?"
+
+#: 50_faq.php:53
+msgid ""
+"Sure! You need to transfer your donation to FDNN's bank account (FDNN takes "
+"care of La Quadrature du Net's accounts) using the following details."
+msgstr "Bien évidemment&nbsp;! Il vous suffit de faire votre virement sur le compte bancaire de l'association FDNN, charg&eacute;e de g&eacute;rer les finances de La Quadrature du Net, dont voici le <a href=\"http://www.laquadrature.net/images/RIB_FDNN.pdf\">RIB</a>"
+
+#: 50_faq.php:55
+msgid ""
+"<b>International bank account number: </b>IBAN: FR76 1027 8060 3100 0203 "
+"2270 187<br />This number is usually enough to make a wire transfer from "
+"anywhere in Europe"
+msgstr "<b>Numéro de compte bancaire international : </b>IBAN: FR76 1027 8060 3100 0203 2270 187<br />Ce numéro suffit généralement pour effectuer un virement depuis un pays d'Europe."
+
+#: 50_faq.php:56
+msgid ""
+"You can also <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/images/RIB_FDNN.pdf\">download the "
+"details of FDNN's bank account</a> (in french)."
+msgstr "Vous pouvez aussi <a target=\"_blank\" href=\"http://www.laquadrature.net/images/RIB_FDNN.pdf\">télécharger</a> les détails du compte bancaire de FDNN (en français)."
+
+#: 50_faq.php:57
+msgid ""
+"<b>Important note: </b>Please quote the name you gave us as your transfer's "
+"comment, so we can send you your pi decimals or other goodies."
+msgstr "<b>Note importante : </b>Ajoutez le nom ou pseudo que vous avez renseigné plus tôt en commentaire de votre virement, afin que nous puissions vous envoyer vos décimales de pi."
+
+#: 50_faq.php:59
+msgid "Can I make a donation through PayPal?"
+msgstr "Puis-je faire un don par PayPal&nbsp;?"
+
+#: 50_faq.php:60
+msgid ""
+"We do not recommend using PayPal for donations, for ethical reasons (their "
+"actions against WikiLeaks, among others) and because of the overtly "
+"expensive costs incurred. Nevertheless, if it is your only option, you  may "
+"use the following account: paypal@laquadrature.net."
+msgstr "Nous recommandons de ne pas privilégier les dons par PayPal, pour des raisons éthiques (leurs actions contre WikiLeaks entre autres) ainsi qu'en raison des frais outranciers que cela engendre. Toutefois, si c'est la seule solution pour vous, vous pouvez utiliser le compte suivant : paypal@laquadrature.net."
+
+#: 50_faq.php:62
+msgid "Can I make a donation via Flattr?"
+msgstr "Puis-je faire un don par Flattr&nbsp;?"
+
+#: 50_faq.php:64
+msgid ""
+"Yes! If you wish to support la Quadrature via Flattr, you can simply flatter"
+" this page, or any of the site's articles."
+msgstr "Oui&nbsp;! Si vous souhaitez soutenir la Quadrature via Flattr, il vous suffit de flatter cette page ou l'un des articles du sites."
+
+#: 50_faq.php:65
+msgid ""
+"Flattr is a great way to support us, but as a Flattr is quite small, please  don't hesitate to flatter our articles to your heart's content.\n"
+"<a href=\"http://flattr.com/thing/129120/La-Quadrature-du-Net\"><img src=\"/files/flattr-compact.png\" title=\"Flattr this\" alt=\"Flattr\" /></a>"
+msgstr "Flattr est une bonne façon de nous soutenir, mais la portée d'un simple Flattr étant moindre, n'hésitez pas à flatter nos articles autant qu'il vous plaira. <a href=\"http://flattr.com/thing/129127/La-Quadrature-du-Net\"><img src=\"/files/flattr-compact.png\" title=\"Flattr this\" alt=\"flattr\" /></a>"
+
+#: 50_faq.php:67
+msgid ""
+"Flattr also offers the possibility to make larger donations, which offers an"
+"  interesting alternative to PayPal.<br/>To make a donation to La  "
+"Quadrature du Net via Flattr, please use  <a target=\"_blank\" "
+"href=\"https://flattr.com/donation/give/to/laquadrature\">the form on this "
+"page</a>. As Flattr donations are anonymous, we will not be able to send you"
+" your goodies, unless you <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/contact-us\">contact us</a> with "
+"identifiable information, and in particular the the amount you plan to give "
+"in your donation."
+msgstr "Flattr offre également la possibilité de procéder à un don plus important, du montant de votre choix, ce qui offre une alternative intéressante à PayPal.<br/>Pour faire un don à La Quadrature du Net par Flattr, utilisez <a href=\"https://flattr.com/donation/give/to/laquadrature\">le formulaire sur cette page</a>. Les dons étant anonymes avec ce système, il ne nous sera pas possible de vous envoyer vos goodies, sauf si vous nous <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/contact\">contactez</a> en nous fournissant votre adresse et le montant que vous avez prévu pour votre don."
+
+#: 50_faq.php:69
+msgid "Can I support La Quadrature du Net by buying a t-shirt?"
+msgstr "Peut-on vous soutenir en achetant des t-shirts de La Quadrature du Net&nbsp;?"
+
+#: 50_faq.php:71
+msgid ""
+"La Quadrature du Net does not sell t-shirts. The only way to support la "
+"Quadrature du Net (financially) is to make a donation. Of course, you can "
+"also help and support la Quadrature in other ways, by helping out for "
+"instance. Selling t-shirts would require a lot of time and effort and would "
+"probably mean hiring someone in order to make anything substantial from it. "
+"It would not be worth it. The pi-shirts are but a (small) gift from la "
+"Quadrature to show its gratitude and thank its most generous benefactors."
+msgstr "La Quadrature du Net ne vend pas de t-shirts. Le seul moyen (financier) de soutenir la Quadrature du Net est de faire un don. Bien sûr il est aussi possible de nous soutenir autrement (notamment en apportant son aide). Vendre des tee-shirt nécessiterait un investissement en temps important (et probablement l'embauche d'une personne à temps partiel pour s'en occuper pour un gain minimal). Ce n'est pas souhaitable. Les pi-shirts ne sont qu'un (modeste) cadeau de remerciement qui marque la reconnaissance et la gratitude du collectif à ses plus généreux soutiens."
+
+#: 50_faq.php:73
+msgid "When will I get my shirt?"
+msgstr "Quand recevrai-je mon t-shirt&nbsp;?"
+
+#: 50_faq.php:75
+msgid ""
+"For logistical reasons, t-shirts are sent in batch. This may take a while, "
+"sometimes up to a couple months. Please forgive us for this delay."
+msgstr "Les t-shirts étant envoyés par lot pour des raisons logistiques, les délais peuvent aller jusqu'à plusieurs mois."
+
+#: 55_share.php:6
+msgid "Share!"
+msgstr "Partagez&nbsp;!"
+
+#: 55_share.php:16 55_share.php:19
+msgid ""
+"Like me, support @LaQuadrature du Net against #ACTA and beyond! "
+"https://support.laquadrature.net/"
+msgstr "Comme moi, soutenez @LaQuadrature du Net contre #ACTA et au-delà ! https://soutien.laquadrature.net/"
+
+#: 55_share.php:25
+msgid "Like me, support La Quadrature du Net against #ACTA and beyond!"
+msgstr "Comme moi, soutenez La Quadrature du Net, contre #ACTA et au delà !"
+
+#: 55_share.php:28
+msgid "Support La Quadrature du Net against ACTA and beyond"
+msgstr "Soutenez La Quadrature du Net, contre ACTA et au delà"
+
+#: 55_share.php:28
+msgid ""
+"For the past four years, La Quadrature du Net has raised awareness and "
+"campaigned against ACTA. We need your help to defeat ACTA and move forward, "
+"advocating for a positive agenda to protect our freedoms. "
+"https://support.laquadrature.net/"
+msgstr "Durant ces quatre dernières années, La Quadrature du Net a alerté et fait campagne contre ACTA. Nous avons besoin de votre aide pour vaincre ACTA et aller de l'avant avec un agenda positif pour protéger nos libertés. https://support.laquadrature.net/"
+
+#: 60_footer.php:8
+msgid "Spread the message!"
+msgstr "Passez le mot !"
+
+#: 60_footer.php:11
+msgid ""
+"<a "
+"href=\"http://www.laquadrature.net/wiki/Support_LQDN_against_ACTA_and_beyond\">Others"
+" banners and source files are available here</a>. Create and share "
+"yours!</div>"
+msgstr "<a href=\"http://www.laquadrature.net/wiki/Support_LQDN_against_ACTA_and_beyond\">D'autres bannières et leur code source sont disponibles ici</a>. Créez et partagez les votres !</div>"
+
+#: 60_footer.php:13 60_footer.php:14 60_footer.php:16 60_footer.php:19
+#: 60_footer.php:20 60_footer.php:22 60_footer.php:26 60_footer.php:27
+#: 60_footer.php:29 60_footer.php:31 60_footer.php:32 60_footer.php:34
+#: 60_footer.php:38 60_footer.php:39 60_footer.php:41 60_footer.php:44
+#: 60_footer.php:45 60_footer.php:47 60_footer.php:50 60_footer.php:51
+#: 60_footer.php:53 60_footer.php:56 60_footer.php:57 60_footer.php:59
+msgid "Support La Quadrature du Net against ACTA and beyond!"
+msgstr "Soutenez La Quadrature du Net contre ACTA et au-delà&nbsp;!"
+
+#: 60_footer.php:15 60_footer.php:21 60_footer.php:28 60_footer.php:33
+#: 60_footer.php:40 60_footer.php:46 60_footer.php:52 60_footer.php:58
+msgid "Add this image to your website:"
+msgstr "Ajouter cette image à votre site web&nbsp;:"
+
+#: index.php:7 index.php:22
+msgid "Help La Quadrature defend our rights online against ACTA and beyond"
+msgstr "Aidez La Quadrature du Net à défendre nos libertés en ligne, contre ACTA et au delà !"
+
+#: mail.php:4
+msgid "Thanks for your support to La Quadrature du Net"
+msgstr "Merci pour votre soutien à La Quadrature du Net !"
+
+#: mail.php:6
+msgid "mail_1"
+msgstr "Cher %%NAME%%,\nMerci pour votre soutien à La Quadrature du Net et à ses actions !\n\nGrâce à vous La Quadrature continuera à informer sur les projets législatifs \nmenaçant les libertés individuelles dans l'environnement numérique. Elle \npourra permettre encore plus efficacement aux citoyens désireux d'agir de \nplacer les questions de neutralité du Net et de libertés individuelles au \ncoeur des débats de société.\n\nVotre générosité permettra de financer ceux qui agissent au quotidien.\n\nPour vous remercier, nous vous adressons symboliquement ces mille décimales \nde Pi.\n(en pièce jointe, et disponible aussi en ligne à l'adresse : \n%%URL%% )\nBenjamin, Gérald, Jérémie, Philippe,\nCo-fondateurs de La Quadrature du Net."
+
+#: mail.php:8
+msgid "mail_2"
+msgstr "Cher %%NAME%%,\nMerci pour votre soutien à La Quadrature du Net et à ses actions !\n\nGrâce à vous La Quadrature continuera à informer sur les projets législatifs \nmenaçant les libertés individuelles dans l'environnement numérique. Elle \npourra permettre encore plus efficacement aux citoyens désireux d'agir de \nplacer les questions de neutralité du Net et de libertés individuelles au \ncoeur des débats de société.\n\nVotre générosité permettra de financer ceux qui agissent au quotidien.\n\nPour vous remercier, nous vous adressons symboliquement ces mille décimales \nde Pi, que nous vous ferons parvernir par courrier, sur tirage limité, à \nl'adresse suivante :\n\n%%ADDRESS%%\n\nBenjamin, Gérald, Jérémie, Philippe,\nCo-fondateurs de La Quadrature du Net."
+
+#: mail.php:10
+msgid "mail_3"
+msgstr "Cher %%NAME%%,\nMerci pour votre soutien à La Quadrature du Net et à ses actions !\n\nGrâce à vous La Quadrature continuera à informer sur les projets législatifs \nmenaçant les libertés individuelles dans l'environnement numérique. Elle \npourra permettre encore plus efficacement aux citoyens désireux d'agir de \nplacer les questions de neutralité du Net et de libertés individuelles au \ncoeur des débats de société.\n\nVotre générosité permettra de financer ceux qui agissent au quotidien.\n\nPour vous remercier, nous vous adressons symboliquement ces mille décimales \nde Pi, que nous vous ferons parvernir par courrier, sur tirage limité, ainsi \nqu'un superbe 'pi-shirt', à l'adresse suivante : \n\n%%ADDRESS%%\n\nBenjamin, Gérald, Jérémie, Philippe,\nCo-fondateurs de La Quadrature du Net."
+
+#: texts.php:7
+msgid ""
+"You should now be redirected to the payment process. If not, please click on"
+" previous in your browser."
+msgstr "Vous devriez être redirigé vers la page de paiement. Si ce n'est pas le cas, cliquez sur « précédent » dans votre navigateur."
+
+#: texts.php:9
+msgid ""
+"An error happened while handling the form. Please contact us if the error "
+"persists."
+msgstr "Une erreur est survenue alors que le formulaire était en cours de validation. N'hésitez pas à nous contacter si l'erreur persiste."
+
+#: texts.php:11
+msgid "Sorry, we can not accept donations under 5€."
+msgstr "Désolé, nous n'acceptons pas les donations en dessous de 5 €."
+
+#: texts.php:13
+msgid ""
+"Please enter an email address (it can be a disposable one) so we can send "
+"you our warmest thank you and your pi-ploma!"
+msgstr "Entrez ici votre adresse email (elle doit être valide et en activité), afin que nous puissions vous envoyer nos plus chaleureux remerciements et votre pi-plome !"
+
+#: texts.php:15
+msgid ""
+"Your email address seems incorrect (accentuated and special characters can "
+"not be used)."
+msgstr "Votre adresse email semble incorrecte (les caractères accentués ou spéciaux ne peuvent pas être utilisés)."
+
+#: texts.php:17
+msgid "Please give as at least a nickname to personnalise your pi-ploma!"
+msgstr "Donnez-nous au moins votre pseudo, que nous puissions personnaliser votre pi-plome&nbsp;!"
+
+#: texts.php:19
+msgid "Your complete address is needed to send you your goodies!"
+msgstr "Votre adresse postale complète, afin que nous vous envoyions vos cadeaux&nbsp;!"
+
+#: texts.php:21
+msgid ""
+"We're experiencing technical difficulties, please try again in a few "
+"moments…"
+msgstr "Nous rencontrons quelques problèmes techniques, ré-essayez dans quelques instants."
+
+#: texts.php:23
+msgid ""
+"Our online payment processor is unavailable right now. We have been notified"
+" of the problem and are working hard to get it back up and running quickly. "
+"Please try again in a few hours. Sorry and thank you!"
+msgstr "Notre processeur de paiement en ligne n'est pas disponible en ce moment. Nous avons été notifiés d'un problème, et nous travaillons dur à le remettre d'aplomb rapidement. Ré-essayez dans quelques minutes. Désolés, et merci&nbsp;!"
+
+#: texts.php:42
+msgid "Male, Size S"
+msgstr "Homme, taille S"
+
+#: texts.php:44
+msgid "Male, Size M"
+msgstr "Homme, taille M"
+
+#: texts.php:46
+msgid "Male, Size L"
+msgstr "Hpmme, taille L"
+
+#: texts.php:48
+msgid "Male, Size XL"
+msgstr "Homme, taille XL"
+
+#: texts.php:50
+msgid "Female, Size S"
+msgstr "Femme, taille S"
+
+#: texts.php:52
+msgid "Female, Size M"
+msgstr "Femme, taille M"
+
+#: texts.php:54
+msgid "Female, Size L"
+msgstr "Femme, taille L"
+
+#: texts.php:56
+msgid "Female, Size XL"
+msgstr "Femme, taille XL"
+
+#: texts.php:61
+msgid "Information"
+msgstr "Information"
+
+#: texts.php:62
+msgid ""
+"<h3>Information since 2008, a web-dossier, 120 press releases</h3> La "
+"Quadrature du Net has documented and analyzed each and every <a "
+"target=\"_blank\" "
+"href=\"http://www.laquadrature.net/wiki/ACTA:_Procedure_in_the_European_Parliament\""
+" "
+"title=\"www.laquadrature.net/wiki/ACTA:_Procedure_in_the_European_Parliament\">step</a>"
+" of <a target=\"_blank\" href=\"http://lqdn.fr/acta\" "
+"title=\"lqdn.fr/acta\">ACTA</a> since <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/squaring-net-debate-open\" "
+"title=\"www.laquadrature.net/en/squaring-net-debate-open\">June 2008</a>. "
+"Through <a target=\"_blank\" href=\"http://www.laquadrature.net/en/0118"
+"-version-of-acta-consolidated-text-leaks\" "
+"title=\"www.laquadrature.net/en/0118-version-of-acta-consolidated-text-"
+"leaks\">leaking drafts</a>, <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/acta-a-global-threat-to-freedoms-open-"
+"letter\" title=\"www.laquadrature.net/en/acta-a-global-threat-to-freedoms-"
+"open-letter\">alerting</a> Members of the European Parliament and publishing"
+" various <a target=\"_blank\" href=\"http://www.laquadrature.net/en/acta-"
+"updated-analysis-of-the-final-version\" title=\"www.laquadrature.net/en"
+"/acta-updated-analysis-of-the-final-version\">analyses</a> and <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/quad-news/acta\" "
+"title=\"www.laquadrature.net/en/quad-news/acta\">press releases</a>, La "
+"Quadrature helped raise awareness among <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/acta-why-we-take-to-the-streets\" "
+"title=\"www.laquadrature.net/en/acta-why-we-take-to-the-"
+"streets\">citizens</a> and <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/wiki/Against_ACTA\" "
+"title=\"www.laquadrature.net/wiki/Against_ACTA\">organizations</a>, and "
+"worked from within the EU Parliament to defeat ACTA."
+msgstr "<h3>Information depuis 2008, un dossier web, 120 communiqués de presse</h3> La Quadrature du Net a documenté et analysé chacune des <a target=\"_blank\" href=\"http://www.laquadrature.net/wiki/ACTA:_Procedure_in_the_European_Parliament\" title=\"http://www.laquadrature.net/wiki/ACTA_:_la_procédure_au_Parlement_européen\">étapes</a> du processus d'<a target=\"_blank\" href=\"http://lqdn.fr/acta\" title=\"lqdn.fr/acta\">ACTA</a> depuis <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/le-debat-est-ouvert\" title=\"www.laquadrature.net/fr/le-debat-est-ouvert\">juin 2008</a>. En <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/fuite-du-texte-consolide-de-lacta-version-du-1801\" title=\"www.laquadrature.net/fr/fuite-du-texte-consolide-de-lacta-version-du-1801\">faisant fuiter les brouillons</a>, <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/acta-menace-globale-pour-les-libertes-lettre-ouverte\" title=\"www.laquadrature.net/fr/acta-menace-globale-pour-les-libertes-lettre-ouverte\">en alertant</a> les membres du Parlement européen et en publiant de nombreuses <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/acta-mise-a-jour-de-lanalyse-de-la-version-finale\" title=\"www.laquadrature.net/fr/acta-mise-a-jour-de-lanalyse-de-la-version-finale\">analyses</a> et <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/quad-news/acta\" title=\"www.laquadrature.net/fr/quad-news/acta\">communiqués</a>, La Quadrature a aidé à alerter les <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/acta-pourquoi-nous-manifestons\" title=\"www.laquadrature.net/fr/acta-pourquoi-nous-manifestons\">citoyens</a> et les <a target=\"_blank\" href=\"http://www.laquadrature.net/wiki/Against_ACTA\" title=\"www.laquadrature.net/wiki/Against_ACTA\">organisations</a>, et a travaillé, depuis l'intérieur du Parlement européen, pour vaincre ACTA."
+
+#: texts.php:63
+msgid "Action"
+msgstr "Action"
+
+#: texts.php:64
+msgid ""
+"<h3>Citizen action in the European Parliament</h3> Throughout the various "
+"stages of ACTA's parliamentary process, <a target=\"_blank\" "
+"href=\"http://mediakit.laquadrature.net/view.php?id=777\" "
+"title=\"mediakit.laquadrature.net/view.php?id=777\">dozens of citizens</a> "
+"from <a target=\"_blank\" "
+"href=\"http://mediakit.laquadrature.net/view.php?id=779\" "
+"title=\"mediakit.laquadrature.net/view.php?id=779\">all around Europe</a> "
+"were flown to the EU Parliament thanks to La Quadrature's funding and "
+"logisistics. This enabled important <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/eu-parliament-will-vote-on-acta-"
+"without-delay\" title=\"www.laquadrature.net/en/eu-parliament-will-vote-on-"
+"acta-without-delay\">victories</a> at every <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/important-victories-on-acta-moving-on-"
+"to-final-steps\" title=\"www.laquadrature.net/en/important-victories-on-"
+"acta-moving-on-to-final-steps\">step of the process</a>, in all the <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/encouraging-draft-"
+"acta-report-still-under-copyright-lobbies-influence\" "
+"title=\"www.laquadrature.net/en/encouraging-draft-acta-report-still-under-"
+"copyright-lobbies-influence\">committees</a> and with all the political "
+"groups of the EU Parliament."
+msgstr "<h3>Action citoyenne au sein du Parlement européen</h3> Au cours des différentes étapes du processus parlementaire d'ACTA, <a target=\"_blank\" href=\"http://mediakit.laquadrature.net/view.php?id=777\" title=\"mediakit.laquadrature.net/view.php?id=777\">des dizaines de citoyens</a> de <a target=\"_blank\" href=\"http://mediakit.laquadrature.net/view.php?id=779\" title=\"mediakit.laquadrature.net/view.php?id=779\"> toute l'Europe</a> ont été invités au Parlement européen, grâce au financement et à la logistique de La Quadrature du Net. Cela a permis d'importantes <a target=\"_blank\" href=\"http://www.laquadrature.net/en/eu-parliament-will-vote-on-acta-without-delay\" title=\"www.laquadrature.net/en/eu-parliament-will-vote-on-acta-without-delay\">victoires</a> à chaque <a target=\"_blank\" href=\"http://www.laquadrature.net/en/important-victories-on-acta-moving-on-to-final-steps\" title=\"www.laquadrature.net/en/important-victories-on-acta-moving-on-to-final-steps\">étape du processus</a>, dans toutes les <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/acta-un-projet-de-rapport-encourageant-mais-toujours-sous-influence-des-lobbies\" title=\"www.laquadrature.net/fr/acta-un-projet-de-rapport-encourageant-mais-toujours-sous-influence-des-lobbies\">commissions</a> et avec tous les groupes politiques du Parlement européen."
+
+#: texts.php:65
+msgid "Campaigns"
+msgstr "Campagnes"
+
+#: texts.php:66
+msgid ""
+"<h3>An animated movie seen over 2.5 million times</h3> \"<a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/video-acta-get-"
+"informed-take-action\" title=\"www.laquadrature.net/en/video-acta-get-"
+"informed-take-action\">NO to ACTA</a>\" explains in 2 minutes and in simple "
+"terms the dangers of ACTA for Internet users as well as for access to "
+"medicines, while calling for action. It helped spread the word on ACTA in "
+"mainstream media, reaching a wider audience through powerful symbols and "
+"messages. It was spontaneously translated into 15 languages by volunteers."
+msgstr "<h3>Un film d'animation vu plus de 2,5 millions de fois</h3> \"<a target=\"_blank\" href=\"http://www.laquadrature.net/fr/video-acta-sinformer-et-agir\" title=\"www.laquadrature.net/fr/video-acta-sinformer-et-agir\">NON à ACTA</a>\" explique en 2 minutes et avec des concepts simples les dangers d'ACTA pour les utilisateurs d'Internet de même que pour l'accès aux médicaments, et appelle à agir. Cette vidéo a aidé à faire connaître ACTA par le grand public, atteignant une audience importante grâce à des symboles et des messages forts. Elle a été spontanément traduite dans plus de 15 langues par des bénévoles."
+
+#: texts.php:67
+msgid "Mobilisation"
+msgstr "Mobilisation"
+
+#: texts.php:68
+msgid ""
+"<h3>Let's bury it and build a post-ACTA world!</h3> Citizens must <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/over-1-million-"
+"views-for-no-to-acta-video-now-take-action\" "
+"title=\"www.laquadrature.net/en/over-1-million-views-for-no-to-acta-video-"
+"now-take-action\">remain mobilized</a> until the <a target=\"_blank\" "
+"href=\"https://memopol.lqdn.fr/europe/parliament/committee/INTA/\" "
+"title=\"memopol.lqdn.fr/europe/parliament/committee/INTA/\">INTA</a> "
+"committee's <a target=\"_blank\" "
+"href=\"http://www.europarl.europa.eu/sides/getpdf.do?type=COMPARL&reference=PE-486.174&format=PDF&language=EN&secondRef=02\""
+" "
+"title=\"www.europarl.europa.eu/sides/getpdf.do?type=COMPARL&reference=PE-486.174&format=PDF&language=EN&secondRef=02\">report</a>"
+" is finalized and adopted (21st June), and until the final consent vote in "
+"plenary (3, 4 or 5th of July). This final step will allow Members of the EU "
+"Parliament to reject ACTA once and for all, <a target=\"_blank\" href "
+"=\"http://www.laquadrature.net/en/a-strategy-looking-through-acta-and-"
+"beyond\">paving the way</a> for a positive reform of copyright."
+msgstr "<h3>Enterrons-le et construisons un monde post-ACTA&nbsp;!</h3> Les citoyens doivent \n <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/la-video-no-to-acta-vue-plus-dun-million-de-fois-agissons-maintenant\" title=\"www.laquadrature.net/fr/la-video-no-to-acta-vue-plus-dun-million-de-fois-agissons-maintenant\">rester mobilisés</a>  jusqu'à ce que le  <a target=\"_blank\" href=\"http://www.europarl.europa.eu/sides/getpdf.do?type=COMPARL&reference=PE-486.174&format=PDF&language=FR&secondRef=02\" title=\"www.europarl.europa.eu/sides/getpdf.do?type=COMPARL&reference=PE-486.174&format=PDF&language=FR&secondRef=02\">rapport</a> de la <a target=\"_blank\" href=\"https://memopol.lqdn.fr/europe/parliament/committee/INTA/\" title=\"memopol.lqdn.fr/europe/parliament/committee/INTA/\">commission INTA</a> soit terminé et adopté (le 21 juin), et jusqu'au vote final en session plénière (3, 4 ou 5 juillet). Cette étape finale permettra aux députés européens de rejeter l'ACTA une fois pour toutes, <a target=\"_blank\" href =\"http://www.laquadrature.net/fr/une-strategie-au-travers-et-au-dela-de-lacta\">ouvrant la voie</a> à une réforme positive du droit d'auteur."
+
+#: texts.php:72
+msgid "Sharing"
+msgstr "Partage"
+
+#: texts.php:73
+msgid ""
+"<h3>Our cultural practices must be made legal</h3> Editing and modifying "
+"works of art (remix) has become a means of expression for a whole "
+"generation. The <a target=\"_blank\" href=\"http://www.laquadrature.net/en"
+"/citizens-artists-and-consumers-in-favour-of-the-legal-recognition-of-file-"
+"sharing\" title=\"www.laquadrature.net/en/citizens-artists-and-consumers-in-"
+"favour-of-the-legal-recognition-of-file-sharing\">sharing of files</a>, "
+"between individuals and not for profit, is an essential way to access and "
+"share culture. Our cultural practices must be <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/future-of-copyright-la-quadrature-"
+"calls-on-the-commission-to-reassert-the-publics-rights\">encouraged and "
+"protected</a> instead of being <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/the-pirate-bay-decision-or-the-"
+"political-persecution-of-sharing\">vilified</a> and <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/notice-action-eu-commission-must-put-"
+"freedom-of-expression-first\" title=\"www.laquadrature.net/en/notice-action-"
+"eu-commission-must-put-freedom-of-expression-first\">repressed</a>. The <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/megaupload-"
+"copyright-industry-at-war-against-monsters-of-its-own-making\" "
+"title=\"www.laquadrature.net/en/megaupload-copyright-industry-at-war-"
+"against-monsters-of-its-own-making\">war on sharing</a> has to end; <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/sharing-is-"
+"legitimate\" title=\"www.laquadrature.net/en/sharing-is-"
+"legitimate\">copyright must evolve</a>."
+msgstr "<h3>Nos pratiques culturelles doivent être légalisées</h3> Éditer et modifier des œuvres (remix) est devenu un moyen d'expression pour toute une génération. Le <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/citoyens-artistes-et-consommateurs-pour-la-reconnaissance-du-partage\" title=\"www.laquadrature.net/fr/citoyens-artistes-et-consommateurs-pour-la-reconnaissance-du-partage\">partage de fichiers</a>, entre individus et sans but de profit, est un moyen essentiel d'accéder et de partager la culture. Nos pratiques culturelles doivent être <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/futur-du-droit-dauteur-la-quadrature-appelle-la-commission-a-reaffirmer-les-droits-du-public\">encouragées et protégées</a> au lieu d'être <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/decision-the-pirate-bay-ou-la-persecution-politique-du-partage\">vilipendées</a> et <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/notification-action-la-commission-europeenne-doit-faire-primer-la-liberte-dexpression\" title=\"www.laquadrature.net/fr/notification-action-la-commission-europeenne-doit-faire-primer-la-liberte-dexpression\">réprimées</a>. La <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/megaupload-l-industrie-du-copyright-en-guerre-contre-les-creatures-qu-elle-a-enfante\" title=\"www.laquadrature.net/fr/megaupload-l-industrie-du-copyright-en-guerre-contre-les-creatures-qu-elle-a-enfante\">guerre contre le partage</a> doit cesser ; <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/le-partage-est-legitime\" title=\"www.laquadrature.net/fr/le-partage-est-legitime\">le droit d'auteur doit évoluer</a>."
+
+#: texts.php:74
+msgid "Freedom Online"
+msgstr "Libertés en ligne"
+
+#: texts.php:75
+msgid ""
+"<h3>Safeguarding a universal Net and free expression online</h3> The "
+"network's <a target=\"_blank\" href=\"http://www.laquadrature.net/en/eu-"
+"governments-oppose-an-open-wireless-infrastructure\" "
+"title=\"www.laquadrature.net/en/eu-governments-oppose-an-open-wireless-"
+"infrastructure\">decentralized architecture</a> is key to <a "
+"target=\"_blank\" href=\"http://www.laquadrature.net/en/net-filtering-"
+"violates-the-rule-of-law\" title=\"www.laquadrature.net/en/net-filtering-"
+"violates-the-rule-of-law\">freedom of communication and online "
+"innovation</a>. It must be protected, on <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/more-than-half-of-the-eu-with-"
+"restrictions-to-net-access-what-will-neelie-kroes-do\" "
+"title=\"www.laquadrature.net/en/more-than-half-of-the-eu-with-restrictions-"
+"to-net-access-what-will-neelie-kroes-do\">both landline and mobile "
+"networks</a>, from operators who <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/eu-telecom-regulators-wake-up-call-on-"
+"net-neutrality\" title=\"www.laquadrature.net/en/eu-telecom-regulators-wake-"
+"up-call-on-net-neutrality\">increasingly restrict</a> their users' "
+"communications. <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/Net_neutrality\" "
+"title=\"www.laquadrature.net/en/Net_neutrality\">Net neutrality</a> and "
+"other <a target=\"_blank\" href=\"http://www.laquadrature.net/en/proposals\""
+" title=\"www.laquadrature.net/en/proposals\">policies</a> must guarantee by "
+"law the capacity to create, access and share knowledge and information."
+msgstr "<h3>Protéger l'universalité du Net et la liberté d'expression en ligne</h3> L'<a target=\"_blank\" href=\"http://www.laquadrature.net/en/eu-governments-oppose-an-open-wireless-infrastructure\" title=\"www.laquadrature.net/en/eu-governments-oppose-an-open-wireless-infrastructure\">architecture décentralisée</a> du réseau est la clé de <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/le-filtrage-dinternet-viole-letat-de-droit\" title=\"www.laquadrature.net/fr/le-filtrage-dinternet-viole-letat-de-droit\">la liberté de communication et de l'innovation en ligne</a>. Elle doit être protégée, autant sur les <a target=\"_blank\" href=\"http://www.laquadrature.net/en/more-than-half-of-the-eu-with-restrictions-to-net-access-what-will-neelie-kroes-do\" title=\"www.laquadrature.net/en/more-than-half-of-the-eu-with-restrictions-to-net-access-what-will-neelie-kroes-do\">réseaux fixes que mobiles</a>, contre les opérateurs qui <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/les-regulateurs-europeens-des-telecoms-sonnent-lalarme-sur-la-neutralite-du-net\" title=\"www.laquadrature.net/fr/les-regulateurs-europeens-des-telecoms-sonnent-lalarme-sur-la-neutralite-du-net\">restreignent de plus en plus</a> les communications de leurs utilisateurs. <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/neutralite_du_Net\" title=\"www.laquadrature.net/fr/neutralite_du_Net\">La Neutralité du Net</a> et d'autres <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/propositions\" title=\"www.laquadrature.net/fr/propositions\">politiques publiques</a> doivent garantir par la loi la possibilité de créer, d'accéder et de partager la connaissance et l'information."
+
+#: texts.php:76
+msgid "Empowerment"
+msgstr "Pouvoir Citoyen"
+
+#: texts.php:77
+msgid ""
+"<h3>Building tools empowering citizens to change things</h3> La Quadrature "
+"du Net provides <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/tools\" "
+"title=\"www.laquadrature.net/en/tools\">tools</a> for citizens who want to "
+"take action and participate in the public debate. Tools such as <a "
+"target=\"_blank\" href=\"https://memopol.lqdn.fr\">Political Memory</a>, La "
+"Quadrature's <a target=\"_blank\" "
+"href=\"http://mediakit.laquadrature.net/\">Mediakit</a>, the <a "
+"target=\"_blank\" href=\"http://piphone.lqdn.fr\">Pi-Phone</a> or ad-hoc "
+"campaigning tools, such as <a target=\"_blank\" "
+"href=\"http://respectmynet.eu\">Respect My Net</a>, are under constant "
+"development, in track with La Quadrature's campaigning, and participate in "
+"the technical and political empowerment of <a target=\"_blank\" "
+"href=\"http://www.laquadrature.net/en/how-to-participate\" "
+"title=\"www.laquadrature.net/en/how-to-participate\">citizens</a>."
+msgstr "<h3>Construire les outils pour donner le pouvoir aux citoyens de changer les choses</h3>La Quadrature du Net fournit des <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/les-outils\" title=\"www.laquadrature.net/fr/les-outils\">outils</a> pour les citoyens qui souhaitent agir et participer au débat public. Des outils comme <a target=\"_blank\" href=\"https://memopol.lqdn.fr\">Mémoire Politique</a>, Le <a target=\"_blank\" href=\"http://mediakit.laquadrature.net/\">Mediakit</a>, le <a target=\"_blank\" href=\"http://piphone.lqdn.fr\">Pi-Phone</a> ou des outils ad-hoc de campagne, comme <a target=\"_blank\" href=\"http://respectmynet.eu\">Respect My Net</a>, sont en développement constant, en parallèle des campagnes de La Quadrature du Net. Ces outils participent d'une reprise en main du pouvoir politique et technique des <a target=\"_blank\" href=\"http://www.laquadrature.net/fr/participer\" title=\"www.laquadrature.net/fr/participer\">citoyens</a>."
+
+#: texts.php:78
+msgid "Infrastructure"
+msgstr "Infrastructure"
+
+#: texts.php:79
+msgid ""
+"<h3>Funding full-time activists and volunteers' actions</h3> La Quadrature "
+"du Net's infrastructure allows three full-time and one part-time activists "
+"as well as an intern to work together out of a shared space in Paris. This "
+"space enables volunteers to participate in workshops and campaigning. "
+"Funding also serves to organize volunteer action such as bringing citizens "
+"from all over Europe to the EU Parliament."
+msgstr "<h3>Financer les actions des activistes à plein temps et des bénévoles</h3> L'infrastructure de La Quadrature du Net permet  à trois activistes à plein temps, à un mi-temps, ainsi qu'à une stagiaire de travailler ensemble dans un espace commun à Paris. Cet espace permet aux bénévoles de participer à des ateliers et à des campagnes. Le financement permet également d'organiser des actions citoyennes, comme faire venir des citoyens de toute l'Europe au Parlement Européen."
+
+#: 40_progress_bar.php:20
+#, php-format
+msgid "%s donations since 01/01/2012"
+msgstr "%s dons depuis le 1/1/2012"
