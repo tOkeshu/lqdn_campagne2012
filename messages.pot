@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 20:55+0200\n"
+"POT-Creation-Date: 2012-06-14 11:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Support La Quadrature du Net"
 msgstr ""
 
-#: 10_topheader.php:11 index.php:9
+#: 10_topheader.php:11 index.php:9 index.php:10 index.php:27
 msgid ""
 "For the past four years, La Quadrature du Net has raised awareness and "
 "campaigned against ACTA. <br/>We need your help to defeat ACTA and move "
@@ -211,19 +211,19 @@ msgid ""
 "Quadrature du Net's accounts."
 msgstr ""
 
-#: 40_progress_bar.php:12
+#: 40_progress_bar.php:12 40_progress_bar.php:17
 msgid "Progress Bar"
 msgstr ""
 
-#: 40_progress_bar.php:41
+#: 40_progress_bar.php:41 40_progress_bar.php:47
 msgid "days until the end of this campaign"
 msgstr ""
 
-#: 40_progress_bar.php:42
+#: 40_progress_bar.php:42 40_progress_bar.php:48
 msgid "Generous donators"
 msgstr ""
 
-#: 40_progress_bar.php:56
+#: 40_progress_bar.php:56 40_progress_bar.php:62
 msgid ":"
 msgstr ""
 
@@ -497,7 +497,7 @@ msgstr ""
 msgid "Add this image to your website:"
 msgstr ""
 
-#: index.php:7
+#: index.php:7 index.php:22
 msgid "Help La Quadrature defend our rights online against ACTA and beyond"
 msgstr ""
 
@@ -788,4 +788,9 @@ msgid ""
 "space enables volunteers to participate in workshops and campaigning. "
 "Funding also serves to organize volunteer action such as bringing citizens "
 "from all over Europe to the EU Parliament."
+msgstr ""
+
+#: 40_progress_bar.php:20
+#, php-format
+msgid "%s donations since 01/01/2012"
 msgstr ""

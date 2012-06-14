@@ -1,12 +1,11 @@
 <?php
     list($obj1count, $nbdons)=@mysql_fetch_array(mysql_query("SELECT SUM(somme), count(somme) FROM pi_mailing.dons WHERE status!=0  AND status!=100 AND datec > '2012-01-01'"));
     if(getenv('SERVER_NAME') == 'soutien.dev.laquadrature.net')
-    {  
-        $nbdons = 600;
+    {
+	$nbdons = 600;
         $obj1count = 30000;
     }
-
-    $pct = intval($obj1count/1000);
+        $pct = intval($obj1count/1000);
     if( $pct > 100 ) $pct = 100;
 ?>
 <a name="progressbar"></a>
