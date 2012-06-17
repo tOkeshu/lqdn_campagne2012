@@ -129,15 +129,17 @@ function checkloginmail($mail) {
 function is_rib($cbanque, $cguichet, $nocompte, $clerib)  {
         $tabcompte = "";
         $len = strlen($nocompte);
+        $list_letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $list_num = '12345678912345678923456789';
         if ($len != 11) {
                 return false;
         }
         for ($i = 0; $i < $len; $i++) {
                 $car = substr($nocompte, $i, 1);
                 if (!is_numeric($car)) {
-                        $c = ord($car) - (ord('A') - 1);
-                        $b = ($c + pow(2, ($c - 10)/9)) % 10;
-                        $tabcompte .= $b;
+                    $pos = stripos($list_letter, $car);
+                    $b = $list_num[$pos];
+                    $tabcompte .= $b;
                 }
                 else {
                         $tabcompte .= $car;
@@ -154,7 +156,7 @@ function badfield($err) {
   if (!is_array($e)) $e=array($e);
   foreach($e as $er) {
     if (in_array($er,$err)) {
-      echo " badfield"; 
+      echo " badfield";
       return;
     }
   }
@@ -276,12 +278,12 @@ function make_don($data, $lang = 'fr') {
 	if (!$lang) $lang="fr_FR";
 
 	$status = 0;
-	if ($don_mensuel) 
+	if ($don_mensuel)
 	{
 		$status = 100;
 	}
 
-	$sql = "INSERT INTO dons SET status='".$status."', datec=NOW(), somme='".$sum."', email='".asl($email)."', 
+	$sql = "INSERT INTO dons SET status='".$status."', datec=NOW(), somme='".$sum."', email='".asl($email)."',
 		nom='".asl($pseudo)."',
 		adresse='".asl(trim($nomadresse."\n".$adresse))."',
 		codepostal='".asl($codepostal)."',
@@ -296,7 +298,7 @@ function make_don($data, $lang = 'fr') {
 
 	mysql_query($sql);
 	$id=mysql_insert_id();
-	if (!$id) 
+	if (!$id)
 	{
 		@mail(SYSADMIN, 'LQDN Don, bug Mysql', mysql_error());
 		return 7;
@@ -304,12 +306,12 @@ function make_don($data, $lang = 'fr') {
 	if (!$don_mensuel)
 	{
 		$str = @file_get_contents(FDNNURL1."?target=lqdn&montant=".$sum."&email=".urlencode($email)."&name=".urlencode(trim($nom))."&id=".intval($id)."&lang=".$lang."");
-		
+
 		if (!$str) {
 			return 8;
 		}
 	}
-	if ($don_mensuel) 
+	if ($don_mensuel)
 	{
 		$varvador = array(
 			'type'		=> 'mensuel',
@@ -347,7 +349,7 @@ function make_don($data, $lang = 'fr') {
 		}
 	}
 	@mail(SYSADMIN, 'LQDN Don', print_r($data, true). $str);
-	// can I haz proper html ? ;) 
+	// can I haz proper html ? ;)
 	$str=str_replace("<html>","",str_replace("<body>","",str_replace("</html>","",str_replace("</body>","",$str))));
 
 	$str = '<div id="paiementbouton">'.$str.'</div>';
@@ -378,7 +380,7 @@ class Utils {
   public $parsePos=0;
   public $parseLine=0;
 
-// Memory : 
+// Memory :
 // 10000000 = 128   1100000 = 192  11100000 = 224   11110000 = 240  11111000 = 248
 
 /** **********************************************************************
@@ -393,7 +395,7 @@ class Utils {
  * @param string $f Opened file handle (that will be read)
  * @return boolean TRUE if the file is only UTF-8, FALSE else.
  * Set surelyUTF8 to true if we are sure that this is UTF8 text (ie when we found at least 1 control character)
- */ 
+ */
 function isUTF8($f) {
   $this->surelyUTF8=false;
   $this->parsePos=0;
@@ -411,12 +413,12 @@ function isUTF8($f) {
       case 4:
       case 3:
       case 2:
-	if (($c & 192)==128) { 
-	  $pos++; 
+	if (($c & 192)==128) {
+	  $pos++;
 	  if ($pos>=$status) return false;  // YES, it's a f...ing tricky algorithm out there ...
-	  break; 
+	  break;
 	} else {
-	  // If we didn't find 0x10bbbbbb after a special code whene $pos<$status, it's a failure 
+	  // If we didn't find 0x10bbbbbb after a special code whene $pos<$status, it's a failure
 	  if ($pos<$status-1) return false;
 	}
 	// Note : no break here : we continue by testing other cases
@@ -447,12 +449,12 @@ function isUTF8_str($s) {
     case 4:
     case 3:
     case 2:
-      if (($c & 192)==128) { 
-	$pos++; 
+      if (($c & 192)==128) {
+	$pos++;
 	if ($pos>=$status) return false;  // YES, it's a f...ing tricky algorithm out there ...
-	break; 
+	break;
       } else {
-	// If we didn't find 0x10bbbbbb after a special code whene $pos<$status, it's a failure 
+	// If we didn't find 0x10bbbbbb after a special code whene $pos<$status, it's a failure
 	if ($pos<$status-1) return false;
       }
       // Note : no break here : we continue by testing other cases
