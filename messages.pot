@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LQDNCampaign 2012.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-14 11:15+0200\n"
+"POT-Creation-Date: 2012-06-22 20:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,19 +211,19 @@ msgid ""
 "Quadrature du Net's accounts."
 msgstr ""
 
-#: 40_progress_bar.php:12 40_progress_bar.php:17
+#: 40_progress_bar.php:12 40_progress_bar.php:17 40_progress_bar.php:16
 msgid "Progress Bar"
 msgstr ""
 
-#: 40_progress_bar.php:41 40_progress_bar.php:47
+#: 40_progress_bar.php:41 40_progress_bar.php:47 40_progress_bar.php:46
 msgid "days until the end of this campaign"
 msgstr ""
 
-#: 40_progress_bar.php:42 40_progress_bar.php:48
+#: 40_progress_bar.php:42 40_progress_bar.php:48 40_progress_bar.php:47
 msgid "Generous donators"
 msgstr ""
 
-#: 40_progress_bar.php:56 40_progress_bar.php:62
+#: 40_progress_bar.php:56 40_progress_bar.php:62 40_progress_bar.php:61
 msgid ":"
 msgstr ""
 
@@ -790,7 +790,7 @@ msgid ""
 "from all over Europe to the EU Parliament."
 msgstr ""
 
-#: 40_progress_bar.php:20
+#: 40_progress_bar.php:20 40_progress_bar.php:19
 #, php-format
 msgid "%s donations since 01/01/2012"
 msgstr ""
